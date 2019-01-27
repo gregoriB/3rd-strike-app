@@ -1,0 +1,1 @@
+Basic script to convert data from an html table into an object.

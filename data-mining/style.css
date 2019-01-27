@@ -1,0 +1,54 @@
+body {
+  background: rgb(59, 59, 59);
+  color: rgb(221, 181, 0);
+}
+
+table * {
+  text-align: center;
+  border: 1px solid red;
+  margin: 0;
+  color: red;
+  min-width: 4rem;
+  display: none;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  font-weight: initial;
+  font-size: 1.3rem;
+  list-style: none;
+  margin: 0;
+  margin-left: 1rem;
+  color: black;
+  background: rgb(245, 245, 245);
+  padding: .2rem;
+  width: 500px;
+}
+
+.state {
+  margin-left: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(39, 0, 0);
+}
+
+.state-value {
+  margin-right: 1rem;
+  font-style: italic;
+}
+
+li:nth-last-of-type(odd) {
+  background: rgb(199, 199, 199);
+}
