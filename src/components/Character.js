@@ -6,14 +6,11 @@ class Character extends Component {
     this.props.switchChar(this.props.charName)
   }
 
-  componentDidUpdate () {
-  }
-
   render() {
     return (
       <div 
         className='character'
-        onClick={this.handleSelectChar}
+        // onClick={this.handleSelectChar}
       >
         {this.props.charName}
       </div>
