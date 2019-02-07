@@ -1,21 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Character extends Component {
-
-  handleSelectChar = () => {
-    this.props.switchChar(this.props.charName)
-  }
-
-  render() {
-    return (
-      <div 
-        className='character'
-        // onClick={this.handleSelectChar}
-      >
-        {this.props.charName}
-      </div>
-    )
-  }
+export default function Character(props) {
+  const setCurrentChar = () => props.setCurrentChar(props.charName)
+  return (
+    <div 
+      className='character'
+      onClick={setCurrentChar}
+    >
+      {props.charName}
+    </div>
+  );
 }
-
-export default Character;

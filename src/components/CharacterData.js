@@ -1,30 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class CharacterData extends Component {
-
-  handleGoBack = () => {
-    this.props.switchChar(undefined)
-  }
-
-  render() {
-    return (
-      <>
-        <div
-          style={{
-            display: this.props.currentChar ? 'block' : 'none'
-          }}
+export default function CharacterData(props) {
+  const handleGoBack = () => props.setCurrentChar(null)
+  return (
+    <>
+      <div
+        style={{
+          display: props.currentChar ? 'block' : 'none'
+        }}
+      >
+        <button
+          className="go-back"
+          onClick={handleGoBack}
         >
-          <button
-            className="go-back"
-            onClick={this.handleGoBack}
-          >
-          BACK
-          </button>
-          <h1>{this.props.currentChar}</h1>
-        </div>
-      </>
-    )
-  }
+        BACK
+        </button>
+        <h1>{props.currentChar}</h1>
+      </div>
+    </>
+  )
 }
-
-export default CharacterData;
