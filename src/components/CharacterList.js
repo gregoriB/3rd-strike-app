@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import Character from './Character';
 import CharacterData from './CharacterData';
+import { StateContext } from '../contexts/stateContext'
 
 export default function CharacterList() {
+  const state = useContext(StateContext);
   const characters = [
     'Akuma', 'Yun', 'Ryu', 'Urien', 'Remy', 
     'Oro', 'Necro', 'Q', 'Dudley', 'Ibuki', 
@@ -10,19 +12,15 @@ export default function CharacterList() {
     'Hugo', 'Alex', 'Twelve', 'Ken', 'Yang'
   ];
   
-  const [charList, setCharList] = useState(null);
-  const [currentChar, setCurrentChar] = useState(null);
-
   useEffect(() => {
-    if (currentChar || charList) return;
+    if (state.currentChar || state.charList) return;
 
-    setCharList(characters.map((name, index) => {
-      console.log(name)
+    state.setCharList(characters.map((name, index) => {
         return ( 
           <Character
             useEffect={useEffect}
-            currentChar={currentChar}
-            setCurrentChar={setCurrentChar}
+            currentChar={state.currentChar}
+            setCurrentChar={state.setCurrentChar}
             key={index}
             charName={name}
           />
@@ -30,14 +28,15 @@ export default function CharacterList() {
       })
     );
   });
+
   return (
     <>
-      { currentChar ? 
+      { state.currentChar ? 
         <CharacterData 
-          setCurrentChar={setCurrentChar}
-          currentChar={currentChar} 
+          setCurrentChar={state.setCurrentChar}
+          currentChar={state.currentChar} 
         /> 
-        : <div className='flex-container'>{charList}</div> }
+        : <div className='flex-container'>{state.charList}</div> }
     </>
 
   )
