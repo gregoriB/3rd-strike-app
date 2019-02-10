@@ -1,22 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { StateContext } from '../contexts/stateContext';
+import { Link } from 'react-router-dom';
 
-export default function CharacterData(props) {
-  const handleGoBack = () => props.setCurrentChar(null)
+
+export default function CharacterData() {
+  const state = useContext(StateContext);
+
   return (
     <>
-      <div
-        style={{
-          display: props.currentChar ? 'block' : 'none'
-        }}
-      >
-        <button
-          className="go-back"
-          onClick={handleGoBack}
-        >
-        BACK
-        </button>
-        <h1>{props.currentChar}</h1>
-      </div>
+      <Link to='/'><button>HOME</button></Link>
+      <h1>{state.currentChar}</h1>
     </>
   )
 }

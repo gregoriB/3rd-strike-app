@@ -31,7 +31,7 @@ h1 {
 
 .character {
   background-color: rgb(255, 153, 0);
-  margin: 1px -7px;
+  margin: 1px -6px;
   width: 80px;
   height: 65px;
   text-align: center;
@@ -42,11 +42,11 @@ h1 {
 }
 
 .character:nth-of-type(3n+1) {
-  transform: translateY(44px) rotate(-25deg);
+  transform: translateY(42px) rotate(-25deg);
 }
 
 .character:nth-of-type(3n+3) {
-  transform: translateY(22px) rotate(-25deg);
+  transform: translateY(25px) rotate(-25deg);
 }
 
 .character:nth-last-child(1) {
@@ -55,4 +55,23 @@ h1 {
 
 .character:hover {
   border-color: rgb(112, 197, 214);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+a:visited {
+  color: black;
+}
+
+.error-message {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 245, 191);
+  font-size: 3rem;
+  margin: 10rem auto;
 }
