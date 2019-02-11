@@ -1,0 +1,104 @@
+{
+	"name": "Hugo / ヒューゴー",
+	"category": "Super Arts",
+	"Gigas Breaker": {
+		"Motion": "720 + Punch",
+		"Startup": "0",
+		"Hit": "2",
+		"Recovery": "36",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "55",
+		"Damage": "102",
+		"Stun": "18"
+	},
+	"Megaton Press (LK)": {
+		"Motion": "QCF x 2 + Short",
+		"Startup": "2",
+		"Hit": "12",
+		"Recovery": "30",
+		"Blk. Adv.": "0",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "51",
+		"Damage": "75",
+		"Stun": "27"
+	},
+	"Megaton Press (MK)": {
+		"Motion": "QCF x 2 + Forward",
+		"Startup": "4",
+		"Hit": "16",
+		"Recovery": "34",
+		"Blk. Adv.": "0",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "51",
+		"Damage": "75",
+		"Stun": "27"
+	},
+	"Megaton Press (HK)": {
+		"Motion": "QCF x 2 + RH",
+		"Startup": "6",
+		"Hit": "20",
+		"Recovery": "36",
+		"Blk. Adv.": "0",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "51",
+		"Damage": "75",
+		"Stun": "27"
+	},
+	"Hammer Frenzy": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "4",
+		"Hit": "18",
+		"Recovery": "47",
+		"Blk. Adv.": "-29",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "64",
+		"Stun": "24"
+	}
+}

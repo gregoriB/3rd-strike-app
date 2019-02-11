@@ -18,7 +18,7 @@ export default function CharacterList() {
         );
       })
     );
-  });
+  }, []);
 
   return <div className='flex-container'>{state.charList}</div>
 }

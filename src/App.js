@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import CharacterList from './components/CharacterList';
-import CharacterData from './components/CharacterData';
+import CharData from './components/CharData';
+import CharSelect from './components/CharSelect';
 import Error from './components/Error';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { StateContext } from './contexts/stateContext';
@@ -15,7 +15,8 @@ export default function App() {
     for (const char of characters) {
       if (path.toLowerCase() === char.toLowerCase()) {
         state.setCurrentChar(char);
-        return <CharacterData />;
+        
+        return <CharData />;
       }
     }
 
@@ -26,8 +27,8 @@ return (
     <BrowserRouter>
       <div className="App">
         <Switch>
-          <Route path='/' component={CharacterList} exact />
-          <Route path={`/${state.currentChar}`} component={CharacterData} />
+          <Route path='/' component={CharSelect} exact />
+          <Route path={`/${state.currentChar}`} component={CharData} />
           <Route render={handleCheckPath} />
         </Switch>
       </div>

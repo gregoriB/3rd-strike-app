@@ -75,3 +75,16 @@ a:visited {
   font-size: 3rem;
   margin: 10rem auto;
 }
+
+li {
+  list-style: none;
+}
+
+ul {
+  /* margin: 2rem; */
+  padding-left: 1rem;
+}
+
+.data-table {
+  margin: 1rem;
+}

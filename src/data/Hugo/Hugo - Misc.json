@@ -1,0 +1,16 @@
+{
+	"name": "Hugo / ヒューゴー",
+	"category": "Misc",
+	"Neutral jump startup": "6",
+	"Backward jump startup": "6",
+	"Forward jump startup": "6",
+	"Neutral superjump startup": "8",
+	"Backward superjump startup": "8",
+	"Forward superjump startup": "8",
+	"Dash backward (full animation)": "34",
+	"Dash backward (recovery cancelled)": "23",
+	"Dash forward (full animation)": "35",
+	"Dash forward (recovery cancelled)": "23",
+	"Wakeup": "69 (35 + 34)",
+	"Wakeup (quick roll)": "54 (25 + 29)"
+}

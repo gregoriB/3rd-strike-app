@@ -1,0 +1,16 @@
+{
+	"name": "Dudley / ダッドリー",
+	"category": "Misc",
+	"Neutral jump startup": "4",
+	"Backward jump startup": "4",
+	"Forward jump startup": "4",
+	"Neutral superjump startup": "5",
+	"Backward superjump startup": "5",
+	"Forward superjump startup": "5",
+	"Dash backward (full animation)": "27",
+	"Dash backward (recovery cancelled)": "20",
+	"Dash forward (full animation)": "31",
+	"Dash forward (recovery cancelled)": "19",
+	"Wakeup": "55 (22 + 33)",
+	"Wakeup (quick roll)": "45 (18 + 27)"
+}

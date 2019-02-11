@@ -1,0 +1,64 @@
+{
+	"name": "Dudley / ダッドリー",
+	"category": "Super Arts",
+	"Rocket Uppercut": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "40",
+		"Recovery": "31",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "63",
+		"Stun": "10"
+	},
+	"Rolling Thunder": {
+		"Motion": "QCF x 2 + Punch (Rapidly)",
+		"Startup": "1",
+		"Hit": "17",
+		"Recovery": "20",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "60",
+		"Stun": "13"
+	},
+	"Corkscrew Blow": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "10",
+		"Recovery": "24",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "46",
+		"Stun": "0"
+	}
+}
