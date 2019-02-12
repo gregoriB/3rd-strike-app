@@ -1,0 +1,16 @@
+{
+	"name": "Remy / レミー",
+	"category": "Misc",
+	"Neutral jump startup": "5",
+	"Backward jump startup": "5",
+	"Forward jump startup": "5",
+	"Neutral superjump startup": "6",
+	"Backward superjump startup": "6",
+	"Forward superjump startup": "6",
+	"Dash backward (full animation)": "22",
+	"Dash backward (recovery cancelled)": "20",
+	"Dash forward (full animation)": "20",
+	"Dash forward (recovery cancelled)": "18",
+	"Wakeup": "67 (33 + 34)",
+	"Wakeup (quick roll)": "47 (20 + 27)"
+}

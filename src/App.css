@@ -1,12 +1,13 @@
 body { 
   background: rgb(165, 0, 0);
+  padding: 1rem calc((100% - 95vw) / 2);
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
+.char-name {
   width: 250px;
   padding: 4rem;
   margin: 0 auto;
@@ -31,22 +32,23 @@ h1 {
 
 .character {
   background-color: rgb(255, 153, 0);
-  margin: 1px -6px;
-  width: 80px;
-  height: 65px;
+  font-weight: bold;
+  margin: 1px -7px;
+  width: 95px;
+  height: 82px;
   text-align: center;
   border: 2px solid black;
   border-radius: 50%;
-  line-height: 4rem;
+  line-height: 5rem;
   transform: rotate(-25deg);
 }
 
 .character:nth-of-type(3n+1) {
-  transform: translateY(42px) rotate(-25deg);
+  transform: translateY(50px) rotate(-25deg);
 }
 
 .character:nth-of-type(3n+3) {
-  transform: translateY(25px) rotate(-25deg);
+  transform: translateY(34px) rotate(-25deg);
 }
 
 .character:nth-last-child(1) {
@@ -85,6 +87,70 @@ ul {
   padding-left: 1rem;
 }
 
-.data-table {
-  margin: 1rem;
+table {
+  background: rgb(160, 160, 160);
+  margin: 0 auto;
+  width: 100%;
+}
+
+table * {
+  margin: 0;
+  text-align: center;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  border: 2px solid transparent;
+  border-left: none;
+  border-right: none;
+  transition: 0;
+  padding: 5px 10px;
+}
+
+tr {
+  padding: 10px;
+  margin: 50px;
+  background: rgb(160, 160, 160);
+}
+
+tr:hover td {
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+  transition: .2s;
+  transition-delay: .5s;
+}
+
+tr:active td {
+  background-color: rgba(255, 153, 0, 0.74);
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+tr:nth-of-type(odd) {
+  background: rgb(185, 185, 185);
+}
+
+.table-head {
+  color: black;
+}
+
+.attack-type {
+  text-align: left;
+}
+
+html {
+  margin-left: calc(100vw - 100%);
+}
+
+.selector-buttons {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.home-button {
+  margin-left: calc((100% - 95vw) / 2);
 }

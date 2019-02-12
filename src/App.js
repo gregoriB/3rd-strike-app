@@ -16,7 +16,7 @@ export default function App() {
       if (path.toLowerCase() === char.toLowerCase()) {
         state.setCurrentChar(char);
         
-        return <CharData />;
+        return <CharData currentChar={char}/>;
       }
     }
 

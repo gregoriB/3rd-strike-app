@@ -1,0 +1,16 @@
+{
+	"name": "Sean / しゃん / ショーン",
+	"category": "Misc",
+	"Neutral jump startup": "4",
+	"Backward jump startup": "4",
+	"Forward jump startup": "4",
+	"Neutral superjump startup": "7",
+	"Backward superjump startup": "7",
+	"Forward superjump startup": "7",
+	"Dash backward (full animation)": "19",
+	"Dash backward (recovery cancelled)": "16",
+	"Dash forward (full animation)": "26",
+	"Dash forward (recovery cancelled)": "14",
+	"Wakeup": "77 (34 + 43)",
+	"Wakeup (quick roll)": "50 (22 + 28)"
+}

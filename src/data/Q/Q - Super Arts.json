@@ -1,0 +1,104 @@
+{
+	"name": "Q",
+	"category": "- Super Arts",
+	"Critical Combo Attack": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "5",
+		"Hit": "16",
+		"Recovery": "31",
+		"Blk. Adv.": "-19",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "62",
+		"Stun": "14"
+	},
+	"Deadly Double Combination": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "1",
+		"Hit": "1",
+		"Recovery": "65",
+		"Blk. Adv.": "-25",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "80",
+		"Stun": "20"
+	},
+	"Total Destruction": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "18",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	},
+	"Far Grab": {
+		"Motion": "QCF + Punch",
+		"Startup": "12",
+		"Hit": "1",
+		"Recovery": "39",
+		"Blk. Adv.": "-17",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "62",
+		"Stun": "24"
+	},
+	"Close Grab": {
+		"Motion": "QCF + Kick",
+		"Startup": "6",
+		"Hit": "3",
+		"Recovery": "59",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "56",
+		"Damage": "83",
+		"Stun": "20"
+	}
+}

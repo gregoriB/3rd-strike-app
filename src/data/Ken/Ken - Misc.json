@@ -1,0 +1,16 @@
+{
+	"name": "Ken / ケン",
+	"category": "Misc",
+	"Neutral jump startup": "4",
+	"Backward jump startup": "4",
+	"Forward jump startup": "4",
+	"Neutral superjump startup": "6",
+	"Backward superjump startup": "6",
+	"Forward superjump startup": "6",
+	"Dash backward (full animation)": "23",
+	"Dash backward (recovery cancelled)": "16",
+	"Dash forward (full animation)": "25",
+	"Dash forward (recovery cancelled)": "17",
+	"Wakeup": "75 (32 + 43)",
+	"Wakeup (quick roll)": "48 (20 + 28)"
+}

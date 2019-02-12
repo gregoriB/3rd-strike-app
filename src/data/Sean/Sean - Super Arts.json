@@ -1,0 +1,64 @@
+{
+	"name": "Sean / しゃん / ショーン",
+	"category": "- Super Arts",
+	"Hadou Burst": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "2",
+		"Hit": "-",
+		"Recovery": "61",
+		"Blk. Adv.": "-29",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "39",
+		"Stun": "9"
+	},
+	"Shoryuu Cannon": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "36",
+		"Recovery": "36",
+		"Blk. Adv.": "-43",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "38",
+		"Stun": "0"
+	},
+	"Hyper Tornado": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "1",
+		"Hit": "14",
+		"Recovery": "53",
+		"Blk. Adv.": "-31",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "76",
+		"Stun": "14"
+	}
+}

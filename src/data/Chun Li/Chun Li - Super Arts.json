@@ -1,0 +1,64 @@
+{
+	"name": "Chun Li / 春麗 / チュンリー",
+	"category": "- Super Arts",
+	"Kikoshou": {
+		"Motion": "QCF x2 + Punch",
+		"Startup": "0",
+		"Hit": "20",
+		"Recovery": "48",
+		"Blk. Adv.": "-39",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "57",
+		"Stun": "0"
+	},
+	"Houyoku Sen": {
+		"Motion": "QCF x2 + Kick",
+		"Startup": "2",
+		"Hit": "19",
+		"Recovery": "35",
+		"Blk. Adv.": "-23",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": true
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "67",
+		"Stun": "24"
+	},
+	"Tensei Ranka": {
+		"Motion": "QCF x2 + Kick",
+		"Startup": "2",
+		"Hit": "16",
+		"Recovery": "46",
+		"Blk. Adv.": "-30",
+		"Cancel": {
+			"??": false,
+			"Super Art": true,
+			"Special": true,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "49",
+		"Stun": "19"
+	}
+}

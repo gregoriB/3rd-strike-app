@@ -1,0 +1,16 @@
+{
+	"name": "Twelve / トゥエルヴ",
+	"category": "Misc",
+	"Neutral jump startup": "5",
+	"Backward jump startup": "5",
+	"Forward jump startup": "5",
+	"Neutral superjump startup": "7",
+	"Backward superjump startup": "7",
+	"Forward superjump startup": "7",
+	"Dash backward (full animation)": "23",
+	"Dash backward (recovery cancelled)": "19",
+	"Dash forward (full animation)": "24",
+	"Dash forward (recovery cancelled)": "21",
+	"Wakeup": "59 (27 + 32)",
+	"Wakeup (quick roll)": "49 (20 + 29)"
+}

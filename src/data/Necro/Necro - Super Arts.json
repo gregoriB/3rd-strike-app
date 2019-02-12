@@ -1,0 +1,64 @@
+{
+	"name": "Necro / ネクロ",
+	"category": "- Super Arts",
+	"Magnetic Storm": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "1",
+		"Hit": "18",
+		"Recovery": "22",
+		"Blk. Adv.": "-12",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "40",
+		"Stun": "0"
+	},
+	"Slam Dance": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "2",
+		"Hit": "6",
+		"Recovery": "8",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "61",
+		"Damage": "80",
+		"Stun": "18"
+	},
+	"Electric Snake": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "3",
+		"Hit": "-",
+		"Recovery": "39",
+		"Blk. Adv.": "-11",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "L",
+		"Throw Range": "-",
+		"Damage": "47",
+		"Stun": "24"
+	}
+}

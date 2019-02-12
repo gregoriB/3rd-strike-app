@@ -1,0 +1,144 @@
+{
+	"name": "Gouki / ゴウキ / 豪鬼",
+	"category": "- Super Arts",
+	"Messatsu Gou Hadou": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "2",
+		"Hit": "42",
+		"Recovery": "N/A",
+		"Blk. Adv.": "-13",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "47",
+		"Stun": "0"
+	},
+	"Tenma Gou Zankuu": {
+		"Motion": "QCF x 2 + Punch (Air)",
+		"Startup": "7",
+		"Hit": "32",
+		"Recovery": "N/A",
+		"Blk. Adv.": "-15",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "53",
+		"Stun": "0"
+	},
+	"Messatsu Gou Shoryuu": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "24",
+		"Recovery": "37",
+		"Blk. Adv.": "-25",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "66",
+		"Stun": "16"
+	},
+	"Messatsu Gou Rasen (Ground)": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "3",
+		"Hit": "22",
+		"Recovery": "51",
+		"Blk. Adv.": "-76",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "65",
+		"Stun": "0"
+	},
+	"Messatsu Gou Rasen (Air)": {
+		"Motion": "QCF x 2 + Kick (Air)",
+		"Startup": "1",
+		"Hit": "27",
+		"Recovery": "45",
+		"Blk. Adv.": "-56",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "67",
+		"Stun": "0"
+	},
+	"Shun Goku Sastu": {
+		"Motion": "Jab, Jab, Towards, Short, Fierce",
+		"Startup": "4",
+		"Hit": "39",
+		"Recovery": "2",
+		"Blk. Adv.": "0",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "8",
+		"Damage": "87",
+		"Stun": "0"
+	},
+	"Kongou Kokuretsu Zan": {
+		"Motion": "Down, Down, Down + 3 Punches",
+		"Startup": "15",
+		"Hit": "24",
+		"Recovery": "64",
+		"Blk. Adv.": "-28",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "107",
+		"Stun": "28"
+	}
+}

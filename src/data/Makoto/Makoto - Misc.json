@@ -1,0 +1,16 @@
+{
+	"name": "Makoto / まこと / マコト",
+	"category": "Misc",
+	"Neutral jump startup": "4",
+	"Backward jump startup": "4",
+	"Forward jump startup": "4",
+	"Neutral superjump startup": "6",
+	"Backward superjump startup": "6",
+	"Forward superjump startup": "6",
+	"Dash backward (full animation)": "24",
+	"Dash backward (recovery cancelled)": "15",
+	"Dash forward (full animation)": "40",
+	"Dash forward (recovery cancelled)": "12",
+	"Wakeup": "71 (37 + 34)",
+	"Wakeup (quick roll)": "43 (13 + 30)"
+}

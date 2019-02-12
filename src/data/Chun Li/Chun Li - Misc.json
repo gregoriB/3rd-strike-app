@@ -1,0 +1,16 @@
+{
+	"name": "Chun Li / 春麗 / チュンリー",
+	"category": "Misc",
+	"Neutral jump startup": "4",
+	"Backward jump startup": "4",
+	"Forward jump startup": "4",
+	"Neutral superjump startup": "5",
+	"Backward superjump startup": "5",
+	"Forward superjump startup": "5",
+	"Dash backward (full animation)": "30",
+	"Dash backward (recovery cancelled)": "26",
+	"Dash forward (full animation)": "23",
+	"Dash forward (recovery cancelled)": "17",
+	"Wakeup": "88 (49 + 39)",
+	"Wakeup (quick roll)": "61 (35 + 26)"
+}

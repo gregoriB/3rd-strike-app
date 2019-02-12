@@ -1,0 +1,84 @@
+{
+	"name": "Ryu / リュウ",
+	"category": "- Super Arts",
+	"Shinkuu Hadouken": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "3",
+		"Hit": "-",
+		"Recovery": "49",
+		"Blk. Adv.": "-12",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "50",
+		"Stun": "0"
+	},
+	"Shin Shoryuken": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "13",
+		"Recovery": "35",
+		"Blk. Adv.": "-25",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "94",
+		"Stun": "17"
+	},
+	"Shin Shoryuken (Far)": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "13",
+		"Recovery": "35",
+		"Blk. Adv.": "-27",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "33",
+		"Stun": "13"
+	},
+	"Denjin Hadouken": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "3",
+		"Hit": "-",
+		"Recovery": "51",
+		"Blk. Adv.": "0",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "10",
+		"Stun": "17"
+	}
+}

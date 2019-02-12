@@ -1,0 +1,64 @@
+{
+	"name": "Yun / ユン",
+	"category": "- Super Arts",
+	"You Hou": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "16",
+		"Recovery": "36",
+		"Blk. Adv.": "-27",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "64",
+		"Stun": "22"
+	},
+	"Sourai Rengeki": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "3",
+		"Hit": "5",
+		"Recovery": "25",
+		"Blk. Adv.": "-18",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "54",
+		"Stun": "11"
+	},
+	"Genei Jin": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "9",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	}
+}

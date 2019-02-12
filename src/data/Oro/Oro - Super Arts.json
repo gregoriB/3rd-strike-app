@@ -1,0 +1,144 @@
+{
+	"name": "Oro / オロ",
+	"category": "- Super Arts",
+	"Kishin Riki": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "-",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	},
+	"Ground Grab": {
+		"Motion": "Punch",
+		"Startup": "4",
+		"Hit": "1",
+		"Recovery": "18",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "28",
+		"Damage": "58",
+		"Stun": "0"
+	},
+	"Air Grab": {
+		"Motion": "Punch (Air)",
+		"Startup": "5",
+		"Hit": "4",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "42",
+		"Damage": "52",
+		"Stun": "0"
+	},
+	"EX Kishin Riki": {
+		"Motion": "QCF x 2 + 2 Punches",
+		"Startup": "11",
+		"Hit": "1",
+		"Recovery": "25",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "37",
+		"Damage": "71",
+		"Stun": "0"
+	},
+	"Yagyou Dama": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "28",
+		"Hit": "21",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "33",
+		"Stun": "9"
+	},
+	"EX Yagyou Dama": {
+		"Motion": "QCF x 2 + 2 Punches",
+		"Startup": "27",
+		"Hit": "52",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "96",
+		"Stun": "19"
+	},
+	"Tengu Stones (Both Versions)": {
+		"Motion": "QCF x 2 + Punch (2)",
+		"Startup": "16",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	}
+}

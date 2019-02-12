@@ -1,0 +1,64 @@
+{
+	"name": "Remy / レミー",
+	"category": "- Super Arts",
+	"Light of Justice": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "1",
+		"Hit": "-",
+		"Recovery": "N/A",
+		"Blk. Adv.": "3",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "52",
+		"Stun": "14"
+	},
+	"Supreme Rising Rage Flash": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "0",
+		"Hit": "16",
+		"Recovery": "53",
+		"Blk. Adv.": "-29",
+		"Cancel": {
+			"??": false,
+			"Super Art": true,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "61",
+		"Stun": "14"
+	},
+	"Blue Nocturne": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "0",
+		"Hit": "21",
+		"Recovery": "27",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "75",
+		"Stun": "14"
+	}
+}

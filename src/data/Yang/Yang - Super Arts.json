@@ -1,0 +1,64 @@
+{
+	"name": "Yang / ヤン",
+	"category": "- Super Arts",
+	"Raishin Mahhaken": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "6",
+		"Hit": "4",
+		"Recovery": "36",
+		"Blk. Adv.": "1",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "74",
+		"Stun": "0"
+	},
+	"Tenshin Senkyuutai": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "0",
+		"Hit": "59",
+		"Recovery": "57",
+		"Blk. Adv.": "-69",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "53",
+		"Stun": "12"
+	},
+	"Sei-ei Enbu": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "15",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	}
+}

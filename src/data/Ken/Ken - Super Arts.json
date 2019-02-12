@@ -1,0 +1,64 @@
+{
+	"name": "Ken / ケン",
+	"category": "- Super Arts",
+	"Shoryureppa": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "0",
+		"Hit": "34",
+		"Recovery": "45",
+		"Blk. Adv.": "-38",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "69",
+		"Stun": "6"
+	},
+	"Shinryuken": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "1",
+		"Hit": "36",
+		"Recovery": "61",
+		"Blk. Adv.": "-80",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "67",
+		"Stun": "0"
+	},
+	"Shipuujinrai Kyaku": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "1",
+		"Hit": "9",
+		"Recovery": "27",
+		"Blk. Adv.": "-11",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "51",
+		"Stun": "16"
+	}
+}

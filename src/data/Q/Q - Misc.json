@@ -1,0 +1,16 @@
+{
+	"name": "Q",
+	"category": "Misc",
+	"Neutral jump startup": "6",
+	"Backward jump startup": "6",
+	"Forward jump startup": "6",
+	"Neutral superjump startup": "7",
+	"Backward superjump startup": "7",
+	"Forward superjump startup": "7",
+	"Dash backward (full animation)": "30",
+	"Dash backward (recovery cancelled)": "24",
+	"Dash forward (full animation)": "30",
+	"Dash forward (recovery cancelled)": "20",
+	"Wakeup": "72 (36 + 36)",
+	"Wakeup (quick roll)": "46 (16 + 30)"
+}

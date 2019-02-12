@@ -1,0 +1,84 @@
+{
+	"name": "Twelve / トゥエルヴ",
+	"category": "- Super Arts",
+	"X.N.D.L.": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "4",
+		"Hit": "76",
+		"Recovery": "35",
+		"Blk. Adv.": "-29",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "57",
+		"Stun": "14"
+	},
+	"X.F.L.A.T.": {
+		"Motion": "(Air) QCF x 2 + Kick",
+		"Startup": "1",
+		"Hit": "12",
+		"Recovery": "49",
+		"Blk. Adv.": "-24",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "74",
+		"Stun": "25"
+	},
+	"X.F.L.A.T. (Air hit)": {
+		"Motion": "(Air) QCF x 2 + Kick",
+		"Startup": "1",
+		"Hit": "12",
+		"Recovery": "49",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "40",
+		"Stun": "17"
+	},
+	"X.C.O.P.Y.": {
+		"Motion": "QCF x 2 + Punch",
+		"Startup": "73",
+		"Hit": "-",
+		"Recovery": "-",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	}
+}

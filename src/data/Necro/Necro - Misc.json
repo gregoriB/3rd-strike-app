@@ -1,0 +1,16 @@
+{
+	"name": "Necro / ネクロ",
+	"category": "Misc",
+	"Neutral jump startup": "5",
+	"Backward jump startup": "5",
+	"Forward jump startup": "5",
+	"Neutral superjump startup": "6",
+	"Backward superjump startup": "6",
+	"Forward superjump startup": "6",
+	"Dash backward (full animation)": "27",
+	"Dash backward (recovery cancelled)": "21",
+	"Dash forward (full animation)": "28",
+	"Dash forward (recovery cancelled)": "23",
+	"Wakeup": "59 (29 + 30)",
+	"Wakeup (quick roll)": "53 (22 + 31)"
+}

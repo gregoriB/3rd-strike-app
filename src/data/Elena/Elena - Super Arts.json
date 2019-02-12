@@ -1,0 +1,64 @@
+{
+	"name": "Elena / エレナ",
+	"category": "- Super Arts",
+	"Spinning Beat": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "0",
+		"Hit": "17",
+		"Recovery": "43",
+		"Blk. Adv.": "-30",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "50",
+		"Stun": "14"
+	},
+	"Brave Dance": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "0",
+		"Hit": "15",
+		"Recovery": "14",
+		"Blk. Adv.": "-12",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H+L",
+		"Throw Range": "-",
+		"Damage": "68",
+		"Stun": "0"
+	},
+	"Healing": {
+		"Motion": "QCF x 2 + Kick",
+		"Startup": "-",
+		"Hit": "-",
+		"Recovery": "15",
+		"Blk. Adv.": "-",
+		"Cancel": {
+			"??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "-",
+		"Throw Range": "-",
+		"Damage": "-",
+		"Stun": "-"
+	}
+}

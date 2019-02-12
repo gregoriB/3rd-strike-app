@@ -1,0 +1,16 @@
+{
+	"name": "Urien / ユリアン",
+	"category": "Misc",
+	"Neutral jump startup": "5",
+	"Backward jump startup": "5",
+	"Forward jump startup": "5",
+	"Neutral superjump startup": "7",
+	"Backward superjump startup": "7",
+	"Forward superjump startup": "7",
+	"Dash backward (full animation)": "38",
+	"Dash backward (recovery cancelled)": "20",
+	"Dash forward (full animation)": "40",
+	"Dash forward (recovery cancelled)": "16",
+	"Wakeup": "76 (41 + 35)",
+	"Wakeup (quick roll)": "56 (23 + 33)"
+}
