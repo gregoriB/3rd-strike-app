@@ -1,11 +1,12 @@
 import React, { useContext, useEffect } from 'react';
 import { StateContext } from '../contexts/stateContext';
 import { Link } from 'react-router-dom';
+import { uniqueKey } from '../helpers/variables';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
         char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop typing the in name in address bar from causing errors
-
+        
   const handleChooseCategory = (e) => {
     if (state.charInfo && state.charInfo.category === e.target.value) return;
 
@@ -28,13 +29,13 @@ export default function CharacterData(props) {
       const info = Object.entries(moveSet).splice(0, 2);
       state.setCharInfo({name: info[0][1], category: info[1][1]});
       // build data table
-      const newData = Object.entries(moveSet).splice(2),
-            table   = handleBuildTable(newData);
-                
+      const newData = Object.entries(moveSet).splice(2);
+      const table   = handleBuildTable(newData);
+
       return (
         <table cellSpacing='0' className='move-list'>
-          <thead><tr key={Math.random() * 1000}>{table[0].map(headItem => headItem)}</tr></thead>
-          <tbody>{table.splice(1).map(dataItem => <tr key={Math.random() * 1000}>{dataItem}</tr>)}</tbody>
+          <thead><tr key={uniqueKey.incrementKey()}>{table[0].map(headItem => headItem)}</tr></thead>
+          <tbody>{table.splice(1).map(dataItem => <tr key={uniqueKey.incrementKey()}>{dataItem}</tr>)}</tbody>
         </table>
       )
     });
@@ -45,15 +46,15 @@ export default function CharacterData(props) {
           frameData  = data.map(item => Object.values(item[1])),
           tableHead  = ["Attack", ...Object.keys(data[0][1])],
           tableData  = [];
-    tableData.push(tableHead.map(head => <th className='table-head-item' key={Math.random() * 1000}>{head}</th>));
+    tableData.push(tableHead.map(head => <th className='table-head-item' key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
       tableData.push(row.map(data => {
         let cssClass = 'frame-data';
         if (typeof parseInt(data) === 'number' && data < 0) (cssClass += ' negative');
         
-        return  <td className={cssClass} key={Math.random() * 1000}>{typeof data !== 'object' ? data : handleCancelData(data)}</td> 
+        return  <td className={cssClass} key={uniqueKey.incrementKey()}>{typeof data !== 'object' ? data : handleCancelData(data)}</td> 
       }));
-      tableData[index + 1].unshift(<td className='attack-type' key={Math.random() * 1000}>{attackType[index]}</td>);
+      tableData[index + 1].unshift(<td className='attack-type' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
     });
 
     return tableData;
@@ -91,7 +92,7 @@ export default function CharacterData(props) {
         break;
     }
 
-    return <span className={`${type} cancel`}>{type}</span>
+    return <span className={`${type} cancel`} key={uniqueKey.incrementKey()}>{type}</span>
   }
 
   useEffect(() => {
@@ -116,12 +117,12 @@ export default function CharacterData(props) {
         <button className='button-type' value='Super Arts' onClick={handleChooseCategory}>SUPER ARTS</button>
         {
           state.currentChar === 'Yun' && 
-          <button className='button-type' value='GeneiJin normals' onClick={handleChooseCategory}>
+          <button className='button-type' value='GeneiJin Normals' onClick={handleChooseCategory}>
             GENEIJIN NORMALS
           </button>
         }
         {
-          state.currentChar === 'Yun' && <button className='button-type' value='GeneiJin specials' onClick={handleChooseCategory}>
+          state.currentChar === 'Yun' && <button className='button-type' value='GeneiJin Specials' onClick={handleChooseCategory}>
             GENEIJIN SPECIALS
           </button>
         }

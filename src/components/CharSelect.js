@@ -1,18 +1,16 @@
 import React, { useEffect, useContext } from 'react';
 import Character from './Character';
-import { StateContext } from '../contexts/stateContext';
 import { Link } from 'react-router-dom';
-import { characters } from '../helpers/variables';
+import { StateContext } from '../contexts/stateContext';
+import { characters, uniqueKey } from '../helpers/variables';
 
 export default function CharacterList() {
   const state = useContext(StateContext);
  
   useEffect(() => {
-    if (state.charList) return;
-
-    state.setCharList(characters.map((name, index) => {
+    state.setCharList(characters.map((name) => {
         return (
-          <Link className='character' to={`/${name}`} key={index}>
+          <Link className='character' to={`/${name}`} key={uniqueKey.incrementKey()}>
             <Character setCurrentChar={state.setCurrentChar} charName={name} />
           </Link>
         );

@@ -9,7 +9,6 @@ export function StateProvider(props) {
         [dataTable, setDataTable]     = useState(null),
         [charInfo, setCharInfo]       = useState({name: null, category: null });
 
-
   return (
     <StateContext.Provider 
       value={{
@@ -20,7 +19,7 @@ export function StateProvider(props) {
         dataTable,
         setDataTable,
         charInfo,
-        setCharInfo
+        setCharInfo,
       }}
     >
       {props.children}
