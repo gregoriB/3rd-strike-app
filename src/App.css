@@ -1,3 +1,8 @@
+
+html {
+  margin-left: calc(100vw - 100%);
+}
+
 body { 
   background: rgb(131, 0, 0);
   padding: 1rem calc((100% - 95vw) / 2);
@@ -24,10 +29,6 @@ body {
 .char-name {
   font-size: 2.5rem;
   margin: 1rem;
-}
-
-.char-info {
-  margin-bottom: 2rem;
 }
 
 .heading {
@@ -137,7 +138,6 @@ thead tr th {
 
 tr {
   padding: 10px;
-  margin: 50px;
   background: rgb(160, 160, 160);
 }
 
@@ -165,10 +165,6 @@ tr:nth-of-type(odd) {
   color: rgb(0, 0, 82);
 }
 
-html {
-  margin-left: calc(100vw - 100%);
-}
-
 button {
   outline: none;
   background: rgb(133, 133, 133);
@@ -186,8 +182,14 @@ button {
 }
 
 .home-button {
-  background: rgb(160, 160, 160); 
-  margin-left: calc((100% - 95vw) / 2);
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  background: rgb(160, 160, 160);
+}
+
+.home-button:hover {
+  background: rgb(185, 185, 185);
 }
 
 .negative {
@@ -209,7 +211,19 @@ button:hover {
 .cancel {
   font-weight: bold;
   margin: 0 3px;
-  text-shadow: 1px 1px black;
+  text-shadow: .5px .5px black;
+}
+
+.empty-cancel {
+  text-shadow: none;
+  font-weight: normal;
+}
+
+.SELF {
+  color: rgb(192,60,56);
+}
+
+.question-mark-cancel {
   color: rgb(172, 194, 255);
 }
 

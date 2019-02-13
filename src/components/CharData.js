@@ -25,10 +25,10 @@ export default function CharacterData(props) {
 
   const handleSetTableData = moveSet => {
     state.setDataTable(() => {
-      //set character info for page header
+        //set character info for page header
       const info = Object.entries(moveSet).splice(0, 2);
       state.setCharInfo({name: info[0][1], category: info[1][1]});
-      // build data table
+        // build data table
       const newData = Object.entries(moveSet).splice(2);
       const table   = handleBuildTable(newData);
 
@@ -62,16 +62,21 @@ export default function CharacterData(props) {
 
   const handleCancelData = data => {
     let cancels = []
-    for (let cancel in data) if (data[cancel]) cancels.push(cancel);
+    for (let cancel in data) {
+      if (data[cancel]) cancels.push(cancel);
+    }
+    if (cancels.length < 1) cancels.push('-'); //placeholder for empty space
 
     return cancels.map(cancel => handleCheckCancelType(cancel))
   }
 
   const handleCheckCancelType = cancel => {
     let type;
+    let text;
     switch(cancel) {
       case '??':
-        type = '??'
+        type = '??';
+        text = 'question-mark-cancel';
         break;
       case 'Super Art':
         type = 'SA';
@@ -88,15 +93,22 @@ export default function CharacterData(props) {
       case 'Superjump':
         type = 'SJ';
         break;
+      case 'Self':
+        type = 'SELF';
+        break;
+      case '-':
+        type = '-';
+        text = 'empty-cancel';
+        break;
       default:
         break;
     }
 
-    return <span className={`${type} cancel`} key={uniqueKey.incrementKey()}>{type}</span>
+    return <span className={`${text || type} cancel`} key={uniqueKey.incrementKey()}>{type}</span>
   }
 
   useEffect(() => {
-    document.querySelector('.default').click();
+    document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
 
     return () => {
       state.setDataTable(null)
