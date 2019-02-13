@@ -1,16 +1,40 @@
 {
-	"name": "Oro / オロ",
-	"category": "Misc",
-	"Neutral jump startup": "5",
-	"Backward jump startup": "5",
-	"Forward jump startup": "5",
-	"Neutral superjump startup": "6",
-	"Backward superjump startup": "6",
-	"Forward superjump startup": "6",
-	"Dash backward (full animation)": "30",
-	"Dash backward (recovery cancelled)": "14",
-	"Dash forward (full animation)": "40",
-	"Dash forward (recovery cancelled)": "18",
-	"Wakeup": "71 (33 + 38)",
-	"Wakeup (quick roll)": "52 (21 + 31)"
+	"Name": "Oro / オロ",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "5"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "5"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "5"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "6"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "6"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "6"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "30"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "14"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "40"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "18"
+  },
+	"Wakeup": {
+    "Frames": "71 (33 + 38)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "52 (21 + 31)"  
+  }
 }

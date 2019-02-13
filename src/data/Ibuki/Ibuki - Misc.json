@@ -1,16 +1,40 @@
 {
-	"name": "Ibuki / いぶき / イブキ",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "5",
-	"Backward superjump startup": "5",
-	"Forward superjump startup": "5",
-	"Dash backward (full animation)": "31",
-	"Dash backward (recovery cancelled)": "31",
-	"Dash forward (full animation)": "31",
-	"Dash forward (recovery cancelled)": "20",
-	"Wakeup": "68 (35 + 33)",
-	"Wakeup (quick roll)": "53 (27 + 26)"
+	"Name": "Ibuki / イブキ",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "5"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "5"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "5"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "31"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "31"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "31"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "20"
+  },
+	"Wakeup": {
+    "Frames": "68 (35 + 33)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "53 (27 + 26)"  
+  }
 }

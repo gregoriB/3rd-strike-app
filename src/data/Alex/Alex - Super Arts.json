@@ -1,12 +1,12 @@
 {
-	"name": "Alex / アレックス",
-	"category": "- Super Arts",
+	"Name": "Alex / アレックス",
+	"Category": "Super Arts",
 	"Hyper Bomb": {
 		"Motion": "Rotate 360 + Punch",
 		"Startup": "1",
 		"Hit": "2",
 		"Recovery": "33",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "1",
 		"Hit": "2",
 		"Recovery": "33",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "0",
 		"Hit": "14",
 		"Recovery": "41",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -66,7 +66,7 @@
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "17",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -80,5 +80,5 @@
 		"Throw Range": "61",
 		"Damage": "31",
 		"Stun": "57"
-	}
+  }
 }

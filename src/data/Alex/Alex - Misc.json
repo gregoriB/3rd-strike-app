@@ -1,16 +1,40 @@
 {
-	"name": "Alex / アレックス",
-	"category": "Misc",
-	"Neutral jump startup": "5",
-	"Backward jump startup": "5",
-	"Forward jump startup": "5",
-	"Neutral superjump startup": "7",
-	"Backward superjump startup": "7",
-	"Forward superjump startup": "7",
-	"Dash backward (full animation)": "28",
-	"Dash backward (recovery cancelled)": "22",
-	"Dash forward (full animation)": "28",
-	"Dash forward (recovery cancelled)": "18",
-	"Wakeup": "67 (33 + 34)",
-	"Wakeup (quick roll)": "49 (21 + 28)"
+	"Name": "Alex / アレックス",
+	"Category": "Misc",
+	"Neutral jump startup": {
+		"Frames": "5"
+	}, 
+	"Backward Jump Startup": {
+    "Frames": "5"
+	}, 
+	"Forward Jump Startup": { 
+		"Frames": "5"
+	},
+	"Neutral Superjump Startup": {
+  	"Frames": "7"
+	},
+	"Backward Superjump Startup": { 
+		 "Frames": "7"
+	},
+	"Forward Superjump Startup": {
+		"Frames": "7"
+	},
+  "Dash backward (full animation)": {
+    "Frames": "28"
+    },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "22"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "28"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "18"
+  },
+	"Wakeup": {
+    "Frames": "67 (33 + 34)"
+  },
+	"Wakeup (Quick Roll)": {
+		"Frames": "49 (21 + 28)"
+  }
 }

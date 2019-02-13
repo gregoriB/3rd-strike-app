@@ -1,12 +1,12 @@
 {
-	"name": "Chun Li / 春麗 / チュンリー",
-	"category": "- Specials",
+	"Name": "Chun Li / チュンリー",
+	"Category": "Specials",
 	"Kikkoken (Jab)": {
 		"Motion": "HCF + Jab",
 		"Startup": "14",
 		"Hit": "36",
 		"Recovery": "45",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 3 / 2",
-		"BarGainOpp": "1 / 0"
+		"Meter Gain Player": "0 / 3 / 2",
+		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (Strong)": {
 		"Motion": "HCF + Strong",
 		"Startup": "13",
 		"Hit": "17",
 		"Recovery": "38",
-		"Blk. Adv.": "-10",
+		"Block Advantage": "-10",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 3 / 2",
-		"BarGainOpp": "1 / 0"
+		"Meter Gain Player": "0 / 3 / 2",
+		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (Fierce)": {
 		"Motion": "HCF + Fierce",
 		"Startup": "11",
 		"Hit": "7",
 		"Recovery": "32",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 3 / 2",
-		"BarGainOpp": "1 / 0"
+		"Meter Gain Player": "0 / 3 / 2",
+		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (EX)": {
 		"Motion": "HCF + 2 Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "41",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "14",
 		"Stun": "3",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hyakuretsu Kyaku (Short)": {
 		"Motion": "Short (rapidly)",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Forward)": {
 		"Motion": "Forward (rapidly)",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "18",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Roundhouse)": {
 		"Motion": "RH (rapidly)",
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (EX)": {
 		"Motion": "2 Kicks (rapidly)",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "11",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Spinning Bird Kick (Short)": {
 		"Motion": "Hold D...U + Short",
 		"Startup": "12",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "15",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (Forward)": {
 		"Motion": "Hold D...U + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "17",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (Roundhouse)": {
 		"Motion": "Hold D...U + RH",
 		"Startup": "17",
 		"Hit": "8",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "17",
-		"BarGainAtt": "3 / 26 / 20",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 26 / 20",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (EX)": {
 		"Motion": "Hold D...U + 2 Kicks",
 		"Startup": "12",
 		"Hit": "10",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "35",
 		"Stun": "19",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hazan Shu (Short)": {
 		"Motion": "HCB + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "18",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "11",
-		"BarGainAtt": "3 / 17 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (Forward)": {
 		"Motion": "HCB + Forward",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "18",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "13",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (Roundhouse)": {
 		"Motion": "HCB + RH",
 		"Startup": "29",
 		"Hit": "3",
 		"Recovery": "17",
-		"Blk. Adv.": "-1",
+		"Block Advantage": "-1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "15",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (EX)": {
 		"Motion": "HCB + 2 Kicks",
 		"Startup": "31",
 		"Hit": "1",
 		"Recovery": "18",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -350,7 +350,7 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

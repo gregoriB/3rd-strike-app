@@ -1,16 +1,40 @@
 {
-	"name": "Dudley / ダッドリー",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "5",
-	"Backward superjump startup": "5",
-	"Forward superjump startup": "5",
-	"Dash backward (full animation)": "27",
-	"Dash backward (recovery cancelled)": "20",
-	"Dash forward (full animation)": "31",
-	"Dash forward (recovery cancelled)": "19",
-	"Wakeup": "55 (22 + 33)",
-	"Wakeup (quick roll)": "45 (18 + 27)"
+	"Name": "Dudley / ダッドリー",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "5"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "5"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "5"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "27"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "20"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "31"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "19"
+  },
+	"Wakeup": {
+    "Frames": "55 (22 + 33)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "45 (18 + 27)"  
+  }
 }

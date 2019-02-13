@@ -1,12 +1,12 @@
 {
-	"name": "Elena / エレナ",
-	"category": "- Specials",
+	"Name": "Elena / エレナ",
+	"Category": "Specials",
 	"Scratch Wheel (Short)": {
 		"Motion": "DPM + Short",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "31",
-		"Blk. Adv.": "-19",
+		"Block Advantage": "-19",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 10",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 10",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Scratch Wheel (Forward)": {
 		"Motion": "DPM + Forward",
 		"Startup": "4",
 		"Hit": "5",
 		"Recovery": "36",
-		"Blk. Adv.": "-22",
+		"Block Advantage": "-22",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "15",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Scratch Wheel (RH)": {
 		"Motion": "DPM + RH",
 		"Startup": "3",
 		"Hit": "7",
 		"Recovery": "40",
-		"Blk. Adv.": "-27",
+		"Block Advantage": "-27",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "17",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Scratch Wheel (EX)": {
 		"Motion": "DPM + 2 Kicks",
 		"Startup": "3",
 		"Hit": "8",
 		"Recovery": "42",
-		"Blk. Adv.": "-26",
+		"Block Advantage": "-26",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "35",
 		"Stun": "19",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Rhino Horn (Short)": {
 		"Motion": "HCF + Short",
 		"Startup": "14",
 		"Hit": "9",
 		"Recovery": "14",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "20",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (Forward)": {
 		"Motion": "HCF + Forward",
 		"Startup": "18",
 		"Hit": "10",
 		"Recovery": "15",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "36",
 		"Stun": "20",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (RH)": {
 		"Motion": "HCF + RH",
 		"Startup": "23",
 		"Hit": "10",
 		"Recovery": "17",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "34",
 		"Stun": "20",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (EX)": {
 		"Motion": "HCF + 2 Kicks",
 		"Startup": "11",
 		"Hit": "13",
 		"Recovery": "15",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "38",
 		"Stun": "20",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Mallet Smash (Jab)": {
 		"Motion": "HCB + Jab",
 		"Startup": "21",
 		"Hit": "8",
 		"Recovery": "13",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "17",
-		"BarGainAtt": "3 / 18 / 8",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 8",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (Strong)": {
 		"Motion": "HCB + Strong",
 		"Startup": "24",
 		"Hit": "7",
 		"Recovery": "12",
-		"Blk. Adv.": "2",
+		"Block Advantage": "2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "29",
 		"Stun": "17",
-		"BarGainAtt": "3 / 18 / 8",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 8",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (Fierce)": {
 		"Motion": "HCB + Fierce",
 		"Startup": "27",
 		"Hit": "6",
 		"Recovery": "11",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "30",
 		"Stun": "17",
-		"BarGainAtt": "3 / 18 / 8",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 8",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (EX)": {
 		"Motion": "HCB + 2 Punches",
 		"Startup": "21",
 		"Hit": "4",
 		"Recovery": "10",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Spinning Scythe (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "18",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "20",
 		"Stun": "5",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "16",
 		"Hit": "4",
 		"Recovery": "22",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "5",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (RH)": {
 		"Motion": "QCB + RH",
 		"Startup": "17",
 		"Hit": "4",
 		"Recovery": "24",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "5",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (EX)": {
 		"Motion": "QCB + 2 Kicks",
 		"Startup": "10",
 		"Hit": "8",
 		"Recovery": "31",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "35",
 		"Stun": "9",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Lynx Tail (Short)": {
 		"Motion": "RDP + Short",
 		"Startup": "11",
 		"Hit": "6",
 		"Recovery": "35",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "6 / 22 / 20",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "6 / 22 / 20",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (Forward)": {
 		"Motion": "RDP + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "33",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -394,15 +394,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "5",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (RH)": {
 		"Motion": "RDP + RH",
 		"Startup": "16",
 		"Hit": "12",
 		"Recovery": "33",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -416,15 +416,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "9",
-		"BarGainAtt": "3 / 22 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 22 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (EX)": {
 		"Motion": "RDP + 2 Kicks",
 		"Startup": "10",
 		"Hit": "22",
 		"Recovery": "25",
-		"Blk. Adv.": "-10",
+		"Block Advantage": "-10",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -438,7 +438,7 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "12",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

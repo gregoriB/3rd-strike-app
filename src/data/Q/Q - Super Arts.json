@@ -1,12 +1,12 @@
 {
-	"name": "Q",
-	"category": "- Super Arts",
+	"Name": "Q / キュ",
+	"Category": "Super Arts",
 	"Critical Combo Attack": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "5",
 		"Hit": "16",
 		"Recovery": "31",
-		"Blk. Adv.": "-19",
+		"Block Advantage": "-19",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "1",
 		"Hit": "1",
 		"Recovery": "65",
-		"Blk. Adv.": "-25",
+		"Block Advantage": "-25",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "18",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -66,7 +66,7 @@
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "39",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,7 +86,7 @@
 		"Startup": "6",
 		"Hit": "3",
 		"Recovery": "59",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -100,5 +100,5 @@
 		"Throw Range": "56",
 		"Damage": "83",
 		"Stun": "20"
-	}
+  }
 }

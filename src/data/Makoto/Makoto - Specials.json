@@ -1,12 +1,12 @@
 {
-	"name": "Makoto / まこと / マコト",
-	"category": "- Specials",
+	"Name": "Makoto / まこと",
+	"Category": "Specials",
 	"Hayate (full charge)": {
 		"Motion": "QCF + Punch (hold)",
 		"Startup": "126",
 		"Hit": "6",
 		"Recovery": "24",
-		"Blk. Adv.": "2",
+		"Block Advantage": "2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "17",
-		"BarGainAtt": "3 / 15 / 7",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "3 / 15 / 7",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Jab)": {
 		"Motion": "QCF + Jab",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "24",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "9",
-		"BarGainAtt": "3 / 15 / 7",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "3 / 15 / 7",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Strong)": {
 		"Motion": "QCF + Strong",
 		"Startup": "9",
 		"Hit": "6",
 		"Recovery": "24",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "9",
-		"BarGainAtt": "3 / 15 / 7",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "3 / 15 / 7",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Fierce)": {
 		"Motion": "QCF + Fierce",
 		"Startup": "11",
 		"Hit": "6",
 		"Recovery": "24",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "9",
-		"BarGainAtt": "3 / 15 / 7",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "3 / 15 / 7",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (EX)": {
 		"Motion": "QCF + 2 Punches",
 		"Startup": "17",
 		"Hit": "6",
 		"Recovery": "24",
-		"Blk. Adv.": "2",
+		"Block Advantage": "2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Fukiage (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "26",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "29",
-		"BarGainAtt": "3 / 21 / ---",
-		"BarGainOpp": "6 / ---"
+		"Meter Gain Player": "3 / 21 / ---",
+		"Meter Gain Opponent": "6 / ---"
 	},
 	"Fukiage (Strong)": {
 		"Motion": "DPM + Strong",
 		"Startup": "10",
 		"Hit": "8",
 		"Recovery": "26",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "31",
-		"BarGainAtt": "3 / 21 / ---",
-		"BarGainOpp": "6 / ---"
+		"Meter Gain Player": "3 / 21 / ---",
+		"Meter Gain Opponent": "6 / ---"
 	},
 	"Fukiage (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "14",
 		"Hit": "8",
 		"Recovery": "26",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "31",
-		"BarGainAtt": "3 / 21 / ---",
-		"BarGainOpp": "6 / ---"
+		"Meter Gain Player": "3 / 21 / ---",
+		"Meter Gain Opponent": "6 / ---"
 	},
 	"Fukiage (EX)": {
 		"Motion": "DPM + 2 Punches",
 		"Startup": "11",
 		"Hit": "8",
 		"Recovery": "26",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "21",
-		"BarGainAtt": "-40 / -40 / ---",
-		"BarGainOpp": "0 / ---"
+		"Meter Gain Player": "-40 / -40 / ---",
+		"Meter Gain Opponent": "0 / ---"
 	},
 	"Oroshi (Jab)": {
 		"Motion": "QCB + Jab",
 		"Startup": "19",
 		"Hit": "7",
 		"Recovery": "17",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "7",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (Strong)": {
 		"Motion": "QCB + Strong",
 		"Startup": "23",
 		"Hit": "7",
 		"Recovery": "17",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "11",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (Fierce)": {
 		"Motion": "QCB + Fierce",
 		"Startup": "28",
 		"Hit": "7",
 		"Recovery": "17",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "13",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (EX)": {
 		"Motion": "QCB + 2 Punches",
 		"Startup": "13",
 		"Hit": "7",
 		"Recovery": "17",
-		"Blk. Adv.": "4",
+		"Block Advantage": "4",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "9",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tsurugi (Short)": {
 		"Motion": "QCB + Short (Air)",
 		"Startup": "14",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (Forward)": {
 		"Motion": "QCB + Forward (Air)",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (Roundhouse)": {
 		"Motion": "QCB + RH (Air)",
 		"Startup": "16",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (EX)": {
 		"Motion": "QCB + 2 Kicks (Air)",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "3",
+		"Block Advantage": "3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "9",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Karakusa (Short)": {
 		"Motion": "HCB + Short",
 		"Startup": "7",
 		"Hit": "3",
 		"Recovery": "28",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -394,15 +394,15 @@
 		"Throw Range": "53",
 		"Damage": "5",
 		"Stun": "8",
-		"BarGainAtt": "0 / 8 / ---",
-		"BarGainOpp": "2 / ---"
+		"Meter Gain Player": "0 / 8 / ---",
+		"Meter Gain Opponent": "2 / ---"
 	},
 	"Karakusa (Forward)": {
 		"Motion": "HCB + Forward",
 		"Startup": "8",
 		"Hit": "4",
 		"Recovery": "29",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -416,15 +416,15 @@
 		"Throw Range": "57",
 		"Damage": "5",
 		"Stun": "8",
-		"BarGainAtt": "0 / 8 / ---",
-		"BarGainOpp": "2 / ---"
+		"Meter Gain Player": "0 / 8 / ---",
+		"Meter Gain Opponent": "2 / ---"
 	},
 	"Karakusa (Roundhouse)": {
 		"Motion": "HCB + RH",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "30",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -438,7 +438,7 @@
 		"Throw Range": "61",
 		"Damage": "5",
 		"Stun": "8",
-		"BarGainAtt": "0 / 8 / ---",
-		"BarGainOpp": "2 / ---"
-	}
+		"Meter Gain Player": "0 / 8 / ---",
+		"Meter Gain Opponent": "2 / ---"
+  }
 }

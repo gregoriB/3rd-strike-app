@@ -1,12 +1,12 @@
 {
-	"name": "Urien / ユリアン",
-	"category": "- Super Arts",
+	"Name": "Urien / ユリアン",
+	"Category": "Super Arts",
 	"Tyrant Punish": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "0",
 		"Hit": "55",
 		"Recovery": "23",
-		"Blk. Adv.": "-18",
+		"Block Advantage": "-18",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "1",
 		"Hit": "75",
 		"Recovery": "91",
-		"Blk. Adv.": "-36",
+		"Block Advantage": "-36",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "13/25/32 (9/9/9)",
 		"Hit": "-",
 		"Recovery": "12",
-		"Blk. Adv.": "65",
+		"Block Advantage": "65",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -66,7 +66,7 @@
 		"Startup": "-2 (9)",
 		"Hit": "-",
 		"Recovery": "12",
-		"Blk. Adv.": "46",
+		"Block Advantage": "46",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -80,5 +80,5 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "0"
-	}
+  }
 }

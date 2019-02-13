@@ -1,12 +1,12 @@
 {
-	"name": "Yun / ユン",
-	"category": "- GeneiJin specials",
+	"Name": "Yun / ユン",
+	"Category": "GeneiJin specials",
 	"Tetsu Zankou (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "7",
 		"Hit": "9",
 		"Recovery": "8",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,14 +20,14 @@
 		"Throw Range": "-",
 		"Damage": "13",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Tetsu Zankou (Strong)": {
 		"Motion": "DPM + Strong",
 		"Startup": "8",
 		"Hit": "10",
 		"Recovery": "10",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -41,14 +41,14 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Tetsu Zankou (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "10",
 		"Hit": "11",
 		"Recovery": "12",
-		"Blk. Adv.": "3",
+		"Block Advantage": "3",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -62,14 +62,14 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Zesshou Hohou": {
 		"Motion": "QCF + Jab",
 		"Startup": "7",
 		"Hit": "15",
 		"Recovery": "7",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -83,14 +83,14 @@
 		"Throw Range": "-",
 		"Damage": "16",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Nishou Kyaku (Short)": {
 		"Motion": "DPM + Short",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "20",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -104,14 +104,14 @@
 		"Throw Range": "-",
 		"Damage": "13",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Nishou Kyaku (Forward)": {
 		"Motion": "DPM + Forward",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "21",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -125,14 +125,14 @@
 		"Throw Range": "-",
 		"Damage": "13",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Nishou Kyaku (RH)": {
 		"Motion": "DPM + RH",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "22",
-		"Blk. Adv.": "-13",
+		"Block Advantage": "-13",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -146,14 +146,14 @@
 		"Throw Range": "-",
 		"Damage": "13",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Kobokushi": {
 		"Motion": "QCB + Punch",
 		"Startup": "10",
 		"Hit": "6",
 		"Recovery": "1",
-		"Blk. Adv.": "13",
+		"Block Advantage": "13",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -167,14 +167,14 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "0",
-		"BarGainOpp": "0"
+		"Meter Gain Opponent": "0"
 	},
 	"Zenpou Tenshin": {
 		"Motion": "HCB + Kick",
 		"Startup": "5",
 		"Hit": "2",
 		"Recovery": "26",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -188,6 +188,6 @@
 		"Throw Range": "12",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainOpp": "0"
-	}
+		"Meter Gain Opponent": "0"
+  }
 }

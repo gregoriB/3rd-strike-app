@@ -1,12 +1,12 @@
 {
-	"name": "Dudley / ダッドリー",
-	"category": "Super Arts",
+	"Name": "Dudley / ダッドリー",
+	"Category": "Super Arts",
 	"Rocket Uppercut": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "0",
 		"Hit": "40",
 		"Recovery": "31",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "1",
 		"Hit": "17",
 		"Recovery": "20",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "0",
 		"Hit": "10",
 		"Recovery": "24",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -60,5 +60,5 @@
 		"Throw Range": "-",
 		"Damage": "46",
 		"Stun": "0"
-	}
+  }
 }

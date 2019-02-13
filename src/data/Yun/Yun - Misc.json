@@ -1,16 +1,40 @@
 {
-	"name": "Yun / ユン",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "5",
-	"Backward superjump startup": "5",
-	"Forward superjump startup": "5",
-	"Dash backward (full animation)": "43",
-	"Dash backward (recovery cancelled)": "30",
-	"Dash forward (full animation)": "40",
-	"Dash forward (recovery cancelled)": "24",
-	"Wakeup": "60 (27 + 33)",
-	"Wakeup (quick roll)": "41 (15 + 26)"
+	"Name": "Yun / ユン",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "5"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "5"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "5"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "43"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "30"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "40"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "24"
+  },
+	"Wakeup": {
+    "Frames": "60 (27 + 33)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "41 (15 + 26)"  
+  }
 }

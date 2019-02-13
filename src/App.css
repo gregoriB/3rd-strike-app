@@ -1,5 +1,5 @@
 body { 
-  background: rgb(165, 0, 0);
+  background: rgb(131, 0, 0);
   padding: 1rem calc((100% - 95vw) / 2);
 }
 
@@ -7,14 +7,27 @@ body {
   box-sizing: border-box;
 }
 
-.char-name {
-  width: 250px;
-  padding: 4rem;
-  margin: 0 auto;
+.char-head {
   border: 2px solid black;
-  border-radius: 50%;
-  background-color: rgb(255, 153, 0);
+  background: rgb(185, 185, 185);
+  width: 500px;
+  min-height: 150px;
+  margin: 0 auto;
+}
+
+.char-head * {
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
+}
+
+.char-name {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.char-info {
+  margin-bottom: 2rem;
 }
 
 .heading {
@@ -31,7 +44,7 @@ body {
 }
 
 .character {
-  background-color: rgb(255, 153, 0);
+  background-color: rgb(185, 185, 185);
   font-weight: bold;
   margin: 1px -7px;
   width: 95px;
@@ -83,19 +96,23 @@ li {
 }
 
 ul {
-  /* margin: 2rem; */
   padding-left: 1rem;
 }
 
-table {
+table { 
+  border: 2px solid black;
   background: rgb(160, 160, 160);
   margin: 0 auto;
-  width: 100%;
 }
 
-table * {
+table  * {
   margin: 0;
   text-align: center;
+}
+
+.misc {
+  text-align: center;
+  margin: 0 auto;
 }
 
 th {
@@ -103,11 +120,15 @@ th {
 }
 
 td {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-left: none;
   border-right: none;
   transition: 0;
   padding: 5px 10px;
+}
+
+thead tr th {
+  background: rgb(160, 160, 160);
 }
 
 tr {
@@ -117,10 +138,10 @@ tr {
 }
 
 tr:hover td {
-  border: 2px solid black;
+  border: 1px solid black;
   border-left: none;
   border-right: none;
-  transition: .2s;
+  transition: .5s;
   transition-delay: .5s;
 }
 
@@ -134,23 +155,49 @@ tr:nth-of-type(odd) {
   background: rgb(185, 185, 185);
 }
 
-.table-head {
-  color: black;
-}
-
 .attack-type {
   text-align: left;
+  font-weight: bold;
+  color: rgb(0, 0, 82);
 }
 
 html {
   margin-left: calc(100vw - 100%);
 }
 
+button {
+  outline: none;
+  background: rgb(133, 133, 133);
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: .1s;
+}
+
 .selector-buttons {
+  margin: 1rem auto;
+  display: block;
   text-align: center;
-  margin: 2rem auto;
 }
 
 .home-button {
+  background: rgb(160, 160, 160); 
   margin-left: calc((100% - 95vw) / 2);
+}
+
+.negative {
+  color: rgb(196, 0, 0);
+}
+
+.selector-buttons button:hover {
+  background: rgb(160, 160, 160);
+}
+
+div.selector-buttons button.active {
+  background: rgb(185, 185, 185);
+}
+
+button:hover {
+  cursor: pointer;
 }

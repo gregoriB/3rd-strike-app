@@ -1,16 +1,40 @@
 {
-	"name": "Chun Li / 春麗 / チュンリー",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "5",
-	"Backward superjump startup": "5",
-	"Forward superjump startup": "5",
-	"Dash backward (full animation)": "30",
-	"Dash backward (recovery cancelled)": "26",
-	"Dash forward (full animation)": "23",
-	"Dash forward (recovery cancelled)": "17",
-	"Wakeup": "88 (49 + 39)",
-	"Wakeup (quick roll)": "61 (35 + 26)"
+	"Name": "Chun Li / チュンリー",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "5"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "5"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "5"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "30"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "26"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "23"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "17"
+  },
+	"Wakeup": {
+    "Frames": "88 (49 + 39)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "61 (35 + 26)"  
+  }
 }

@@ -5,6 +5,7 @@ import Error from './components/Error';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { StateContext } from './contexts/stateContext';
 import { characters } from './helpers/variables';
+import './normalize.css';
 import './App.css';
 
 export default function App() {

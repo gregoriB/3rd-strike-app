@@ -1,16 +1,40 @@
 {
-	"name": "Makoto / まこと / マコト",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "6",
-	"Backward superjump startup": "6",
-	"Forward superjump startup": "6",
-	"Dash backward (full animation)": "24",
-	"Dash backward (recovery cancelled)": "15",
-	"Dash forward (full animation)": "40",
-	"Dash forward (recovery cancelled)": "12",
-	"Wakeup": "71 (37 + 34)",
-	"Wakeup (quick roll)": "43 (13 + 30)"
+	"Name": "Makoto / まこと",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "6"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "6"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "6"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "24"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "15"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "40"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "12"
+  },
+	"Wakeup": {
+    "Frames": "71 (37 + 34)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "43 (13 + 30)"  
+  }
 }

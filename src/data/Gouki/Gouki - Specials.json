@@ -1,12 +1,12 @@
 {
-	"name": "Gouki / ゴウキ / 豪鬼",
-	"category": "- Specials",
+	"Name": "Gouki / ゴウキ",
+	"Category": "Specials",
 	"Gou Hadouken": {
 		"Motion": "QCF + Punch",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "38",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Gou Shoryuken (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "26",
-		"Blk. Adv.": "-24",
+		"Block Advantage": "-24",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Gou Shoryuken (Strong)": {
 		"Motion": "DPM + Strong",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "41",
-		"Blk. Adv.": "-30",
+		"Block Advantage": "-30",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "25",
 		"Stun": "13",
-		"BarGainAtt": "3 / 22 / 16",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 16",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Gou Shoryuken (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "1",
 		"Hit": "23",
 		"Recovery": "35",
-		"Blk. Adv.": "-34",
+		"Block Advantage": "-34",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "29",
 		"Stun": "15",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ashura Senkuu": {
 		"Motion": "DPM + 3 Punches/Kicks",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "9",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Zankuu Hadouken": {
 		"Motion": "QCF + Punch (Air)",
 		"Startup": "12",
 		"Hit": "24",
 		"Recovery": "N/A",
-		"Blk. Adv.": "2",
+		"Block Advantage": "2",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "11",
 		"Hit": "4",
 		"Recovery": "17",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "7",
-		"BarGainAtt": "6 / 21 / 15",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "6 / 21 / 15",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "2",
 		"Hit": "10",
 		"Recovery": "16",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "9",
-		"BarGainAtt": "3 / 19 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (RH)": {
 		"Motion": "QCB + RH",
 		"Startup": "2",
 		"Hit": "18",
 		"Recovery": "10",
-		"Blk. Adv.": "-5",
+		"Block Advantage": "-5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "25",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 16",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 16",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Shakunetsu Hadouken (Jab)": {
 		"Motion": "HCB + Jab",
 		"Startup": "14",
 		"Hit": "44",
 		"Recovery": "42",
-		"Blk. Adv.": "-23",
+		"Block Advantage": "-23",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Shakunetsu Hadouken (Strong)": {
 		"Motion": "HCB + Strong",
 		"Startup": "18",
 		"Hit": "45",
 		"Recovery": "43",
-		"Blk. Adv.": "-18",
+		"Block Advantage": "-18",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "16",
 		"Stun": "5",
-		"BarGainAtt": "0 / 2 / 2",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 2",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Shakunetsu Hadouken (Fierce)": {
 		"Motion": "HCB + Fierce",
 		"Startup": "22",
 		"Hit": "46",
 		"Recovery": "44",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "7",
-		"BarGainAtt": "0 / 3 / 3",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 3 / 3",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (Short)": {
 		"Motion": "QCB + Short (Air)",
 		"Startup": "5",
 		"Hit": "3",
 		"Recovery": "40",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "14",
 		"Stun": "3",
-		"BarGainAtt": "1 / 9 / 2",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "1 / 9 / 2",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (Forward)": {
 		"Motion": "QCB + Forward (Air)",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "31",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "5",
-		"BarGainAtt": "2 / 17 / 2",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "2 / 17 / 2",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (RH)": {
 		"Motion": "QCB + RH (Air)",
 		"Startup": "5",
 		"Hit": "12",
 		"Recovery": "16",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "40",
 		"Stun": "7",
-		"BarGainAtt": "4 / 26 / 3",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "4 / 26 / 3",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Hyakki Shuu": {
 		"Motion": "DPM + kick",
 		"Startup": "40",
 		"Hit": "15",
 		"Recovery": "13",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "3",
-		"BarGainAtt": "3 / 19 / 10",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 10",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Goushou": {
 		"Motion": "Hyakki Shuu then Punch",
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "20",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 10",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 10",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Goujin": {
 		"Motion": "Hyakki Shuu then Kick",
 		"Startup": "9",
 		"Hit": "10",
 		"Recovery": "7",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -394,15 +394,15 @@
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "11",
-		"BarGainAtt": "3 / 19 / 10",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 10",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Gousai": {
 		"Motion": "Hyakki Shuu then Jab+Short",
 		"Startup": "3",
 		"Hit": "2",
 		"Recovery": "34",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -416,7 +416,7 @@
 		"Throw Range": "36",
 		"Damage": "19",
 		"Stun": "14",
-		"BarGainAtt": "0 / 8 / ---",
-		"BarGainOpp": "2 / ---"
-	}
+		"Meter Gain Player": "0 / 8 / ---",
+		"Meter Gain Opponent": "2 / ---"
+  }
 }

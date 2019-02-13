@@ -1,16 +1,40 @@
 {
-	"name": "Ken / ケン",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "6",
-	"Backward superjump startup": "6",
-	"Forward superjump startup": "6",
-	"Dash backward (full animation)": "23",
-	"Dash backward (recovery cancelled)": "16",
-	"Dash forward (full animation)": "25",
-	"Dash forward (recovery cancelled)": "17",
-	"Wakeup": "75 (32 + 43)",
-	"Wakeup (quick roll)": "48 (20 + 28)"
+	"Name": "Ken / ケン",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "6"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "6"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "6"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "23"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "16"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "25"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "17"
+  },
+	"Wakeup": {
+    "Frames": "75 (32 + 43)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "48 (20 + 28)"  
+  }
 }

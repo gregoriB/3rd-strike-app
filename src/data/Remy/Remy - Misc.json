@@ -1,16 +1,40 @@
 {
-	"name": "Remy / レミー",
-	"category": "Misc",
-	"Neutral jump startup": "5",
-	"Backward jump startup": "5",
-	"Forward jump startup": "5",
-	"Neutral superjump startup": "6",
-	"Backward superjump startup": "6",
-	"Forward superjump startup": "6",
-	"Dash backward (full animation)": "22",
-	"Dash backward (recovery cancelled)": "20",
-	"Dash forward (full animation)": "20",
-	"Dash forward (recovery cancelled)": "18",
-	"Wakeup": "67 (33 + 34)",
-	"Wakeup (quick roll)": "47 (20 + 27)"
+	"Name": "Remy / レミー",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "5"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "5"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "5"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "6"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "6"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "6"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "22"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "20"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "20"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "18"
+  },
+	"Wakeup": {
+    "Frames": "67 (33 + 34)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "47 (20 + 27)"  
+  }
 }

@@ -1,16 +1,40 @@
 {
-	"name": "Hugo / ヒューゴー",
-	"category": "Misc",
-	"Neutral jump startup": "6",
-	"Backward jump startup": "6",
-	"Forward jump startup": "6",
-	"Neutral superjump startup": "8",
-	"Backward superjump startup": "8",
-	"Forward superjump startup": "8",
-	"Dash backward (full animation)": "34",
-	"Dash backward (recovery cancelled)": "23",
-	"Dash forward (full animation)": "35",
-	"Dash forward (recovery cancelled)": "23",
-	"Wakeup": "69 (35 + 34)",
-	"Wakeup (quick roll)": "54 (25 + 29)"
+	"Name": "Hugo / ヒューゴー",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "6"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "6"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "6"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "8"
+  },
+	"Backward Superjump Startup": { 
+            "Frames": "8"
+	},
+	"Forward Superjump Startup": {
+			"Frames" : "8"
+	},
+	"Dash backward (full animation)": {
+			"Frames": "34"
+	},
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "23"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "35"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames": "23"
+  },
+	"Wakeup": {
+    "Frames": "69 (35 + 34)"
+  },
+	"Wakeup (Quick Roll)": {
+		"Frames": "54 (25 + 29)"
+  }
 }

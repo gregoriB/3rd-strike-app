@@ -1,12 +1,12 @@
 {
-	"name": "Dudley / ダッドリー",
-	"category": "Specials",
+	"Name": "Dudley / ダッドリー",
+	"Category": "Specials",
 	"Jet Uppercut (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "4",
 		"Hit": "8",
 		"Recovery": "29",
-		"Blk. Adv.": "-23",
+		"Block Advantage": "-23",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "17",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (Strong)": {
 		"Motion": "DPM + Strong",
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "28",
-		"Blk. Adv.": "-30",
+		"Block Advantage": "-30",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "19",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
-		"Blk. Adv.": "-38",
+		"Block Advantage": "-38",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "20",
-		"BarGainAtt": "3 / 22 / 16",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 16",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (EX)": {
 		"Motion": "DPM + 2 Punches",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "34",
-		"Blk. Adv.": "-37",
+		"Block Advantage": "-37",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "37",
 		"Stun": "20",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Machine Gun Blow (Jab)": {
 		"Motion": "HCF + Jab",
 		"Startup": "8",
 		"Hit": "8",
 		"Recovery": "18",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "7",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (Strong)": {
 		"Motion": "HCF + Strong",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "24",
-		"Blk. Adv.": "-9",
+		"Block Advantage": "-9",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "7",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (Fierce)": {
 		"Motion": "HCF + Fierce",
 		"Startup": "17",
 		"Hit": "13",
 		"Recovery": "30",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "9",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (EX)": {
 		"Motion": "HCF + 2 Punches",
 		"Startup": "16",
 		"Hit": "17",
 		"Recovery": "28",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "10",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Ducking Rush": {
 		"Motion": "HCF + K",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Ducking Straight": {
 		"Motion": "Punch",
 		"Startup": "21/20/22",
 		"Hit": "4",
 		"Recovery": "19",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "17",
-		"BarGainAtt": "3 / 19 / 10",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 10",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Ducking Upper": {
 		"Motion": "Kick",
 		"Startup": "20/19/21",
 		"Hit": "4",
 		"Recovery": "25",
-		"Blk. Adv.": "-12",
+		"Block Advantage": "-12",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "30",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 11",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 11",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cross Counter (Jab)": {
 		"Motion": "HCB + Jab",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (Strong)": {
 		"Motion": "HCB + Strong",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (Fierce)": {
 		"Motion": "HCB + Fierce",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (EX)": {
 		"Motion": "HCB + 2 Punches",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Short Swing Blow (Short)": {
 		"Motion": "HCB + Short",
 		"Startup": "17",
 		"Hit": "3",
 		"Recovery": "13",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "33",
 		"Stun": "19",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (Forward)": {
 		"Motion": "HCB + Forward",
 		"Startup": "20",
 		"Hit": "3",
 		"Recovery": "13",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "33",
 		"Stun": "19",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (RH)": {
 		"Motion": "HCB + RH",
 		"Startup": "23",
 		"Hit": "3",
 		"Recovery": "13",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -394,15 +394,15 @@
 		"Throw Range": "-",
 		"Damage": "33",
 		"Stun": "19",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (EX)": {
 		"Motion": "HCB + 2 Kicks",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -416,7 +416,7 @@
 		"Throw Range": "-",
 		"Damage": "33",
 		"Stun": "22",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

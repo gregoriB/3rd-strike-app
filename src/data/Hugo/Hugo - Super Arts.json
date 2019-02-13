@@ -1,12 +1,12 @@
 {
-	"name": "Hugo / ヒューゴー",
-	"category": "Super Arts",
+	"Name": "Hugo / ヒューゴー",
+	"Category": "Super Arts",
 	"Gigas Breaker": {
 		"Motion": "720 + Punch",
 		"Startup": "0",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "2",
 		"Hit": "12",
 		"Recovery": "30",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "34",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -66,7 +66,7 @@
 		"Startup": "6",
 		"Hit": "20",
 		"Recovery": "36",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,7 +86,7 @@
 		"Startup": "4",
 		"Hit": "18",
 		"Recovery": "47",
-		"Blk. Adv.": "-29",
+		"Block Advantage": "-29",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -100,5 +100,5 @@
 		"Throw Range": "-",
 		"Damage": "64",
 		"Stun": "24"
-	}
+  }
 }

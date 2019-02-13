@@ -1,12 +1,12 @@
 {
-	"name": "Gouki / ゴウキ / 豪鬼",
-	"category": "- Super Arts",
+	"Name": "Gouki / ゴウキ",
+	"Category": "Super Arts",
 	"Messatsu Gou Hadou": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "2",
 		"Hit": "42",
 		"Recovery": "N/A",
-		"Blk. Adv.": "-13",
+		"Block Advantage": "-13",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "7",
 		"Hit": "32",
 		"Recovery": "N/A",
-		"Blk. Adv.": "-15",
+		"Block Advantage": "-15",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "0",
 		"Hit": "24",
 		"Recovery": "37",
-		"Blk. Adv.": "-25",
+		"Block Advantage": "-25",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -66,7 +66,7 @@
 		"Startup": "3",
 		"Hit": "22",
 		"Recovery": "51",
-		"Blk. Adv.": "-76",
+		"Block Advantage": "-76",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,7 +86,7 @@
 		"Startup": "1",
 		"Hit": "27",
 		"Recovery": "45",
-		"Blk. Adv.": "-56",
+		"Block Advantage": "-56",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -106,7 +106,7 @@
 		"Startup": "4",
 		"Hit": "39",
 		"Recovery": "2",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -126,7 +126,7 @@
 		"Startup": "15",
 		"Hit": "24",
 		"Recovery": "64",
-		"Blk. Adv.": "-28",
+		"Block Advantage": "-28",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -140,5 +140,5 @@
 		"Throw Range": "-",
 		"Damage": "107",
 		"Stun": "28"
-	}
+  }
 }

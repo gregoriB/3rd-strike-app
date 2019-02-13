@@ -1,12 +1,12 @@
 {
-	"name": "Ken / ケン",
-	"category": "- Specials",
+	"Name": "Ken / ケン",
+	"Category": "Specials",
 	"Hadouken (Jab)": {
 		"Motion": "QCF + Jab",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Strong)": {
 		"Motion": "QCF + Strong",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "1",
 		"Stun": "0",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Fierce)": {
 		"Motion": "QCF + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (EX)": {
 		"Motion": "QCF + 2 Punches",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "20",
 		"Stun": "5",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Shoryuken (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "2",
 		"Hit": "8",
 		"Recovery": "26",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "11",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Strong)": {
 		"Motion": "DPM + Strong",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "28",
-		"Blk. Adv.": "-24",
+		"Block Advantage": "-24",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "15",
-		"BarGainAtt": "3 / 22 / 16",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 16",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
-		"Blk. Adv.": "-31",
+		"Block Advantage": "-31",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "15",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (EX)": {
 		"Motion": "DPM + 2 Punches",
 		"Startup": "1",
 		"Hit": "20",
 		"Recovery": "38",
-		"Blk. Adv.": "-36",
+		"Block Advantage": "-36",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "34",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "14",
-		"Blk. Adv.": "-5",
+		"Block Advantage": "-5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "9",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "6",
 		"Hit": "14",
 		"Recovery": "15",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "13",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (RH)": {
 		"Motion": "QCB + RH",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "15",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "15",
-		"BarGainAtt": "3 / 22 / 16",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 22 / 16",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (EX)": {
 		"Motion": "QCB + 2 Kicks",
 		"Startup": "4",
 		"Hit": "21",
 		"Recovery": "13",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "34",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Short)": {
 		"Motion": "QCB + Short (Air)",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "-",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "9",
-		"BarGainAtt": "2 / 17 / 3",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "2 / 17 / 3",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Forward)": {
 		"Motion": "QCB + Forward (Air)",
 		"Startup": "7",
 		"Hit": "6",
 		"Recovery": "-",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "40",
 		"Stun": "13",
-		"BarGainAtt": "3 / 25 / 3",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 25 / 3",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (RH)": {
 		"Motion": "QCB + RH (Air)",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "-",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "40",
 		"Stun": "13",
-		"BarGainAtt": "4 / 26 / 3",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "4 / 26 / 3",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (EX)": {
 		"Motion": "QCB + 2 Kicks (Air)",
 		"Startup": "6",
 		"Hit": "13",
 		"Recovery": "-",
-		"Blk. Adv.": "2",
+		"Block Advantage": "2",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -350,7 +350,7 @@
 		"Throw Range": "-",
 		"Damage": "52",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

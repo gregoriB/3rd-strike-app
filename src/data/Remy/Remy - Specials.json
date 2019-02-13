@@ -1,12 +1,12 @@
 {
-	"name": "Remy / レミー",
-	"category": "- Specials",
+	"Name": "Remy / レミー",
+	"Category": "Specials",
 	"Light of Virtue (Jab)": {
 		"Motion": "Hold B...F + Jab",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "22",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Strong)": {
 		"Motion": "Hold B...F + Strong",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "22",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Fierce)": {
 		"Motion": "Hold B...F + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "22",
-		"Blk. Adv.": "5",
+		"Block Advantage": "5",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX High)": {
 		"Motion": "Hold B...F + 2 Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "20",
 		"Stun": "5",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX Low)": {
 		"Motion": "Hold B...F + 2 Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
-		"Blk. Adv.": "0",
+		"Block Advantage": "0",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "20",
 		"Stun": "5",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Short)": {
 		"Motion": "Hold B...F + Short",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "26",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Forward)": {
 		"Motion": "Hold B...F + Forward",
 		"Startup": "12",
 		"Hit": "-",
 		"Recovery": "26",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (RH)": {
 		"Motion": "Hold B...F + RH",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "26",
-		"Blk. Adv.": "1",
+		"Block Advantage": "1",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "10",
 		"Stun": "3",
-		"BarGainAtt": "0 / 1 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 1 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Rising Rage Flash (Short)": {
 		"Motion": "Hold D...U + Short",
 		"Startup": "3",
 		"Hit": "3",
 		"Recovery": "32",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "9",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (Forward)": {
 		"Motion": "Hold D...U + Forward",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "39",
-		"Blk. Adv.": "-23",
+		"Block Advantage": "-23",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "7",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (RH)": {
 		"Motion": "Hold D...U + RH",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "44",
-		"Blk. Adv.": "-26",
+		"Block Advantage": "-26",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "7",
-		"BarGainAtt": "3 / 17 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 17 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (EX)": {
 		"Motion": "Hold D...U + 2 Kicks",
 		"Startup": "6",
 		"Hit": "5",
 		"Recovery": "41",
-		"Blk. Adv.": "-21",
+		"Block Advantage": "-21",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "13",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Cold Blue Kick (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "10",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "7",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "18",
 		"Hit": "10",
 		"Recovery": "10",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "7",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (RH)": {
 		"Motion": "QCB + RH",
 		"Startup": "19",
 		"Hit": "12",
 		"Recovery": "10",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "7",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (EX)": {
 		"Motion": "QCB + 2 Kicks",
 		"Startup": "18",
 		"Hit": "9",
 		"Recovery": "10",
-		"Blk. Adv.": "-1",
+		"Block Advantage": "-1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -350,7 +350,7 @@
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "11",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

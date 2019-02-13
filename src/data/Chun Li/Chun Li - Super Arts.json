@@ -1,12 +1,12 @@
 {
-	"name": "Chun Li / 春麗 / チュンリー",
-	"category": "- Super Arts",
+	"Name": "Chun Li / チュンリー",
+	"Category": "Super Arts",
 	"Kikoshou": {
 		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "20",
 		"Recovery": "48",
-		"Blk. Adv.": "-39",
+		"Block Advantage": "-39",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "35",
-		"Blk. Adv.": "-23",
+		"Block Advantage": "-23",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "2",
 		"Hit": "16",
 		"Recovery": "46",
-		"Blk. Adv.": "-30",
+		"Block Advantage": "-30",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -60,5 +60,5 @@
 		"Throw Range": "-",
 		"Damage": "49",
 		"Stun": "19"
-	}
+  }
 }

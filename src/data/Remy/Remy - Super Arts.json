@@ -1,12 +1,12 @@
 {
-	"name": "Remy / レミー",
-	"category": "- Super Arts",
+	"Name": "Remy / レミー",
+	"Category": "Super Arts",
 	"Light of Justice": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "1",
 		"Hit": "-",
 		"Recovery": "N/A",
-		"Blk. Adv.": "3",
+		"Block Advantage": "3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "0",
 		"Hit": "16",
 		"Recovery": "53",
-		"Blk. Adv.": "-29",
+		"Block Advantage": "-29",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -46,7 +46,7 @@
 		"Startup": "0",
 		"Hit": "21",
 		"Recovery": "27",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -60,5 +60,5 @@
 		"Throw Range": "-",
 		"Damage": "75",
 		"Stun": "14"
-	}
+  }
 }

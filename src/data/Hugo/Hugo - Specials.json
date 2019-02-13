@@ -1,12 +1,12 @@
 {
-	"name": "Hugo / ヒューゴー",
-	"category": "Specials",
+	"Name": "Hugo / ヒューゴー",
+	"Category": "Specials",
 	"Shootdown Backbreaker (Short)": {
 		"Motion": "DPM + Short",
 		"Startup": "5",
 		"Hit": "9",
 		"Recovery": "30",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -20,15 +20,15 @@
 		"Throw Range": "34",
 		"Damage": "32",
 		"Stun": "14",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Shootdown Backbreaker (Forward)": {
 		"Motion": "DPM + Forward",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "25",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -42,15 +42,15 @@
 		"Throw Range": "39",
 		"Damage": "32",
 		"Stun": "14",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Shootdown Backbreaker (RH)": {
 		"Motion": "DPM + RH",
 		"Startup": "12",
 		"Hit": "12",
 		"Recovery": "29",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -64,15 +64,15 @@
 		"Throw Range": "30",
 		"Damage": "32",
 		"Stun": "14",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Moonsault Press (Jab)": {
 		"Motion": "360 + Jab",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,15 +86,15 @@
 		"Throw Range": "44",
 		"Damage": "42",
 		"Stun": "18",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Moonsault Press (Strong)": {
 		"Motion": "360 + Strong",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "38",
 		"Damage": "45",
 		"Stun": "18",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Moonsault Press (Fierce)": {
 		"Motion": "360 + Fierce",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "32",
 		"Damage": "49",
 		"Stun": "18",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Meat Squasher (Short)": {
 		"Motion": "360 + Short",
 		"Startup": "21 ~ 24",
 		"Hit": "2",
 		"Recovery": "30",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Meat Squasher (Forward)": {
 		"Motion": "360 + Forward",
 		"Startup": "31 ~ 52",
 		"Hit": "2",
 		"Recovery": "33",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -174,15 +174,15 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Meat Squasher (RH)": {
 		"Motion": "360 + RH",
 		"Startup": "44 ~ 67",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"BarGainAtt": "2 / 31 / ---",
-		"BarGainOpp": "8 / ---"
+		"Meter Gain Player": "2 / 31 / ---",
+		"Meter Gain Opponent": "8 / ---"
 	},
 	"Giant Palm Bomber (Jab)": {
 		"Motion": "QCB + Jab",
 		"Startup": "17",
 		"Hit": "2",
 		"Recovery": "9",
-		"Blk. Adv.": "11",
+		"Block Advantage": "11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "15",
-		"BarGainAtt": "3 / 22 / 12",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 12",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (Strong)": {
 		"Motion": "QCB + Strong",
 		"Startup": "19",
 		"Hit": "2",
 		"Recovery": "7",
-		"Blk. Adv.": "16",
+		"Block Advantage": "16",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "17",
-		"BarGainAtt": "3 / 22 / 12",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 12",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (Fierce)": {
 		"Motion": "QCB + Fierce",
 		"Startup": "22",
 		"Hit": "2",
 		"Recovery": "6",
-		"Blk. Adv.": "19",
+		"Block Advantage": "19",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -262,15 +262,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "19",
-		"BarGainAtt": "3 / 22 / 12",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 22 / 12",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (EX)": {
 		"Motion": "QCB + 2 Punches",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "10",
-		"Blk. Adv.": "10",
+		"Block Advantage": "10",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -284,15 +284,15 @@
 		"Throw Range": "-",
 		"Damage": "36",
 		"Stun": "12",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Monster Lariat (Short)": {
 		"Motion": "QCF + Short",
 		"Startup": "11",
 		"Hit": "5",
 		"Recovery": "21 ~ 25",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "11",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (Forward)": {
 		"Motion": "QCF + Forward",
 		"Startup": "15",
 		"Hit": "5",
 		"Recovery": "23 ~ 27",
-		"Blk. Adv.": "-10",
+		"Block Advantage": "-10",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "13",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (RH)": {
 		"Motion": "QCF + RH",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "24 ~ 28",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "30",
 		"Stun": "15",
-		"BarGainAtt": "3 / 18 / 12",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 18 / 12",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (EX)": {
 		"Motion": "QCF + 2 Kick",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "31 ~ 35",
-		"Blk. Adv.": "-22",
+		"Block Advantage": "-22",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "13",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Ultra Throw (Short)": {
 		"Motion": "HCB + Short",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -394,15 +394,15 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"BarGainAtt": "2 / 20 / ---",
-		"BarGainOpp": "4 / ---"
+		"Meter Gain Player": "2 / 20 / ---",
+		"Meter Gain Opponent": "4 / ---"
 	},
 	"Ultra Throw (Forward)": {
 		"Motion": "HCB + Forward",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -416,15 +416,15 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"BarGainAtt": "2 / 20 / ---",
-		"BarGainOpp": "4 / ---"
+		"Meter Gain Player": "2 / 20 / ---",
+		"Meter Gain Opponent": "4 / ---"
 	},
 	"Ultra Throw (RH)": {
 		"Motion": "HCB + RH",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -438,7 +438,7 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"BarGainAtt": "2 / 20 / ---",
-		"BarGainOpp": "4 / ---"
-	}
+		"Meter Gain Player": "2 / 20 / ---",
+		"Meter Gain Opponent": "4 / ---"
+  }
 }

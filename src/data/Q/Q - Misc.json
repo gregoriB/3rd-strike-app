@@ -1,16 +1,40 @@
 {
-	"name": "Q",
-	"category": "Misc",
-	"Neutral jump startup": "6",
-	"Backward jump startup": "6",
-	"Forward jump startup": "6",
-	"Neutral superjump startup": "7",
-	"Backward superjump startup": "7",
-	"Forward superjump startup": "7",
-	"Dash backward (full animation)": "30",
-	"Dash backward (recovery cancelled)": "24",
-	"Dash forward (full animation)": "30",
-	"Dash forward (recovery cancelled)": "20",
-	"Wakeup": "72 (36 + 36)",
-	"Wakeup (quick roll)": "46 (16 + 30)"
+	"Name": "Q / キュ",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "6"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "6"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "6"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "7"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "7"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "7"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "30"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "24"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "30"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "20"
+  },
+	"Wakeup": {
+    "Frames": "72 (36 + 36)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "46 (16 + 30)"  
+  }
 }

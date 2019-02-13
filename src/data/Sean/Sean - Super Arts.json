@@ -1,12 +1,12 @@
 {
-	"name": "Sean / しゃん / ショーン",
-	"category": "- Super Arts",
+	"Name": "Sean / ショーン",
+	"Category": "Super Arts",
 	"Hadou Burst": {
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "2",
 		"Hit": "-",
 		"Recovery": "61",
-		"Blk. Adv.": "-29",
+		"Block Advantage": "-29",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "0",
 		"Hit": "36",
 		"Recovery": "36",
-		"Blk. Adv.": "-43",
+		"Block Advantage": "-43",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "1",
 		"Hit": "14",
 		"Recovery": "53",
-		"Blk. Adv.": "-31",
+		"Block Advantage": "-31",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -60,5 +60,5 @@
 		"Throw Range": "-",
 		"Damage": "76",
 		"Stun": "14"
-	}
+  }
 }

@@ -1,12 +1,12 @@
 {
-	"name": "Ibuki / いぶき / イブキ",
-	"category": "- Specials",
+	"Name": "Ibuki / イブキ",
+	"Category": "Specials",
 	"Kunai (Jab)": {
 		"Motion": "(Air) QCF + Jab",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Strong)": {
 		"Motion": "(Air) QCF + Strong",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Fierce)": {
 		"Motion": "(Air) QCF + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "8",
 		"Stun": "3",
-		"BarGainAtt": "0 / 2 / 1",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (EX)": {
 		"Motion": "(Air) QCF + 2 Punches",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "18",
 		"Stun": "5",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Raida (Jab)": {
 		"Motion": "HCB + Jab",
 		"Startup": "4",
 		"Hit": "3",
 		"Recovery": "28",
-		"Blk. Adv.": "-5",
+		"Block Advantage": "-5",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "44",
 		"Damage": "28",
 		"Stun": "8",
-		"BarGainAtt": "0 / 13 / 0",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "0 / 13 / 0",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raida (Strong)": {
 		"Motion": "HCB + Strong",
 		"Startup": "5",
 		"Hit": "5",
 		"Recovery": "30",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "46",
 		"Damage": "30",
 		"Stun": "10",
-		"BarGainAtt": "0 / 13 / 0",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "0 / 13 / 0",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raida (Fierce)": {
 		"Motion": "HCB + Fierce",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "32",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "48",
 		"Damage": "32",
 		"Stun": "12",
-		"BarGainAtt": "0 / 13 / 0",
-		"BarGainOpp": "3 / 0"
+		"Meter Gain Player": "0 / 13 / 0",
+		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hien (Short)": {
 		"Motion": "RDP + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "23",
-		"Blk. Adv.": "-32",
+		"Block Advantage": "-32",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (Forward)": {
 		"Motion": "RDP + Forward",
 		"Startup": "25",
 		"Hit": "3",
 		"Recovery": "17",
-		"Blk. Adv.": "-39",
+		"Block Advantage": "-39",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "13",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (RH)": {
 		"Motion": "RDP + RH",
 		"Startup": "28",
 		"Hit": "4",
 		"Recovery": "16",
-		"Blk. Adv.": "-36",
+		"Block Advantage": "-36",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "25",
 		"Stun": "15",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (EX)": {
 		"Motion": "RDP + 2 Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "13",
-		"Blk. Adv.": "-32",
+		"Block Advantage": "-32",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "15",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kubiori": {
 		"Motion": "QCF + Punch",
 		"Startup": "14\n15\n17",
 		"Hit": "11\n12\n14",
 		"Recovery": "15\n18\n19",
-		"Blk. Adv.": "-10\n-16\n-19",
+		"Block Advantage": "-10\n-16\n-19",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -262,15 +262,15 @@
 		"Throw Range": "40",
 		"Damage": "26",
 		"Stun": "14",
-		"BarGainAtt": "2 / 10 / 6",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "2 / 10 / 6",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Kubiori (EX)": {
 		"Motion": "QCF + 2 Punches",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "19",
-		"Blk. Adv.": "-27",
+		"Block Advantage": "-27",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "40",
 		"Damage": "32",
 		"Stun": "18",
-		"BarGainAtt": "-38 / -38 / -34",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-38 / -38 / -34",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kazekiri (Short)": {
 		"Motion": "DPM + Short",
 		"Startup": "4",
 		"Hit": "12",
 		"Recovery": "26",
-		"Blk. Adv.": "-20",
+		"Block Advantage": "-20",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "9",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (Forward)": {
 		"Motion": "DPM + Forward",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "29",
-		"Blk. Adv.": "-19",
+		"Block Advantage": "-19",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
-		"BarGainAtt": "3 / 23 / 17",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 23 / 17",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (RH)": {
 		"Motion": "DPM + RH",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "29",
-		"Blk. Adv.": "-20",
+		"Block Advantage": "-20",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "30",
 		"Stun": "16",
-		"BarGainAtt": "3 / 24 / 18",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 24 / 18",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (EX)": {
 		"Motion": "DPM + 2 Kicks",
 		"Startup": "4",
 		"Hit": "11",
 		"Recovery": "33",
-		"Blk. Adv.": "-21",
+		"Block Advantage": "-21",
 		"Cancel": {
 			"??": true,
 			"Super Art": true,
@@ -372,15 +372,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "14",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tsumuji (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "19",
-		"Blk. Adv.": "-4",
+		"Block Advantage": "-4",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -394,15 +394,15 @@
 		"Throw Range": "-",
 		"Damage": "18",
 		"Stun": "5",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "13",
 		"Hit": "2",
 		"Recovery": "21",
-		"Blk. Adv.": "-2",
+		"Block Advantage": "-2",
 		"Cancel": {
 			"??": true,
 			"Super Art": false,
@@ -416,15 +416,15 @@
 		"Throw Range": "-",
 		"Damage": "18",
 		"Stun": "5",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (Roundhouse)": {
 		"Motion": "QCB + RH",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "24",
-		"Blk. Adv.": "-8",
+		"Block Advantage": "-8",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -438,15 +438,15 @@
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "11",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (EX)": {
 		"Motion": "QCB + 2 Kicks",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "28",
-		"Blk. Adv.": "-11",
+		"Block Advantage": "-11",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -460,15 +460,15 @@
 		"Throw Range": "-",
 		"Damage": "35",
 		"Stun": "13",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kasumi Gake": {
 		"Motion": "QCF + Kick",
 		"Startup": "20/22/25",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -482,7 +482,7 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
-	}
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
+  }
 }

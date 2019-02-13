@@ -1,12 +1,12 @@
 {
-	"name": "Sean / しゃん / ショーン",
-	"category": "- Specials",
+	"Name": "Sean / ショーン",
+	"Category": "Specials",
 	"Sean Roll (Jab)": {
 		"Motion": "QCB + Jab",
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "7",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -20,15 +20,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Sean Roll (Strong)": {
 		"Motion": "QCB + Strong",
 		"Startup": "2",
 		"Hit": "29",
 		"Recovery": "7",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -42,15 +42,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Sean Roll (Fierce)": {
 		"Motion": "QCB + Fierce",
 		"Startup": "2",
 		"Hit": "43",
 		"Recovery": "7",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -64,15 +64,15 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
-		"BarGainAtt": "-",
-		"BarGainOpp": "-"
+		"Meter Gain Player": "-",
+		"Meter Gain Opponent": "-"
 	},
 	"Ryuubi Kyaku (Short)": {
 		"Motion": "QCF + Short",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -86,15 +86,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "19",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (Forward)": {
 		"Motion": "QCF + Forward",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -108,15 +108,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "19",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (RH)": {
 		"Motion": "QCF + RH",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -130,15 +130,15 @@
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "19",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "6 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (EX)": {
 		"Motion": "QCF + 2 Kicks",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Blk. Adv.": "-1",
+		"Block Advantage": "-1",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -152,15 +152,15 @@
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "19",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tornado Kick (Short)": {
 		"Motion": "QCB + Short",
 		"Startup": "11",
 		"Hit": "4",
 		"Recovery": "21",
-		"Blk. Adv.": "-7",
+		"Block Advantage": "-7",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -174,15 +174,15 @@
 		"Throw Range": "-",
 		"Damage": "16",
 		"Stun": "9",
-		"BarGainAtt": "3 / 19 / 13",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 19 / 13",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (Forward)": {
 		"Motion": "QCB + Forward",
 		"Startup": "14",
 		"Hit": "8",
 		"Recovery": "21",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -196,15 +196,15 @@
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "13",
-		"BarGainAtt": "3 / 20 / 14",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 20 / 14",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (RH)": {
 		"Motion": "QCB + RH",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "21",
-		"Blk. Adv.": "-6",
+		"Block Advantage": "-6",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -218,15 +218,15 @@
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "17",
-		"BarGainAtt": "3 / 21 / 15",
-		"BarGainOpp": "4 / 0"
+		"Meter Gain Player": "3 / 21 / 15",
+		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (EX)": {
 		"Motion": "QCB + 2 Kicks",
 		"Startup": "9",
 		"Hit": "11",
 		"Recovery": "17",
-		"Blk. Adv.": "-3",
+		"Block Advantage": "-3",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -240,15 +240,15 @@
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "21",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tackle (All Versions)": {
 		"Motion": "HCF + Punch, Tap Punch",
 		"Startup": "18/22/26",
 		"Hit": "2",
 		"Recovery": "28",
-		"Blk. Adv.": "-14",
+		"Block Advantage": "-14",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -262,15 +262,15 @@
 		"Throw Range": "34",
 		"Damage": "30",
 		"Stun": "16",
-		"BarGainAtt": "0 / 11 / 0",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "0 / 11 / 0",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Tackle (EX)": {
 		"Motion": "HCF + 2 Punches, Tap Punch",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "28",
-		"Blk. Adv.": "-14",
+		"Block Advantage": "-14",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -284,15 +284,15 @@
 		"Throw Range": "34",
 		"Damage": "40",
 		"Stun": "28",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dragon Smash (Jab)": {
 		"Motion": "DPM + Jab",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
-		"Blk. Adv.": "-24",
+		"Block Advantage": "-24",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -306,15 +306,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
-		"BarGainAtt": "2 / 11 / 6",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "2 / 11 / 6",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (Strong)": {
 		"Motion": "DPM + Forward",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
-		"Blk. Adv.": "-24",
+		"Block Advantage": "-24",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -328,15 +328,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
-		"BarGainAtt": "2 / 11 / 6",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "2 / 11 / 6",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (Fierce)": {
 		"Motion": "DPM + Fierce",
 		"Startup": "9",
 		"Hit": "9",
 		"Recovery": "42",
-		"Blk. Adv.": "-34",
+		"Block Advantage": "-34",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -350,15 +350,15 @@
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
-		"BarGainAtt": "2 / 11 / 6",
-		"BarGainOpp": "2 / 0"
+		"Meter Gain Player": "2 / 11 / 6",
+		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (EX)": {
 		"Motion": "DPM + 2 Punches",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "42",
-		"Blk. Adv.": "-37",
+		"Block Advantage": "-37",
 		"Cancel": {
 			"??": false,
 			"Super Art": true,
@@ -372,7 +372,7 @@
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "17",
-		"BarGainAtt": "-40 / -40 / -40",
-		"BarGainOpp": "0 / 0"
-	}
+		"Meter Gain Player": "-40 / -40 / -40",
+		"Meter Gain Opponent": "0 / 0"
+  }
 }

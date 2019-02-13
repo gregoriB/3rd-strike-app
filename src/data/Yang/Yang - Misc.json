@@ -1,16 +1,40 @@
 {
-	"name": "Yang / ヤン",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "6",
-	"Backward superjump startup": "6",
-	"Forward superjump startup": "6",
-	"Dash backward (full animation)": "43",
-	"Dash backward (recovery cancelled)": "30",
-	"Dash forward (full animation)": "40",
-	"Dash forward (recovery cancelled)": "24",
-	"Wakeup": "57 (27 + 30)",
-	"Wakeup (quick roll)": "41 (15 + 26)"
+	"Name": "Yang / ヤン",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "6"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "6"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "6"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "43"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "30"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "40"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "24"
+  },
+	"Wakeup": {
+    "Frames": "57 (27 + 30)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "41 (15 + 26)"  
+  }
 }

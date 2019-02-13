@@ -1,12 +1,12 @@
 {
-	"name": "Makoto / まこと / マコト",
-	"category": "- Super Arts",
+	"Name": "Makoto / まこと",
+	"Category": "Super Arts",
 	"Seichuusen Godanzuki": {
 		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "3",
 		"Recovery": "65",
-		"Blk. Adv.": "-17",
+		"Block Advantage": "-17",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -26,7 +26,7 @@
 		"Startup": "14 + 0",
 		"Hit": "5",
 		"Recovery": "25",
-		"Blk. Adv.": "-20",
+		"Block Advantage": "-20",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -46,7 +46,7 @@
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Blk. Adv.": "-",
+		"Block Advantage": "-",
 		"Cancel": {
 			"??": false,
 			"Super Art": false,
@@ -60,5 +60,5 @@
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-"
-	}
+  }
 }

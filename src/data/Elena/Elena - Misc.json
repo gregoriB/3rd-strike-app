@@ -1,16 +1,40 @@
 {
-	"name": "Elena / エレナ",
-	"category": "Misc",
-	"Neutral jump startup": "4",
-	"Backward jump startup": "4",
-	"Forward jump startup": "4",
-	"Neutral superjump startup": "7",
-	"Backward superjump startup": "7",
-	"Forward superjump startup": "7",
-	"Dash backward (full animation)": "26",
-	"Dash backward (recovery cancelled)": "26",
-	"Dash forward (full animation)": "25",
-	"Dash forward (recovery cancelled)": "14",
-	"Wakeup": "64 (27 + 37)",
-	"Wakeup (quick roll)": "50 (18 + 32)"
+	"Name": "Elena / エレナ",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "4"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "4"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "4"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "7"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "7"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "7"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "26"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "26"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "25"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "14"
+  },
+	"Wakeup": {
+    "Frames": "64 (27 + 37)"
+  },
+	"Wakeup (Quick Roll)": {
+		"Frames": "50 (18 + 32)"
+  }
 }

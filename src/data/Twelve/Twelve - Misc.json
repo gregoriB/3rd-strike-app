@@ -1,16 +1,40 @@
 {
-	"name": "Twelve / トゥエルヴ",
-	"category": "Misc",
-	"Neutral jump startup": "5",
-	"Backward jump startup": "5",
-	"Forward jump startup": "5",
-	"Neutral superjump startup": "7",
-	"Backward superjump startup": "7",
-	"Forward superjump startup": "7",
-	"Dash backward (full animation)": "23",
-	"Dash backward (recovery cancelled)": "19",
-	"Dash forward (full animation)": "24",
-	"Dash forward (recovery cancelled)": "21",
-	"Wakeup": "59 (27 + 32)",
-	"Wakeup (quick roll)": "49 (20 + 29)"
+	"Name": "Twelve / トゥエルヴ",
+	"Category": "Misc",
+	"Neutral jump startup": {
+    "Frames":  "5"
+  },
+  "Backward Jump Startup":  {
+    "Frames": "5"
+  }, 
+  "Forward Jump Startup": { 
+    "Frames": "5"
+  },
+	"Neutral Superjump Startup": {
+    "Frames": "7"
+  },
+	"Backward Superjump Startup": { 
+    "Frames": "7"
+  },
+  "Forward Superjump Startup": {
+    "Frames": "7"
+  },
+  "Dash backward (full animation)": {
+    "Frames": "23"
+  },
+  "Dash Backward (Recovery Cancelled)": {
+    "Frames": "19"
+  },
+	"Dash Forward (Full Animation)": {
+    "Frames": "24"
+  },
+	"Dash Forward (Recovery Cancelled)": {
+    "Frames":  "21"
+  },
+	"Wakeup": {
+    "Frames": "59 (27 + 32)"
+  },
+	"Wakeup (Quick Roll)": {
+    "Frames": "49 (20 + 29)"  
+  }
 }

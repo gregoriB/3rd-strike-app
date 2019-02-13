@@ -3,99 +3,99 @@ import { StateContext } from '../contexts/stateContext';
 import { Link } from 'react-router-dom';
 
 export default function CharacterData(props) {
-  const [dataTable, setDataTable] = useState(null);
-  const state = useContext(StateContext);
-  const char = props.currentChar ? props.currentChar : state.currentChar;
+  const state = useContext(StateContext),
+        char  = props.currentChar ? props.currentChar : state.currentChar;
 
+  const [dataTable, setDataTable] = useState(null),
+        [charInfo, setCharInfo]   = useState({name: null, category: null });
 
-  const handleChooseTable = (e) => {
+  const handleActivateButton = (e) => {
+    if (charInfo.category === e.target.value) return;
+
+    document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'))
+    e.target.classList.add('active')
     setDataTable(null);
-    const type = e.target.value;
-    type === 'Misc' ? handleSetMisc() : handleSetMoveList(type);
-  }
-  
-  const handleSetMisc = () => {
-    let newData;
-    import(`../data/${char}/${char} - Misc.json`)
-    .then(data => newData = data['default'])
-    .then(() => {
-      setDataTable(() => {
-        const charInfo = [];
-        for (const stuff in newData) {
-          if (stuff !== 'name' && stuff !== 'category') {
-            charInfo.push(<li key={Math.random() * 1000}>{stuff}: {newData[stuff]}</li>);
-          }
-        }
-
-        return charInfo;
-      });
-    });
+    handleImportData(e.target.value);
   }
 
-  const handleSetMoveList = (type) => {
-    console.log(type)
+  const handleImportData = (type) => {
+
     let moveSet;
     import(`../data/${char}/${char} - ${type}.json`)
-      .then(data => moveSet = data['default'])
-      .then(() => {
-        setDataTable(() => {
-          const newData    = Object.entries(moveSet).splice(2),
-                attackType = [],
-                th         = [],
-                td         = [];
-          newData.forEach(attack => {
-            attackType.push(attack[0]);
-            th.push(Object.keys(attack[1]))
-            td.push(Object.values(attack[1]))
-          });
-          let charInfo = [];
-          charInfo.push(th[0].map(head => <th className='table-head' key={Math.random() * 1000}>{head}</th>))
-          
-          charInfo[0].unshift(<th className='table-head' key={Math.random() * 1000}>Attack</th>)
-          
-          td.forEach(row => {
-            charInfo.push(row.map(data => {
-              return <td className='frame-data' key={Math.random() * 1000}>{typeof data !== 'object' ? data : 'cancels'}</td>;
-            }));
-          });
+    .then(data => moveSet = data['default'])
+    .then(() => {
+      setDataTable(() => {
+          //set character info for page header
+        const info      = Object.entries(moveSet).splice(0, 2);
+        setCharInfo({name: info[0][1], category: info[1][1]});
 
-          attackType.forEach((type, index)=> charInfo[index+1].unshift(<td className='attack-type' key={Math.random() * 1000}>{type}</td>))
-          
-          return charInfo = charInfo.map(info => <tr key={Math.random() * 1000}>{info}</tr> );
-        });
+        const newData   = Object.entries(moveSet).splice(2),
+              tableData = handleBuildTable(newData);
+                  
+        return (
+          <table cellSpacing='0' className='move-list'>
+            <thead><tr key={Math.random() * 1000}>{tableData[0].map(headItem => headItem)}</tr></thead>
+            <tbody>{tableData.splice(1).map(dataItem => <tr key={Math.random() * 1000}>{dataItem}</tr>)}</tbody>
+          </table>
+        )
+      });
+  });
+  }
+
+  const handleBuildTable = (data) => {
+    const attackType = data.map(item => item[0]),
+          frameData  = data.map(item => Object.values(item[1])),
+          tableHead  = ["Attack", ...Object.keys(data[0][1])],
+          tableData  = [];
+
+    tableData.push(tableHead.map(head => <th className='table-head-item' key={Math.random() * 1000}>{head}</th>));
+    frameData.forEach((row, index) => {
+      tableData.push(row.map(data => {
+        let cssClass = 'frame-data';
+        if (typeof parseInt(data) === 'number' && data < 0) (cssClass += ' negative');
+        
+        return  <td className={cssClass} key={Math.random() * 1000}>{typeof data !== 'object' ? data : 'cancels'}</td>;
+      }));
+      tableData[index + 1].unshift(<td className='attack-type' key={Math.random() * 1000}>{attackType[index]}</td>);
     });
+
+    return tableData;
   }
 
   useEffect(() => {
-    handleSetMoveList('Normals');
+    document.querySelector('.default').click();
 
-    return () => setDataTable(null)
+    return () => {
+      setDataTable(null)
+      setCharInfo(null)
+    }
   }, []);
 
   return (
     <>
+      <div className="char-head">
+        <div className='char-name'>{charInfo.name}</div>
+        <div className='char-info'>{charInfo.category}</div>
+      </div>
       <Link to='/'><button className='home-button'>HOME</button></Link>
-      <h1 className='char-name'>{state.currentChar}</h1>
       <div className="selector-buttons">
-        <button className='button-type' value='Normals' onClick={handleChooseTable}>NORMALS</button>
-        <button className='button-type' value='Specials' onClick={handleChooseTable}>SPECIALS</button>
-        <button className='button-type' value='Super Arts' onClick={handleChooseTable}>SUPER ARTS</button>
+        <button className='button-type default' value='Normals' onClick={handleActivateButton}>NORMALS</button>
+        <button className='button-type' value='Specials' onClick={handleActivateButton}>SPECIALS</button>
+        <button className='button-type' value='Super Arts' onClick={handleActivateButton}>SUPER ARTS</button>
         {
           state.currentChar === 'Yun' && 
-          <button className='button-type' value='GeneiJin normals' onClick={handleChooseTable}>
+          <button className='button-type' value='GeneiJin normals' onClick={handleActivateButton}>
             GENEIJIN NORMALS
           </button>
         }
         {
-          state.currentChar === 'Yun' && <button className='button-type' value='GeneiJin specials' onClick={handleChooseTable}>
+          state.currentChar === 'Yun' && <button className='button-type' value='GeneiJin specials' onClick={handleActivateButton}>
             GENEIJIN SPECIALS
           </button>
         }
-        <button className='button-type' value='Misc' onClick={handleChooseTable}>MISC</button>
+        <button className='button-type' value='Misc' onClick={handleActivateButton}>MISC</button>
       </div>
-      <table cellSpacing='0'>
-        <tbody>{dataTable}</tbody>
-      </table>
+      {dataTable}
       
     </>
   )
