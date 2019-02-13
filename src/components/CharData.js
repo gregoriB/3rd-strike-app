@@ -1,41 +1,40 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { StateContext } from '../contexts/stateContext';
 import { Link } from 'react-router-dom';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
-        char  = props.currentChar ? props.currentChar : state.currentChar;
-
-  const [dataTable, setDataTable] = useState(null),
-        [charInfo, setCharInfo]   = useState({name: null, category: null });
+        char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop typing the in name in address bar from causing errors
 
   const handleChooseCategory = (e) => {
-    if (charInfo.category === e.target.value) return;
+    if (state.charInfo && state.charInfo.category === e.target.value) return;
 
     document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'));
     e.target.classList.add('active');
-    setDataTable(null);
+    state.setDataTable(null);
     handleImportData(e.target.value);
   }
 
   const handleImportData = type => {
+      //using import() because 'require' doesn't work with dynamic paths
     import(`../data/${char}/${char} - ${type}.json`)
     .then(moveSet => moveSet['default'])
     .then((moveSet) => handleSetTableData(moveSet));
   }
 
   const handleSetTableData = moveSet => {
-    setDataTable(() => {
+    state.setDataTable(() => {
       //set character info for page header
-      const info      = Object.entries(moveSet).splice(0, 2);
-      setCharInfo({name: info[0][1], category: info[1][1]});
-      const newData   = Object.entries(moveSet).splice(2),
-            tableData = handleBuildTable(newData);
+      const info = Object.entries(moveSet).splice(0, 2);
+      state.setCharInfo({name: info[0][1], category: info[1][1]});
+      // build data table
+      const newData = Object.entries(moveSet).splice(2),
+            table   = handleBuildTable(newData);
                 
       return (
         <table cellSpacing='0' className='move-list'>
-          <thead><tr key={Math.random() * 1000}>{tableData[0].map(headItem => headItem)}</tr></thead>
-          <tbody>{tableData.splice(1).map(dataItem => <tr key={Math.random() * 1000}>{dataItem}</tr>)}</tbody>
+          <thead><tr key={Math.random() * 1000}>{table[0].map(headItem => headItem)}</tr></thead>
+          <tbody>{table.splice(1).map(dataItem => <tr key={Math.random() * 1000}>{dataItem}</tr>)}</tbody>
         </table>
       )
     });
@@ -52,7 +51,7 @@ export default function CharacterData(props) {
         let cssClass = 'frame-data';
         if (typeof parseInt(data) === 'number' && data < 0) (cssClass += ' negative');
         
-        return  <td className={cssClass} key={Math.random() * 1000}>{typeof data !== 'object' ? data : 'cancels'}</td>;
+        return  <td className={cssClass} key={Math.random() * 1000}>{typeof data !== 'object' ? data : handleCancelData(data)}</td> 
       }));
       tableData[index + 1].unshift(<td className='attack-type' key={Math.random() * 1000}>{attackType[index]}</td>);
     });
@@ -60,20 +59,55 @@ export default function CharacterData(props) {
     return tableData;
   }
 
+  const handleCancelData = data => {
+    let cancels = []
+    for (let cancel in data) if (data[cancel]) cancels.push(cancel);
+
+    return cancels.map(cancel => handleCheckCancelType(cancel))
+  }
+
+  const handleCheckCancelType = cancel => {
+    let type;
+    switch(cancel) {
+      case '??':
+        type = '??'
+        break;
+      case 'Super Art':
+        type = 'SA';
+        break;
+      case 'Special':
+        type = 'SP';
+        break;
+      case 'Normal/Chain':
+        type = 'NC';
+        break;
+      case 'Dash':
+        type = 'DASH';
+        break;
+      case 'Superjump':
+        type = 'SJ';
+        break;
+      default:
+        break;
+    }
+
+    return <span className={`${type} cancel`}>{type}</span>
+  }
+
   useEffect(() => {
     document.querySelector('.default').click();
 
     return () => {
-      setDataTable(null)
-      setCharInfo(null)
+      state.setDataTable(null)
+      state.setCharInfo(null)
     }
   }, []);
 
   return (
     <>
       <div className="char-head">
-        <div className='char-name'>{charInfo.name}</div>
-        <div className='char-info'>{charInfo.category}</div>
+        <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
+        <div className='char-info'>{state.charInfo && state.charInfo.category}</div>
       </div>
       <Link to='/'><button className='home-button'>HOME</button></Link>
       <div className="selector-buttons">
@@ -93,7 +127,7 @@ export default function CharacterData(props) {
         }
         <button className='button-type' value='Misc' onClick={handleChooseCategory}>MISC</button>
       </div>
-      {dataTable}
+      {state.dataTable}
     </>
   )
 }

@@ -127,6 +127,10 @@ td {
   padding: 5px 10px;
 }
 
+td div {
+  display: inline-block;
+}
+
 thead tr th {
   background: rgb(160, 160, 160);
 }
@@ -146,7 +150,7 @@ tr:hover td {
 }
 
 tr:active td {
-  background-color: rgba(255, 153, 0, 0.74);
+  background-color: rgba(255, 153, 0, 0.377);
   transition: 1s;
   transition-delay: 0s;
 }
@@ -200,4 +204,32 @@ div.selector-buttons button.active {
 
 button:hover {
   cursor: pointer;
+}
+
+.cancel {
+  font-weight: bold;
+  margin: 0 3px;
+  text-shadow: 1px 1px black;
+  color: rgb(172, 194, 255);
+}
+
+.SA {
+  color: rgb(196,250,235);
+}
+
+.NC {
+  color: black;
+  text-shadow: none;
+}
+
+.SP {
+  color: rgb(245,154,25);
+}
+
+.SJ {
+  color: white;
+}
+
+.DASH {
+  color: rgb(0, 184, 0);
 }
