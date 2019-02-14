@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tourou Zan (EX)": {
-		"Motion": "QCF + 2 Punches",
+		"Motion": "QCF + 2-Punches",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "26",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Senkyuutai (RH)": {
-		"Motion": "QCF + RH",
+		"Motion": "QCF + Roundhouse",
 		"Startup": "29",
 		"Hit": "8",
 		"Recovery": "25",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Senkyuutai (EX)": {
-		"Motion": "QCF + 2 Kicks",
+		"Motion": "QCF + 2-Kicks",
 		"Startup": "29",
 		"Hit": "8",
 		"Recovery": "25",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Kaihou (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "15",
 		"Hit": "12",
 		"Recovery": "16",

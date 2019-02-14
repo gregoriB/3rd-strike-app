@@ -65,7 +65,7 @@
 		"Stun": "0"
 	},
 	"Aegis Reflector (EX)": {
-		"Motion": "QCF x 2 + 2 Punches",
+		"Motion": "QCF x 2 + 2-Punches",
 		"Startup": "-2 (9)",
 		"Hit": "-",
 		"Recovery": "12",

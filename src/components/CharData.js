@@ -27,7 +27,7 @@ export default function CharacterData(props) {
     state.setDataTable(() => {
         //set character info for page header
       const info = Object.entries(moveSet).splice(0, 2);
-      state.setCharInfo({name: info[0][1], category: info[1][1]});
+      state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
         // build data table
       const newData = Object.entries(moveSet).splice(2);
       const table   = handleBuildTable(newData);
@@ -48,16 +48,118 @@ export default function CharacterData(props) {
           tableData  = [];
     tableData.push(tableHead.map(head => <th className='table-head-item' key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
-      tableData.push(row.map(data => {
-        let cssClass = 'frame-data';
-        if (typeof parseInt(data) === 'number' && data < 0) (cssClass += ' negative');
-        
-        return  <td className={cssClass} key={uniqueKey.incrementKey()}>{typeof data !== 'object' ? data : handleCancelData(data)}</td> 
-      }));
-      tableData[index + 1].unshift(<td className='attack-type' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
+      tableData.push(row.map(data => handleDetermineDataType(data)));
+      tableData[index + 1].unshift(<td className='attack' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
     });
 
     return tableData;
+  }
+
+  const handleDetermineDataType = data => {
+    let type = data;
+    let cssClass = 'misc-data';
+    if (data < 0) cssClass = 'negative';
+    else if (data > 0) cssClass = 'positive';
+    else if (data > -1 && data < 1) cssClass = 'neutral'
+    else if (typeof data === 'object') {
+      cssClass = 'cancel-data';
+      type = handleCancelData(data);
+    }
+    else if (typeof data === 'string') type = handleCleanString(data);
+
+    return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>
+  }  
+
+  const handleCleanString = data => {
+    const splitData = data.split(' ').length > 1 ? data.split(' ') : data.split('+');
+    const newData = [];
+    let cssClass;
+    for (let item of splitData) {
+      const arr = []
+      switch(item) {
+        case 'QCB':
+        case 'QCF':
+        case 'HCB':
+        case 'HCF':
+        case 'DPM':
+        case '360':
+        case '720':
+          return handleControllerMotions(splitData);
+        case '0':
+          cssClass = 'neutral';
+          break;
+        case 'D':
+          cssClass = 'down';
+          break;
+        case 'H':
+          cssClass = 'high';
+          break;
+        case 'L':
+          cssClass = 'low';
+          break;
+        default:
+          cssClass = 'separator';
+          break;
+      }
+      if (item > 0 && parseInt(item)) cssClass = 'positive';
+      else if (item < 0 && parseInt(item)) cssClass = 'negative';
+      else if (item[0] === '(' || item[item.length - 1] === ')') {
+        for (let character of item) {
+          if (character > 0) cssClass = 'positive';
+          else if (character < 0) cssClass = 'negative';
+          else if (character > -1 && character < 1) cssClass = 'neutral';
+          else cssClass = 'separator';
+          arr.push(<div className={cssClass}>{character}</div>)
+        }
+      }
+      newData.push(arr.length > 0 ? arr : <div className={cssClass}>{item}</div>)
+    }
+
+    return newData;
+  }
+
+  const handleControllerMotions = data => {
+    const newData = [];
+    let cssClass;
+    for (let item of data) {
+      switch(item) {
+        case 'Jab':
+          cssClass = 'attack-type jab';
+          break;
+        case 'Strong':
+          cssClass = 'attack-type strong';
+          break;
+        case 'Fierce':
+          cssClass = 'attack-type fierce';
+          break;
+        case 'Short':
+          cssClass = 'attack-type short';
+          break;
+        case 'Forward':
+          cssClass = 'attack-type forward';
+          break;
+        case 'Roundhouse':
+          cssClass = 'attack-type roundhouse';
+          break;
+        case '2-Punches':
+          cssClass = 'attack-type punches';
+          break;
+        case '2-Kicks':
+          cssClass = 'attack-type kicks';
+          break;
+        case '(Air)':
+          cssClass = 'attack-state';
+          break;
+        case '+':
+          cssClass = 'separator';
+          break;
+        default:
+          cssClass = 'attack-motion';
+          break;
+      }
+      newData.push(<div className={cssClass}>{item}</div>)
+    }
+    return newData;
   }
 
   const handleCancelData = data => {
@@ -111,7 +213,7 @@ export default function CharacterData(props) {
         break;
       case '-':
         type = '-';
-        text = 'empty-cancel';
+        text = 'separator';
         toolTip = false;
         break;
       default:
@@ -119,7 +221,7 @@ export default function CharacterData(props) {
     }
 
     return (
-      <div className='cancel-data' key={uniqueKey.incrementKey()}>
+      <div key={uniqueKey.incrementKey()}>
         <div className={`${text || type} cancel`}>
           {type}
           <div className="tool-tip">

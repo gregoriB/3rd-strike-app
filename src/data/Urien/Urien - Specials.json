@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Metallic Sphere (EX)": {
-		"Motion": "QCF + 2 Punches",
+		"Motion": "QCF + 2-Punches",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "55",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Violence Knee Drop (EX)": {
-		"Motion": "Hold D...U + 2 Kicks",
+		"Motion": "Hold D...U + 2-Kicks",
 		"Startup": "26",
 		"Hit": "5",
 		"Recovery": "7",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Chariot rush (RH)": {
-		"Motion": "Hold B...F + RH",
+		"Motion": "Hold B...F + Roundhouse",
 		"Startup": "13",
 		"Hit": "15",
 		"Recovery": "27",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Chariot rush (EX)": {
-		"Motion": "Hold B...F + 2 Kicks",
+		"Motion": "Hold B...F + 2-Kicks",
 		"Startup": "6",
 		"Hit": "34",
 		"Recovery": "39",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Headbutt (EX)": {
-		"Motion": "Hold D...U + 2 Punches",
+		"Motion": "Hold D...U + 2-Punches",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "15",

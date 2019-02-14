@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (EX)": {
-		"Motion": "HCF + 2 Punches",
+		"Motion": "HCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "41",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (Roundhouse)": {
-		"Motion": "Hold D...U + RH",
+		"Motion": "Hold D...U + Roundhouse",
 		"Startup": "17",
 		"Hit": "8",
 		"Recovery": "-",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (EX)": {
-		"Motion": "Hold D...U + 2 Kicks",
+		"Motion": "Hold D...U + 2-Kicks",
 		"Startup": "12",
 		"Hit": "10",
 		"Recovery": "-",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (Roundhouse)": {
-		"Motion": "HCB + RH",
+		"Motion": "HCB + Roundhouse",
 		"Startup": "29",
 		"Hit": "3",
 		"Recovery": "17",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (EX)": {
-		"Motion": "HCB + 2 Kicks",
+		"Motion": "HCB + 2-Kicks",
 		"Startup": "31",
 		"Hit": "1",
 		"Recovery": "18",

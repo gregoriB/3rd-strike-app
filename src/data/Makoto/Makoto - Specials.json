@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (EX)": {
-		"Motion": "QCF + 2 Punches",
+		"Motion": "QCF + 2-Punches",
 		"Startup": "17",
 		"Hit": "6",
 		"Recovery": "24",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "6 / ---"
 	},
 	"Fukiage (EX)": {
-		"Motion": "DPM + 2 Punches",
+		"Motion": "DPM + 2-Punches",
 		"Startup": "11",
 		"Hit": "8",
 		"Recovery": "26",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (EX)": {
-		"Motion": "QCB + 2 Punches",
+		"Motion": "QCB + 2-Punches",
 		"Startup": "13",
 		"Hit": "7",
 		"Recovery": "17",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (Roundhouse)": {
-		"Motion": "QCB + RH (Air)",
+		"Motion": "QCB + Roundhouse (Air)",
 		"Startup": "16",
 		"Hit": "4",
 		"Recovery": "-",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (EX)": {
-		"Motion": "QCB + 2 Kicks (Air)",
+		"Motion": "QCB + 2-Kicks (Air)",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "-",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "2 / ---"
 	},
 	"Karakusa (Roundhouse)": {
-		"Motion": "HCB + RH",
+		"Motion": "HCB + Roundhouse",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "30",

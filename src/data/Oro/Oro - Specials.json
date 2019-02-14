@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (EX)": {
-		"Motion": "Hold D...U + 2 Punches",
+		"Motion": "Hold D...U + 2-Punches",
 		"Startup": "5",
 		"Hit": "25",
 		"Recovery": "-43",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX Low)": {
-		"Motion": "Hold B...F + 2 Punches",
+		"Motion": "Hold B...F + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX High)": {
-		"Motion": "Hold B...F + 2 Punches",
+		"Motion": "Hold B...F + 2-Punches",
 		"Startup": "21",
 		"Hit": "-",
 		"Recovery": "37",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jinchu Nobori (RH)": {
-		"Motion": "QCF + RH",
+		"Motion": "QCF + Roundhouse",
 		"Startup": "34",
 		"Hit": "6",
 		"Recovery": "16",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jinchu Nobori (EX)": {
-		"Motion": "QCF + 2 Kicks",
+		"Motion": "QCF + 2-Kicks",
 		"Startup": "31",
 		"Hit": "12",
 		"Recovery": "16",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Jinchu Nobori (EX)": {
-		"Motion": "QCF + 2 Kicks (Air)",
+		"Motion": "QCF + 2-Kicks (Air)",
 		"Startup": "8",
 		"Hit": "7",
 		"Recovery": "30",

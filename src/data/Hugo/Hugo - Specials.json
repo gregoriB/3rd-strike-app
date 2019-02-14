@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "8 / ---"
 	},
 	"Shootdown Backbreaker (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "12",
 		"Hit": "12",
 		"Recovery": "29",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "8 / ---"
 	},
 	"Meat Squasher (RH)": {
-		"Motion": "360 + RH",
+		"Motion": "360 + Roundhouse",
 		"Startup": "44 ~ 67",
 		"Hit": "2",
 		"Recovery": "36",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (EX)": {
-		"Motion": "QCB + 2 Punches",
+		"Motion": "QCB + 2-Punches",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "10",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (RH)": {
-		"Motion": "QCF + RH",
+		"Motion": "QCF + Roundhouse",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "24 ~ 28",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (EX)": {
-		"Motion": "QCF + 2 Kick",
+		"Motion": "QCF + 2-Kicks",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "31 ~ 35",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "4 / ---"
 	},
 	"Ultra Throw (RH)": {
-		"Motion": "HCB + RH",
+		"Motion": "HCB + Roundhouse",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",

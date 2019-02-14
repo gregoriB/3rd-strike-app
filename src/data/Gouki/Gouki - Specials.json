@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (RH)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "2",
 		"Hit": "18",
 		"Recovery": "10",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (RH)": {
-		"Motion": "QCB + RH (Air)",
+		"Motion": "QCB + Roundhouse (Air)",
 		"Startup": "5",
 		"Hit": "12",
 		"Recovery": "16",

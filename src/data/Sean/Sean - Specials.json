@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (RH)": {
-		"Motion": "QCF + RH",
+		"Motion": "QCF + Roundhouse",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (EX)": {
-		"Motion": "QCF + 2 Kicks",
+		"Motion": "QCF + 2-Kicks",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (RH)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "21",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (EX)": {
-		"Motion": "QCB + 2 Kicks",
+		"Motion": "QCB + 2-Kicks",
 		"Startup": "9",
 		"Hit": "11",
 		"Recovery": "17",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Tackle (EX)": {
-		"Motion": "HCF + 2 Punches, Tap Punch",
+		"Motion": "HCF + 2-Punches, Tap Punch",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "28",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (EX)": {
-		"Motion": "DPM + 2 Punches",
+		"Motion": "DPM + 2-Punches",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "42",

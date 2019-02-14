@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (EX)": {
-		"Motion": "DPM + 2 Punches",
+		"Motion": "DPM + 2-Punches",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "34",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (EX)": {
-		"Motion": "HCF + 2 Punches",
+		"Motion": "HCF + 2-Punches",
 		"Startup": "16",
 		"Hit": "17",
 		"Recovery": "28",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (EX)": {
-		"Motion": "HCB + 2 Punches",
+		"Motion": "HCB + 2-Punches",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (RH)": {
-		"Motion": "HCB + RH",
+		"Motion": "HCB + Roundhouse",
 		"Startup": "23",
 		"Hit": "3",
 		"Recovery": "13",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (EX)": {
-		"Motion": "HCB + 2 Kicks",
+		"Motion": "HCB + 2-Kicks",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "-",

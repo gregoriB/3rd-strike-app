@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX High)": {
-		"Motion": "Hold B...F + 2 Kicks",
+		"Motion": "Hold B...F + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX Low)": {
-		"Motion": "Hold B...F + 2 Kicks",
+		"Motion": "Hold B...F + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (RH)": {
-		"Motion": "Hold B...F + RH",
+		"Motion": "Hold B...F + Roundhouse",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "26",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (RH)": {
-		"Motion": "Hold D...U + RH",
+		"Motion": "Hold D...U + Roundhouse",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "44",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (EX)": {
-		"Motion": "Hold D...U + 2 Kicks",
+		"Motion": "Hold D...U + 2-Kicks",
 		"Startup": "6",
 		"Hit": "5",
 		"Recovery": "41",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (RH)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "19",
 		"Hit": "12",
 		"Recovery": "10",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (EX)": {
-		"Motion": "QCB + 2 Kicks",
+		"Motion": "QCB + 2-Kicks",
 		"Startup": "18",
 		"Hit": "9",
 		"Recovery": "10",

@@ -65,7 +65,7 @@
 		"Stun": "0"
 	},
 	"EX Kishin Riki": {
-		"Motion": "QCF x 2 + 2 Punches",
+		"Motion": "QCF x 2 + 2-Punches",
 		"Startup": "11",
 		"Hit": "1",
 		"Recovery": "25",
@@ -107,7 +107,7 @@
 		"Stun": "9"
 	},
 	"EX Yagyou Dama": {
-		"Motion": "QCF x 2 + 2 Punches",
+		"Motion": "QCF x 2 + 2-Punches",
 		"Startup": "27",
 		"Hit": "52",
 		"Recovery": "-",

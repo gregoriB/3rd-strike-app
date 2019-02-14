@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (EX)": {
-		"Motion": "(Air) QCF + 2 Punches",
+		"Motion": "(Air) QCF + 2-Punches",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "-",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (RH)": {
-		"Motion": "RDP + RH",
+		"Motion": "RDP + Roundhouse",
 		"Startup": "28",
 		"Hit": "4",
 		"Recovery": "16",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (EX)": {
-		"Motion": "RDP + 2 Kicks",
+		"Motion": "RDP + 2-Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "13",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Kubiori (EX)": {
-		"Motion": "QCF + 2 Punches",
+		"Motion": "QCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "19",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "29",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (EX)": {
-		"Motion": "DPM + 2 Kicks",
+		"Motion": "DPM + 2-Kicks",
 		"Startup": "4",
 		"Hit": "11",
 		"Recovery": "33",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (Roundhouse)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "24",
@@ -462,7 +462,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (EX)": {
-		"Motion": "QCB + 2 Kicks",
+		"Motion": "QCB + 2-Kicks",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "28",

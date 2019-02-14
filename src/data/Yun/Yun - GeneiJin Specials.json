@@ -134,7 +134,7 @@
 		"Meter Gain Opponent": "0"
 	},
 	"Nishou Kyaku (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "22",

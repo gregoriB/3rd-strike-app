@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Snake Fang (RH)": {
-		"Motion": "HCF + RH",
+		"Motion": "HCF + Roundhouse",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "32",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Spinning Punch (EX)": {
-		"Motion": "HCF + 2 Punches",
+		"Motion": "HCF + 2-Punches",
 		"Startup": "8",
 		"Hit": "17",
 		"Recovery": "23",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Flying Viper (EX)": {
-		"Motion": "QCB + 2 Punches",
+		"Motion": "QCB + 2-Punches",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "14",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raging Cobra (RH)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "27",
 		"Hit": "4",
 		"Recovery": "17",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raging Cobra (EX)": {
-		"Motion": "QCB + 2 Kicks",
+		"Motion": "QCB + 2-Kicks",
 		"Startup": "25",
 		"Hit": "4",
 		"Recovery": "17",

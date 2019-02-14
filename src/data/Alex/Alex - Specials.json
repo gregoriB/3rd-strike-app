@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Flash Chop (EX)": {
-		"Motion": "QCF + 2 Punches",
+		"Motion": "QCF + 2-Punches",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "15",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "3 / ---"
 	},
 	"Air Knee Smash (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "33",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "3 / ---"
 	},
 	"Air Knee Smash (EX)": {
-		"Motion": "DPM + 2 Kicks",
+		"Motion": "DPM + 2-Kicks",
 		"Startup": "3",
 		"Hit": "17",
 		"Recovery": "34",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Stampede (RH)": {
-		"Motion": "Hold D...U + RH",
+		"Motion": "Hold D...U + Roundhouse",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Stampede (EX)": {
-		"Motion": "Hold D...U + 2 Kicks",
+		"Motion": "Hold D...U + 2-Kicks",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
@@ -462,7 +462,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Slash Elbow (RH)": {
-		"Motion": "Hold B...F + RH",
+		"Motion": "Hold B...F + Roundhouse",
 		"Startup": "20",
 		"Hit": "1",
 		"Recovery": "23",
@@ -485,7 +485,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Slash Elbow (EX)": {
-		"Motion": "Hold B...F + 2 Kicks",
+		"Motion": "Hold B...F + 2-Kicks",
 		"Startup": "9",
 		"Hit": "6*1",
 		"Recovery": "23",
@@ -554,7 +554,7 @@
 		"Meter Gain Opponent": "4 / ---"
 	},
 	"Spiral D.D.T. (RH)": {
-		"Motion": "HCB + RH",
+		"Motion": "HCB + Roundhouse",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "13",

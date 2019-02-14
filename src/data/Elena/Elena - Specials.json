@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Scratch Wheel (RH)": {
-		"Motion": "DPM + RH",
+		"Motion": "DPM + Roundhouse",
 		"Startup": "3",
 		"Hit": "7",
 		"Recovery": "40",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Scratch Wheel (EX)": {
-		"Motion": "DPM + 2 Kicks",
+		"Motion": "DPM + 2-Kicks",
 		"Startup": "3",
 		"Hit": "8",
 		"Recovery": "42",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (RH)": {
-		"Motion": "HCF + RH",
+		"Motion": "HCF + Roundhouse",
 		"Startup": "23",
 		"Hit": "10",
 		"Recovery": "17",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (EX)": {
-		"Motion": "HCF + 2 Kicks",
+		"Motion": "HCF + 2-Kicks",
 		"Startup": "11",
 		"Hit": "13",
 		"Recovery": "15",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (EX)": {
-		"Motion": "HCB + 2 Punches",
+		"Motion": "HCB + 2-Punches",
 		"Startup": "21",
 		"Hit": "4",
 		"Recovery": "10",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (RH)": {
-		"Motion": "QCB + RH",
+		"Motion": "QCB + Roundhouse",
 		"Startup": "17",
 		"Hit": "4",
 		"Recovery": "24",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (EX)": {
-		"Motion": "QCB + 2 Kicks",
+		"Motion": "QCB + 2-Kicks",
 		"Startup": "10",
 		"Hit": "8",
 		"Recovery": "31",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (RH)": {
-		"Motion": "RDP + RH",
+		"Motion": "RDP + Roundhouse",
 		"Startup": "16",
 		"Hit": "12",
 		"Recovery": "33",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (EX)": {
-		"Motion": "RDP + 2 Kicks",
+		"Motion": "RDP + 2-Kicks",
 		"Startup": "10",
 		"Hit": "22",
 		"Recovery": "25",

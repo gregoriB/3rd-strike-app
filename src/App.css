@@ -36,6 +36,7 @@ body {
   display: inline-block;
   border: 2px solid black;
   background: rgb(185, 185, 185);
+  min-height: 5rem;
   width: 30%;
   margin: 0 auto;
 }
@@ -165,23 +166,29 @@ tr:hover td {
   border-left: none;
   border-right: none;
   transition: .1s;
-  /* transition-delay: .1s; */
+}
+
+  /* cancel data cell */
+tr td:nth-child(8) {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 tr:active td {
   background-color: rgba(255, 153, 0, 0.377);
-  transition: .1s;
-  transition-delay: 0s;
+  transition: .2s;
 }
 
 tr:nth-of-type(odd) {
   background: rgb(185, 185, 185);
 }
 
-.attack-type {
+.attack {
   text-align: left;
   font-weight: bold;
-  color: rgb(0, 0, 82);
+  color: rgb(88, 88, 88);
+  text-shadow: 1px 1px black;
 }
 
 button {
@@ -202,8 +209,47 @@ button {
   text-align: center;
 }
 
+.misc-data {
+  /* background: gray; */
+}
+
 .negative {
   color: rgb(196, 0, 0);
+}
+
+.positive {
+  color: rgb(0, 0, 224);
+}
+
+.neutral {
+  color: rgb(107, 0, 107);
+}
+
+.down {
+  color: white;
+}
+
+.high {
+  margin: 0 2px;
+  color: green;
+}
+
+.low {
+  margin: 0 2px;
+  color: yellow;
+}
+
+.separator {
+  margin: 0 4px;
+  color: orange;
+}
+
+.attack-type {
+  color: aqua
+}
+
+.attack-motion {
+  color: yellowgreen;
 }
 
 .selector-buttons button:hover {
@@ -247,16 +293,15 @@ button:hover {
 .tool-tip-info {
   padding: .3rem .5rem;
   border-radius: 5px;
-  transform: translate(-50%, 10%);
+  transform: translate(-50%, 15%);
 }
 
 .cancel {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-weight: bold;
   margin: 0 3px;
-  text-shadow: .5px .5px black;
+  text-shadow: .05rem .05rem black;
 }
 
 .empty-cancel {
@@ -268,14 +313,12 @@ button:hover {
   color: rgb(253,2,53);
 }
 
-
 .SELF:hover .tool-tip {
   transition: .3s;
   transition-delay: .2s;
   opacity: 1;
   visibility: visible;
 }
-
 
 .question-mark-single {
   color: rgb(201, 92, 59);
@@ -288,7 +331,6 @@ button:hover {
   visibility: visible;
 }
 
-
 .question-mark-double {
   color: rgb(111, 95, 202);
 }
@@ -299,7 +341,6 @@ button:hover {
   opacity: 1;
   visibility: visible;
 }
-
 
 .SA {
   color: rgb(215, 217, 253);
@@ -312,7 +353,6 @@ button:hover {
   visibility: visible;
 }
 
-
 .NC {
   color: rgb(63, 61, 61);
 }
@@ -323,7 +363,6 @@ button:hover {
   opacity: 1;
   visibility: visible;
 }
-
 
 .SP {
   color: rgb(252,242,11);
@@ -336,7 +375,6 @@ button:hover {
   visibility: visible;
 }
 
-
 .SJ {
   color: white;
 }
@@ -347,7 +385,6 @@ button:hover {
   opacity: 1;
   visibility: visible;
 }
-
 
 .DASH {
   color: rgb(0, 184, 0);
@@ -367,6 +404,7 @@ button:hover {
     overflow-y: visible;
     overflow-x: hidden;
   }
+
   body {
     margin: 0;
     padding: 0;
@@ -378,8 +416,16 @@ button:hover {
     max-width: 98%;
   }
 
+  button {
+    border-width: thin;
+  }
+
   .selector-buttons {
-    margin-top: 14%;
+    margin-top: 17%;
+  }
+
+  table {
+    border-width: thin;
   }
 
   .home-button {
@@ -405,7 +451,6 @@ button:hover {
   }
 
   td {
-    word-break: break-all;
     line-break: loose;
     white-space: normal;
     word-wrap: break-word;
@@ -417,13 +462,30 @@ button:hover {
     padding: 0 2px;
   }
 
+  tr:hover td {
+    border-color: transparent;
+  }
+
   .char-head {
+    border-width: thin;
     top: 0px;
     left: calc(50% - 110px);
+    min-height: 2rem;
+    height: 75px;
     width: 220px;
   }
 
   .home-button {
     margin-left: 0;
+  }
+
+  .cancel {
+    text-shadow: .3px .3px black;
+  }
+
+  .tool-tip * {
+    visibility: hidden;
+    border: none;
+    opacity: 0;
   }
 }
