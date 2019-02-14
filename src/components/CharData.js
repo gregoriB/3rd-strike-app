@@ -78,36 +78,36 @@ export default function CharacterData(props) {
       case '?':
         type = '?';
         text = 'question-mark-single';
-        toolTip =  'ambiguous cancel'
+        toolTip = 'ambiguous cancel'
         break;
       case '??':
         type = '??';
         text = 'question-mark-double';
-        toolTip =  'ambiguous cancel'
+        toolTip = 'ambiguous cancel'
         break;
       case 'Super Art':
         type = 'SA';
-        toolTip =  'Super Art Cancellable'
+        toolTip = 'Super Art Cancellable'
         break;
       case 'Special':
         type = 'SP';
-        toolTip =  'Special Move Cancellable'
+        toolTip = 'Special Move Cancellable'
         break;
       case 'Normal/Chain':
         type = 'NC';
-        toolTip =  'Normal/Chain Cancellable'
+        toolTip = 'Normal/Chain Cancellable'
         break;
       case 'Dash':
         type = 'DASH';
-        toolTip =  'Dash Cancellable'
+        toolTip = 'Dash Cancellable'
         break;
       case 'Superjump':
         type = 'SJ';
-        toolTip =  'Super Jump Cancellable'
+        toolTip = 'Super Jump Cancellable'
         break;
       case 'Self':
         type = 'SELF';
-        toolTip =  'cancels with itself'
+        toolTip = 'cancels with itself'
         break;
       case '-':
         type = '-';
@@ -130,23 +130,31 @@ export default function CharacterData(props) {
       </div>
     )
   }
+    //sets font size according to screen pixel width to make things more responsive
+  const handleSetFontSize = () => {
+    const fontSize = window.innerWidth;
+    document.querySelector('body').style.fontSize = `${fontSize * .01}px`;
+    document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
+  }
 
   useEffect(() => {
+    handleSetFontSize();
+    window.addEventListener('resize', handleSetFontSize)
     document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
 
     return () => {
       state.setDataTable(null)
       state.setCharInfo(null)
+      window.removeEventListener('resize', handleSetFontSize)
     }
   }, []);
 
   return (
     <>
-      <div className="char-head">
-        <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
-        <div className='char-info'>{state.charInfo && state.charInfo.category}</div>
-      </div>
-      <Link to='/'><button className='home-button'>HOME</button></Link>
+        <Link to='/'><button className='home-button'>HOME</button></Link>
+        <div className="char-head">
+          <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
+        </div>
       <div className="selector-buttons">
         <button className='button-type default' value='Normals' onClick={handleChooseCategory}>NORMALS</button>
         <button className='button-type' value='Specials' onClick={handleChooseCategory}>SPECIALS</button>
