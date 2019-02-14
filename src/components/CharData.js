@@ -73,38 +73,62 @@ export default function CharacterData(props) {
   const handleCheckCancelType = cancel => {
     let type;
     let text;
+    let toolTip;
     switch(cancel) {
+      case '?':
+        type = '?';
+        text = 'question-mark-single';
+        toolTip =  'ambiguous cancel'
+        break;
       case '??':
         type = '??';
-        text = 'question-mark-cancel';
+        text = 'question-mark-double';
+        toolTip =  'ambiguous cancel'
         break;
       case 'Super Art':
         type = 'SA';
+        toolTip =  'Super Art Cancellable'
         break;
       case 'Special':
         type = 'SP';
+        toolTip =  'Special Move Cancellable'
         break;
       case 'Normal/Chain':
         type = 'NC';
+        toolTip =  'Normal/Chain Cancellable'
         break;
       case 'Dash':
         type = 'DASH';
+        toolTip =  'Dash Cancellable'
         break;
       case 'Superjump':
         type = 'SJ';
+        toolTip =  'Super Jump Cancellable'
         break;
       case 'Self':
         type = 'SELF';
+        toolTip =  'cancels with itself'
         break;
       case '-':
         type = '-';
         text = 'empty-cancel';
+        toolTip = false;
         break;
       default:
         break;
     }
 
-    return <span className={`${text || type} cancel`} key={uniqueKey.incrementKey()}>{type}</span>
+    return (
+      <div className='cancel-data' key={uniqueKey.incrementKey()}>
+        <div className={`${text || type} cancel`}>
+          {type}
+          <div className="tool-tip">
+            <div className="tool-tip-info">{toolTip}</div>
+            <div className='tool-tip-pointer'></div>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   useEffect(() => {

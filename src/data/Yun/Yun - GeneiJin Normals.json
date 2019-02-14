@@ -9,7 +9,8 @@
 		"Hit Advantage": "9",
 		"Crouch Hit Advantage": "9",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -32,7 +33,8 @@
 		"Hit Advantage": "4",
 		"Crouch Hit Advantage": "4",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -55,7 +57,8 @@
 		"Hit Advantage": "19",
 		"Crouch Hit Advantage": "20",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -78,7 +81,8 @@
 		"Hit Advantage": "9",
 		"Crouch Hit Advantage": "9",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -101,7 +105,8 @@
 		"Hit Advantage": "15",
 		"Crouch Hit Advantage": "16",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -124,7 +129,8 @@
 		"Hit Advantage": "16",
 		"Crouch Hit Advantage": "17",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -147,7 +153,8 @@
 		"Hit Advantage": "14",
 		"Crouch Hit Advantage": "15",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -170,7 +177,8 @@
 		"Hit Advantage": "13",
 		"Crouch Hit Advantage": "14",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -193,7 +201,8 @@
 		"Hit Advantage": "13",
 		"Crouch Hit Advantage": "14",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -216,7 +225,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -239,7 +249,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -262,7 +273,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -285,7 +297,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -308,7 +321,8 @@
 		"Hit Advantage": "9",
 		"Crouch Hit Advantage": "9",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -331,7 +345,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "115",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -354,7 +369,8 @@
 		"Hit Advantage": "6",
 		"Crouch Hit Advantage": "7",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -377,7 +393,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "81",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -400,7 +417,8 @@
 		"Hit Advantage": "14",
 		"Crouch Hit Advantage": "15",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -423,7 +441,8 @@
 		"Hit Advantage": "8",
 		"Crouch Hit Advantage": "9",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": true,
 			"Self": false,
@@ -446,7 +465,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "48",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -469,7 +489,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -492,7 +513,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -515,7 +537,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -538,7 +561,8 @@
 		"Hit Advantage": "-3",
 		"Crouch Hit Advantage": "-2",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -561,7 +585,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "D",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -584,7 +609,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -607,7 +633,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "D",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -630,7 +657,8 @@
 		"Hit Advantage": "D",
 		"Crouch Hit Advantage": "D",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -653,7 +681,8 @@
 		"Hit Advantage": "-",
 		"Crouch Hit Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -676,7 +705,8 @@
 		"Hit Advantage": "-24",
 		"Crouch Hit Advantage": "0",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,

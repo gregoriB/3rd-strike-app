@@ -8,7 +8,8 @@
 		"Recovery": "29",
 		"Block Advantage": "-23",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -30,7 +31,8 @@
 		"Recovery": "28",
 		"Block Advantage": "-30",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -52,7 +54,8 @@
 		"Recovery": "32",
 		"Block Advantage": "-38",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -74,7 +77,8 @@
 		"Recovery": "34",
 		"Block Advantage": "-37",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -96,7 +100,8 @@
 		"Recovery": "18",
 		"Block Advantage": "-3",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -118,7 +123,8 @@
 		"Recovery": "24",
 		"Block Advantage": "-9",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -140,7 +146,8 @@
 		"Recovery": "30",
 		"Block Advantage": "-15",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -162,7 +169,8 @@
 		"Recovery": "28",
 		"Block Advantage": "-15",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -184,7 +192,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -206,7 +215,8 @@
 		"Recovery": "19",
 		"Block Advantage": "-7",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -228,7 +238,8 @@
 		"Recovery": "25",
 		"Block Advantage": "-12",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -250,7 +261,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -272,7 +284,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -294,7 +307,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -316,7 +330,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -338,7 +353,8 @@
 		"Recovery": "13",
 		"Block Advantage": "0",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -360,7 +376,8 @@
 		"Recovery": "13",
 		"Block Advantage": "0",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -382,7 +399,8 @@
 		"Recovery": "13",
 		"Block Advantage": "0",
 		"Cancel": {
-			"??": true,
+      "?": false,
+      "??": true,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,
@@ -404,7 +422,8 @@
 		"Recovery": "-",
 		"Block Advantage": "-",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": true,
 			"Special": false,
 			"Self": false,

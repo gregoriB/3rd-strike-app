@@ -8,7 +8,8 @@
 		"Recovery": "49",
 		"Block Advantage": "-12",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -28,7 +29,8 @@
 		"Recovery": "35",
 		"Block Advantage": "-25",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -48,7 +50,8 @@
 		"Recovery": "35",
 		"Block Advantage": "-27",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,
@@ -68,7 +71,8 @@
 		"Recovery": "51",
 		"Block Advantage": "0",
 		"Cancel": {
-			"??": false,
+      "?": false,
+      "??": false,
 			"Super Art": false,
 			"Special": false,
 			"Self": false,

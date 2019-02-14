@@ -3,9 +3,15 @@ html {
   margin-left: calc(100vw - 100%);
 }
 
+html, body {
+  position:relative;
+  overflow-x:hidden ;
+} 
+
 body { 
   background: rgb(131, 0, 0);
   padding: 1rem calc((100% - 95vw) / 2);
+  font-size: 16px;
 }
 
 * {
@@ -121,10 +127,11 @@ th {
 }
 
 td {
+  white-space: nowrap;
   border: 1px solid transparent;
   border-left: none;
   border-right: none;
-  transition: 0;
+  transition: .1s;
   padding: 5px 10px;
 }
 
@@ -184,7 +191,6 @@ button {
 .home-button {
   position: absolute;
   top: 25px;
-  left: 40px;
   background: rgb(160, 160, 160);
 }
 
@@ -208,7 +214,43 @@ button:hover {
   cursor: pointer;
 }
 
+.tool-tip {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.tool-tip * {
+  color: rgb(192, 192, 192);
+  border: thin solid rgb(192, 192, 192);
+  background: rgb(27, 27, 27);
+  position: absolute;
+}
+
+.tool-tip:hover * {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tool-tip-pointer {
+  position: absolute;
+  border-right: none;
+  border-bottom: none;
+  padding: 3px;
+  transform: translateX(-50%) rotate(45deg);
+  background: rgb(27, 27, 27);
+}
+
+.tool-tip-info {
+  max-width: 200px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transform: translate(-50%, 10%);
+}
+
 .cancel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-weight: bold;
   margin: 0 3px;
   text-shadow: .5px .5px black;
@@ -220,30 +262,152 @@ button:hover {
 }
 
 .SELF {
-  color: rgb(192,60,56);
+  color: rgb(253,2,53);
 }
 
-.question-mark-cancel {
-  color: rgb(172, 194, 255);
+
+.SELF:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
 }
+
+
+.question-mark-single {
+  color: rgb(201, 92, 59);
+}
+
+.question-mark-single:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.question-mark-double {
+  color: rgb(111, 95, 202);
+}
+
+.question-mark-double:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 .SA {
-  color: rgb(196,250,235);
+  color: rgb(215, 217, 253);
 }
+
+.SA:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 .NC {
-  color: black;
-  text-shadow: none;
+  color: rgb(63, 61, 61);
 }
 
-.SP {
-  color: rgb(245,154,25);
+.NC:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
 }
+
+
+.SP {
+  color: rgb(252,242,11);
+}
+
+.SP:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 .SJ {
   color: white;
 }
 
+.SJ:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+
 .DASH {
   color: rgb(0, 184, 0);
+}
+
+.DASH:hover .tool-tip {
+  transition: .3s;
+  transition-delay: .5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 1900px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  body {
+    font-size: 48px;
+  }
+}
+
+
+@media only screen and (max-width: 1400px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .flex-container {
+    width: 100%;
+    transform: none;
+  }
+
+  body div.flex-container a.character {
+    transform: none;
+    margin: auto;
+  }
+
+  td {
+    word-break: break-all;
+    line-break: loose;
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 0 2px;
+    white-space: normal;
+  }
+
+  th {
+    padding: 0 2px;
+  }
+
+  .char-head {
+    width: 100%;
+  }
 }
