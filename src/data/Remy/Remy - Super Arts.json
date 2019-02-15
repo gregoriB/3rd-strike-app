@@ -5,7 +5,7 @@
 		"Motion": "QCF x 2 + Punch",
 		"Startup": "1",
 		"Hit": "-",
-		"Recovery": "N/A",
+		"Recovery": "-",
 		"Block Advantage": "3",
 		"Cancel": {
       "?": false,
@@ -38,7 +38,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "61",
 		"Stun": "14"

@@ -2,7 +2,7 @@
 	"Name": "Alex / アレックス",
 	"Category": "Super Arts",
 	"Hyper Bomb": {
-		"Motion": "Rotate 360 + Punch",
+		"Motion": "360 + Punch",
 		"Startup": "1",
 		"Hit": "2",
 		"Recovery": "33",
@@ -23,7 +23,7 @@
 		"Stun": "18"
 	},
 	"Reverse Hyper Bomb": {
-		"Motion": "Rotate 360 + Punch",
+		"Motion": "360 + Punch",
 		"Startup": "1",
 		"Hit": "2",
 		"Recovery": "33",

@@ -2,10 +2,10 @@
 	"Name": "Ibuki / イブキ",
 	"Category": "Super Arts",
 	"Kasumi Suzaku": {
-		"Motion": "(Air) QCF x 2 + Punch",
+		"Motion": "QCF x 2 + Punch (Air) ",
 		"Startup": "3",
 		"Hit": "87",
-		"Recovery": "N/A",
+		"Recovery": "-",
 		"Block Advantage": "-10",
 		"Cancel": {
       "?": false,
@@ -59,7 +59,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "46",
 		"Damage": "48",
 		"Stun": "0"

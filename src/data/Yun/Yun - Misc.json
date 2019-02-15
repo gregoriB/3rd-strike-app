@@ -32,9 +32,9 @@
     "Frames":  "24"
   },
 	"Wakeup": {
-    "Frames": "60 (27 + 33)"
+    "Frames": "60 ( 27 + 33 )"
   },
 	"Wakeup (Quick Roll)": {
-    "Frames": "41 (15 + 26)"  
+    "Frames": "41 ( 15 + 26 )"  
   }
 }

@@ -38,7 +38,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "80",
 		"Stun": "20"
@@ -80,7 +80,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "62",
 		"Stun": "24"

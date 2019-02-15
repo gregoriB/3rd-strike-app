@@ -58,35 +58,42 @@ export default function CharacterData(props) {
   const handleDetermineDataType = data => {
     let type = data;
     let cssClass = 'misc-data';
-    if (data < 0) cssClass = 'negative';
-    else if (data > 0) cssClass = 'positive';
-    else if (data > -1 && data < 1) cssClass = 'neutral'
+    if (data < 0) cssClass = 'number negative';
+    else if (data > 0) cssClass = 'number positive';
+    else if (data > -1 && data < 1) cssClass = 'number neutral'
     else if (typeof data === 'object') {
       cssClass = 'cancel-data';
       type = handleCancelData(data);
     }
-    else if (typeof data === 'string') type = handleCleanString(data);
+    else if (typeof data === 'string') type = handleOrganizeString(data);
 
     return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>
   }  
 
-  const handleCleanString = data => {
-    const splitData = data.split(' ').length > 1 ? data.split(' ') : data.split('+');
+  const handleOrganizeString = data => {
+    const splitData = data.split(' ');
     const newData = [];
     let cssClass;
     for (let item of splitData) {
-      const arr = []
       switch(item) {
         case 'QCB':
         case 'QCF':
         case 'HCB':
         case 'HCF':
         case 'DPM':
+        case 'RDP':
         case '360':
         case '720':
-          return handleControllerMotions(splitData);
+        case 'Hold':
+        case 'D...U':
+        case 'B...F':
+        case 'Mash':
+        case 'ducking':
+        case 'Down':
+        case 'Jab':
+         return handleControllerMotions(splitData);
         case '0':
-          cssClass = 'neutral';
+          cssClass = 'number neutral';
           break;
         case 'D':
           cssClass = 'down';
@@ -97,22 +104,23 @@ export default function CharacterData(props) {
         case 'L':
           cssClass = 'low';
           break;
+        case '/':
+        case '-':
+        case '~':
+        case '(':
+        case ')':
+         cssClass = 'separator';
+          break;
+        case '--':
+          cssClass = 'blank-spot'
         default:
-          cssClass = 'separator';
+          if (item > 0 && parseInt(item)) cssClass = 'number positive';
+          if (item < 0 && parseInt(item)) cssClass = 'number negative';
           break;
       }
-      if (item > 0 && parseInt(item)) cssClass = 'positive';
-      else if (item < 0 && parseInt(item)) cssClass = 'negative';
-      else if (item[0] === '(' || item[item.length - 1] === ')') {
-        for (let character of item) {
-          if (character > 0) cssClass = 'positive';
-          else if (character < 0) cssClass = 'negative';
-          else if (character > -1 && character < 1) cssClass = 'neutral';
-          else cssClass = 'separator';
-          arr.push(<div className={cssClass}>{character}</div>)
-        }
-      }
-      newData.push(arr.length > 0 ? arr : <div className={cssClass}>{item}</div>)
+  
+
+      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{item}</div>)
     }
 
     return newData;
@@ -123,29 +131,36 @@ export default function CharacterData(props) {
     let cssClass;
     for (let item of data) {
       switch(item) {
-        case 'Jab':
-          cssClass = 'attack-type jab';
-          break;
-        case 'Strong':
-          cssClass = 'attack-type strong';
-          break;
-        case 'Fierce':
-          cssClass = 'attack-type fierce';
-          break;
-        case 'Short':
-          cssClass = 'attack-type short';
-          break;
-        case 'Forward':
-          cssClass = 'attack-type forward';
-          break;
-        case 'Roundhouse':
-          cssClass = 'attack-type roundhouse';
-          break;
+        case 'Punch':
         case '2-Punches':
+        case '3-Punches':
           cssClass = 'attack-type punches';
           break;
+        case 'Kick':
         case '2-Kicks':
+        case '3-Kicks':
           cssClass = 'attack-type kicks';
+          break;
+        case 'Jab':
+          cssClass = 'attack-type jab light';
+          break;
+        case 'Strong':
+          cssClass = 'attack-type strong medium';
+          break;
+        case 'Fierce':
+          cssClass = 'attack-type fierce heavy';
+          break;
+        case 'Short':
+          cssClass = 'attack-type short light';
+          break;
+        case 'Forward':
+          cssClass = 'attack-type forward medium';
+          break;
+        case 'Roundhouse':
+          cssClass = 'attack-type roundhouse heavy';
+          break;
+        case 'Mash':
+          cssClass = 'attack-motion rapid'
           break;
         case '(Air)':
           cssClass = 'attack-state';
@@ -157,8 +172,8 @@ export default function CharacterData(props) {
           cssClass = 'attack-motion';
           break;
       }
-      newData.push(<div className={cssClass}>{item}</div>)
-    }
+      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{item}</div>)
+    } 
     return newData;
   }
 

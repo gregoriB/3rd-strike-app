@@ -113,8 +113,8 @@
 		"Throw Range": "48",
 		"Damage": "28",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Power Bomb (Strong)": {
 		"Motion": "HCB + Strong",
@@ -136,8 +136,8 @@
 		"Throw Range": "44",
 		"Damage": "32",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Power Bomb (Fierce)": {
 		"Motion": "HCB + Fierce",
@@ -159,8 +159,8 @@
 		"Throw Range": "40",
 		"Damage": "35",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Reverse Power Bomb (Jab)": {
 		"Motion": "HCB + Jab",
@@ -182,8 +182,8 @@
 		"Throw Range": "48",
 		"Damage": "32",
 		"Stun": "20",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Reverse Power Bomb (Strong)": {
 		"Motion": "HCB + Strong",
@@ -205,8 +205,8 @@
 		"Throw Range": "44",
 		"Damage": "35",
 		"Stun": "20",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Reverse Power Bomb (Fierce)": {
 		"Motion": "HCB + Fierce",
@@ -228,8 +228,8 @@
 		"Throw Range": "40",
 		"Damage": "40",
 		"Stun": "20",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Air Knee Smash (Short)": {
 		"Motion": "DPM + Short",
@@ -251,8 +251,8 @@
 		"Throw Range": "43",
 		"Damage": "21",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 18 / ---",
-		"Meter Gain Opponent": "3 / ---"
+		"Meter Gain Player": "2 / 18 / --",
+		"Meter Gain Opponent": "3 / --"
 	},
 	"Air Knee Smash (Forward)": {
 		"Motion": "DPM + Forward",
@@ -274,8 +274,8 @@
 		"Throw Range": "43",
 		"Damage": "24",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 18 / ---",
-		"Meter Gain Opponent": "3 / ---"
+		"Meter Gain Player": "2 / 18 / --",
+		"Meter Gain Opponent": "3 / --"
 	},
 	"Air Knee Smash (RH)": {
 		"Motion": "DPM + Roundhouse",
@@ -297,8 +297,8 @@
 		"Throw Range": "43",
 		"Damage": "26",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 18 / ---",
-		"Meter Gain Opponent": "3 / ---"
+		"Meter Gain Player": "2 / 18 / --",
+		"Meter Gain Opponent": "3 / --"
 	},
 	"Air Knee Smash (EX)": {
 		"Motion": "DPM + 2-Kicks",
@@ -487,7 +487,7 @@
 	"Slash Elbow (EX)": {
 		"Motion": "Hold B...F + 2-Kicks",
 		"Startup": "9",
-		"Hit": "6*1",
+		"Hit": "6",
 		"Recovery": "23",
 		"Block Advantage": "-6",
 		"Cancel": {
@@ -527,8 +527,8 @@
 		"Throw Range": "12",
 		"Damage": "28",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Spiral D.D.T. (Forward)": {
 		"Motion": "HCB + Forward",
@@ -550,8 +550,8 @@
 		"Throw Range": "12",
 		"Damage": "28",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Spiral D.D.T. (RH)": {
 		"Motion": "HCB + Roundhouse",
@@ -573,7 +573,7 @@
 		"Throw Range": "12",
 		"Damage": "28",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
   }
 }

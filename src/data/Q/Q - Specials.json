@@ -297,8 +297,8 @@
 		"Throw Range": "44",
 		"Damage": "19",
 		"Stun": "10",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Capture and Deadly Blow (Forward)": {
 		"Motion": "HCB + Forward",
@@ -320,8 +320,8 @@
 		"Throw Range": "46",
 		"Damage": "21",
 		"Stun": "10",
-		"Meter Gain Player": "2 / 21 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 21 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Capture and Deadly Blow (RH)": {
 		"Motion": "HCB + Roundhouse",
@@ -343,7 +343,7 @@
 		"Throw Range": "48",
 		"Damage": "23",
 		"Stun": "10",
-		"Meter Gain Player": "2 / 23 / ---",
-		"Meter Gain Opponent": "6 / ---"
+		"Meter Gain Player": "2 / 23 / --",
+		"Meter Gain Opponent": "6 / --"
   }
 }

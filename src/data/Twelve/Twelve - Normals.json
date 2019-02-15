@@ -18,7 +18,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "5",
@@ -118,7 +118,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "5",
@@ -143,7 +143,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "9",
@@ -168,7 +168,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "18",
@@ -293,7 +293,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "-6",
 		"Throw Range": "-",
 		"Damage": "7",
@@ -318,7 +318,7 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "12",
@@ -518,7 +518,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "14",

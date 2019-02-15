@@ -18,7 +18,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "5",
@@ -93,7 +93,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "8",
@@ -143,7 +143,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "-16",
 		"Throw Range": "-",
 		"Damage": "23",
@@ -168,7 +168,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "5",
@@ -193,7 +193,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "10",
@@ -218,7 +218,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "16",
@@ -248,8 +248,8 @@
 		"Throw Range": "-",
 		"Damage": "5",
 		"Stun": "7",
-		"Meter Gain Player": "0 / 2 / ---",
-		"Meter Gain Opponent": "0 / ---"
+		"Meter Gain Player": "0 / 2 / --",
+		"Meter Gain Opponent": "0 / --"
 	},
 	"Neutral Jumping Strong": {
 		"Startup": "8",
@@ -368,7 +368,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "7",
@@ -393,7 +393,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "12",
@@ -443,7 +443,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "8",
@@ -668,7 +668,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "24",
@@ -693,7 +693,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "10",
@@ -718,7 +718,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "12",
@@ -743,7 +743,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "17",
@@ -823,8 +823,8 @@
 		"Throw Range": "26",
 		"Damage": "-",
 		"Stun": "-",
-		"Meter Gain Player": "8 / 0 / ---",
-		"Meter Gain Opponent": "0 / ---"
+		"Meter Gain Player": "8 / 0 / --",
+		"Meter Gain Opponent": "0 / --"
 	},
 	"Universal Overhead": {
 		"Startup": "15",
@@ -868,7 +868,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "2",

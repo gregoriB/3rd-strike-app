@@ -109,7 +109,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "26",
 		"Stun": "11",
@@ -132,7 +132,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "15",
@@ -155,7 +155,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "15",
@@ -178,7 +178,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "34",
 		"Stun": "17",

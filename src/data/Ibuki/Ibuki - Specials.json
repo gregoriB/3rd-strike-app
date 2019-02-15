@@ -2,7 +2,7 @@
 	"Name": "Ibuki / イブキ",
 	"Category": "Specials",
 	"Kunai (Jab)": {
-		"Motion": "(Air) QCF + Jab",
+		"Motion": "QCF + Jab (Air) ",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "-",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Strong)": {
-		"Motion": "(Air) QCF + Strong",
+		"Motion": "QCF + Strong (Air) ",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "-",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Fierce)": {
-		"Motion": "(Air) QCF + Fierce",
+		"Motion": "QCF + Fierce (Air) ",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "-",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (EX)": {
-		"Motion": "(Air) QCF + 2-Punches",
+		"Motion": "QCF + 2-Punches (Air) ",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "-",
@@ -254,12 +254,58 @@
 		"Meter Gain Player": "-40 / -40 / -40",
 		"Meter Gain Opponent": "0 / 0"
 	},
-	"Kubiori": {
+	"Kubiori (Jab)": {
 		"Motion": "QCF + Punch",
-		"Startup": "14\n15\n17",
-		"Hit": "11\n12\n14",
-		"Recovery": "15\n18\n19",
-		"Block Advantage": "-10\n-16\n-19",
+		"Startup": "14",
+		"Hit": "11",
+		"Recovery": "15",
+		"Block Advantage": "-10",
+		"Cancel": {
+      "?": false,
+      "??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "L",
+		"Throw Range": "40",
+		"Damage": "26",
+		"Stun": "14",
+		"Meter Gain Player": "2 / 10 / 6",
+		"Meter Gain Opponent": "2 / 0"
+	},
+	"Kubiori (Strong)": {
+		"Motion": "QCF + Punch",
+		"Startup": "15",
+		"Hit": "12",
+		"Recovery": "18",
+		"Block Advantage": "-16",
+		"Cancel": {
+      "?": false,
+      "??": false,
+			"Super Art": false,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "L",
+		"Throw Range": "40",
+		"Damage": "26",
+		"Stun": "14",
+		"Meter Gain Player": "2 / 10 / 6",
+		"Meter Gain Opponent": "2 / 0"
+	},
+	"Kubiori (Fierce)": {
+		"Motion": "QCF + Punch",
+		"Startup": "17",
+		"Hit": "14",
+		"Recovery": "19",
+		"Block Advantage": "-19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -316,7 +362,7 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "9",
@@ -339,7 +385,7 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
@@ -362,7 +408,7 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "30",
 		"Stun": "16",
@@ -385,7 +431,7 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "14",
@@ -486,7 +532,7 @@
 	},
 	"Kasumi Gake": {
 		"Motion": "QCF + Kick",
-		"Startup": "20/22/25",
+		"Startup": "20 / 22 / 25",
 		"Hit": "-",
 		"Recovery": "-",
 		"Block Advantage": "-",

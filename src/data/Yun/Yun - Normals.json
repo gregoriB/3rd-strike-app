@@ -18,7 +18,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "3",
@@ -93,7 +93,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "3",
@@ -168,7 +168,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "3",
@@ -193,7 +193,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "12",
@@ -218,7 +218,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "17",
@@ -343,7 +343,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "10",
 		"Throw Range": "-",
 		"Damage": "6",
@@ -627,7 +627,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dive Kicks": {
-		"Startup": "6/8/6",
+		"Startup": "6 / 8 / 6",
 		"Hit": "-",
 		"Recovery": "-",
 		"Block Advantage": "-",
@@ -743,7 +743,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "1",

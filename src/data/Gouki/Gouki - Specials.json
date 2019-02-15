@@ -40,7 +40,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
@@ -63,7 +63,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "25",
 		"Stun": "13",
@@ -86,7 +86,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "29",
 		"Stun": "15",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ashura Senkuu": {
-		"Motion": "DPM + 3 Punches/Kicks",
+		"Motion": "DPM + 3-Punches/Kicks",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "9",
@@ -120,7 +120,7 @@
 		"Motion": "QCF + Punch (Air)",
 		"Startup": "12",
 		"Hit": "24",
-		"Recovery": "N/A",
+		"Recovery": "-",
 		"Block Advantage": "2",
 		"Cancel": {
       "?": false,
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Goushou": {
-		"Motion": "Hyakki Shuu then Punch",
+		"Motion": "DPM + Kick, Punch",
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "20",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Goujin": {
-		"Motion": "Hyakki Shuu then Kick",
+		"Motion": "DPM + Kick, Kick",
 		"Startup": "9",
 		"Hit": "10",
 		"Recovery": "7",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakki Gousai": {
-		"Motion": "Hyakki Shuu then Jab+Short",
+		"Motion": "DPM + Kick, Jab + Short",
 		"Startup": "3",
 		"Hit": "2",
 		"Recovery": "34",
@@ -435,7 +435,7 @@
 		"Throw Range": "36",
 		"Damage": "19",
 		"Stun": "14",
-		"Meter Gain Player": "0 / 8 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "0 / 8 / --",
+		"Meter Gain Opponent": "2 / --"
   }
 }

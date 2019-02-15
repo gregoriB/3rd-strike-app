@@ -17,7 +17,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "17",
@@ -40,7 +40,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "19",
@@ -63,7 +63,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "20",
@@ -86,7 +86,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "37",
 		"Stun": "20",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Ducking Rush": {
-		"Motion": "HCF + K",
+		"Motion": "HCF + Kick",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -209,8 +209,8 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Ducking Straight": {
-		"Motion": "Punch",
-		"Startup": "21/20/22",
+		"Motion": "HCF + Kick, Punch",
+		"Startup": "21 / 20 / 22",
 		"Hit": "4",
 		"Recovery": "19",
 		"Block Advantage": "-7",
@@ -232,8 +232,8 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Ducking Upper": {
-		"Motion": "Kick",
-		"Startup": "20/19/21",
+		"Motion": "HCF + Kick, Kick",
+		"Startup": "20 / 19 / 21",
 		"Hit": "4",
 		"Recovery": "25",
 		"Block Advantage": "-12",
@@ -270,7 +270,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
@@ -293,7 +293,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
@@ -316,7 +316,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",
@@ -339,7 +339,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "-",
 		"Stun": "-",

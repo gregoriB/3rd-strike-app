@@ -45,7 +45,7 @@
 	},
 	"Aegis Reflector": {
 		"Motion": "QCF x 2 + Punch",
-		"Startup": "13/25/32 (9/9/9)",
+		"Startup": "13 / 25 / 32 ( 9 / 9 / 9 )",
 		"Hit": "-",
 		"Recovery": "12",
 		"Block Advantage": "65",
@@ -59,7 +59,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "0"
@@ -80,7 +80,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "0"

@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hyakuretsu Kyaku (Short)": {
-		"Motion": "Short (rapidly)",
+		"Motion": "Mash Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "-",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Forward)": {
-		"Motion": "Forward (rapidly)",
+		"Motion": "Mash Forward",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "-",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Roundhouse)": {
-		"Motion": "RH (rapidly)",
+		"Motion": "Mash Roundhouse",
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "-",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (EX)": {
-		"Motion": "2 Kicks (rapidly)",
+		"Motion": "Mash 2-Kicks",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "-",

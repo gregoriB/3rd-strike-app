@@ -256,7 +256,7 @@
 	},
 	"Tackle (All Versions)": {
 		"Motion": "HCF + Punch, Tap Punch",
-		"Startup": "18/22/26",
+		"Startup": "18 / 22 / 26",
 		"Hit": "2",
 		"Recovery": "28",
 		"Block Advantage": "-14",
@@ -316,7 +316,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
@@ -339,7 +339,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
@@ -362,7 +362,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "23",
 		"Stun": "11",
@@ -385,7 +385,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "17",

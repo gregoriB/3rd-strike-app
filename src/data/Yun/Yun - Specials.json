@@ -17,7 +17,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "9",
@@ -40,7 +40,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "9",
@@ -63,7 +63,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "9",
@@ -86,7 +86,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "27",
 		"Stun": "13",
@@ -109,7 +109,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "17",
 		"Stun": "9",
@@ -132,7 +132,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "19",
 		"Stun": "9",
@@ -155,7 +155,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "9",
@@ -201,7 +201,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "22",
 		"Stun": "11",
@@ -224,7 +224,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "11",
@@ -247,7 +247,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "25",
 		"Stun": "11",
@@ -270,7 +270,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "29",
 		"Stun": "12",
@@ -293,7 +293,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "32",
 		"Stun": "23",
@@ -320,7 +320,7 @@
 		"Throw Range": "12",
 		"Damage": "-",
 		"Stun": "-",
-		"Meter Gain Player": "0 / 0 / ---",
-		"Meter Gain Opponent": "0 / ---"
+		"Meter Gain Player": "0 / 0 / --",
+		"Meter Gain Opponent": "0 / --"
   }
 }

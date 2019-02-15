@@ -21,8 +21,8 @@
 		"Throw Range": "34",
 		"Damage": "32",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Shootdown Backbreaker (Forward)": {
 		"Motion": "DPM + Forward",
@@ -44,8 +44,8 @@
 		"Throw Range": "39",
 		"Damage": "32",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Shootdown Backbreaker (RH)": {
 		"Motion": "DPM + Roundhouse",
@@ -67,8 +67,8 @@
 		"Throw Range": "30",
 		"Damage": "32",
 		"Stun": "14",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Jab)": {
 		"Motion": "360 + Jab",
@@ -90,8 +90,8 @@
 		"Throw Range": "44",
 		"Damage": "42",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Strong)": {
 		"Motion": "360 + Strong",
@@ -113,8 +113,8 @@
 		"Throw Range": "38",
 		"Damage": "45",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Fierce)": {
 		"Motion": "360 + Fierce",
@@ -136,8 +136,8 @@
 		"Throw Range": "32",
 		"Damage": "49",
 		"Stun": "18",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (Short)": {
 		"Motion": "360 + Short",
@@ -159,8 +159,8 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (Forward)": {
 		"Motion": "360 + Forward",
@@ -182,8 +182,8 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (RH)": {
 		"Motion": "360 + Roundhouse",
@@ -205,8 +205,8 @@
 		"Throw Range": "32",
 		"Damage": "28",
 		"Stun": "13",
-		"Meter Gain Player": "2 / 31 / ---",
-		"Meter Gain Opponent": "8 / ---"
+		"Meter Gain Player": "2 / 31 / --",
+		"Meter Gain Opponent": "8 / --"
 	},
 	"Giant Palm Bomber (Jab)": {
 		"Motion": "QCB + Jab",
@@ -412,8 +412,8 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Ultra Throw (Forward)": {
 		"Motion": "HCB + Forward",
@@ -435,8 +435,8 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
 	},
 	"Ultra Throw (RH)": {
 		"Motion": "HCB + Roundhouse",
@@ -458,7 +458,7 @@
 		"Throw Range": "23",
 		"Damage": "12",
 		"Stun": "7",
-		"Meter Gain Player": "2 / 20 / ---",
-		"Meter Gain Opponent": "4 / ---"
+		"Meter Gain Player": "2 / 20 / --",
+		"Meter Gain Opponent": "4 / --"
   }
 }

@@ -17,13 +17,13 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "57",
 		"Stun": "14"
 	},
 	"X.F.L.A.T.": {
-		"Motion": "(Air) QCF x 2 + Kick",
+		"Motion": "QCF x 2 + Kick (Air)",
 		"Startup": "1",
 		"Hit": "12",
 		"Recovery": "49",
@@ -44,7 +44,7 @@
 		"Stun": "25"
 	},
 	"X.F.L.A.T. (Air hit)": {
-		"Motion": "(Air) QCF x 2 + Kick",
+		"Motion": "QCF x 2 + Kick (Air)",
 		"Startup": "1",
 		"Hit": "12",
 		"Recovery": "49",

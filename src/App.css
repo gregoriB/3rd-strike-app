@@ -187,8 +187,8 @@ tr:nth-of-type(odd) {
 .attack {
   text-align: left;
   font-weight: bold;
-  color: rgb(88, 88, 88);
-  text-shadow: 1px 1px black;
+  color: rgb(44, 44, 44);
+  text-shadow: .2px .2px black;
 }
 
 button {
@@ -209,20 +209,24 @@ button {
   text-align: center;
 }
 
-.misc-data {
-  /* background: gray; */
+.number {
+  margin: 0 4px;
 }
 
 .negative {
-  color: rgb(196, 0, 0);
+  color: rgb(146, 0, 0);
 }
 
 .positive {
-  color: rgb(0, 0, 224);
+  color: rgb(0, 0, 179);
 }
 
 .neutral {
-  color: rgb(107, 0, 107);
+  color: rgb(53, 0, 83);
+}
+
+.blank-spot {
+  margin: 0 4px;
 }
 
 .down {
@@ -230,26 +234,61 @@ button {
 }
 
 .high {
+  font-weight: bold;
   margin: 0 2px;
-  color: green;
+  color: rgb(80, 135, 255);
+  text-shadow: 1px 1px black;
 }
 
 .low {
+  font-weight: bold;
   margin: 0 2px;
-  color: yellow;
+  color: rgb(87, 255, 9);
+  text-shadow: 1px 1px black;
 }
 
-.separator {
-  margin: 0 4px;
-  color: orange;
+.cancel.separator {
+  font-weight: normal;
+  /* margin: 0 4px; */
+  text-shadow: none;
+  color: black;
 }
 
 .attack-type {
-  color: aqua
+  margin: 0 4px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 .attack-motion {
-  color: yellowgreen;
+  margin: 0 4px;
+  font-weight: bold;
+  color: black;
+}
+
+.light {
+  color: rgb(123,255,255);
+}
+
+.medium {
+  color: rgb(255,255,98);
+}
+
+.heavy {
+  color: rgb(200,0,0);
+}
+
+.punches {
+  margin-left: 5px;
+}
+
+.kicks {
+  margin-left: 5px;
+}
+
+.rapid {
+  margin: 0 5px;
 }
 
 .selector-buttons button:hover {
@@ -293,7 +332,7 @@ button:hover {
 .tool-tip-info {
   padding: .3rem .5rem;
   border-radius: 5px;
-  transform: translate(-50%, 15%);
+  transform: translate(-50%, 10%);
 }
 
 .cancel {

@@ -18,7 +18,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "5",
@@ -93,7 +93,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "3",
@@ -168,7 +168,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "3",
@@ -193,7 +193,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "16",
@@ -218,7 +218,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "24",
@@ -343,7 +343,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "7",
@@ -775,30 +775,5 @@
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
 		"Meter Gain Opponent": "0 / 0"
-	},
-	"Taunt": {
-		"Startup": "N/A",
-		"Hit": "N/A",
-		"Recovery": "N/A",
-		"Block Advantage": "N/A",
-		"Hit Advantage": "N/A",
-		"Crouch Hit Advantage": "N/A",
-		"Cancel": {
-      "?": false,
-      "??": false,
-			"Super Art": false,
-			"Special": false,
-			"Self": false,
-			"Normal/Chain": false,
-			"Dash": false,
-			"Superjump": false
-		},
-		"Parry": "-",
-		"Kara Range": "N/A",
-		"Throw Range": "-",
-		"Damage": "N/A",
-		"Stun": "N/A",
-		"Meter Gain Player": "N/A",
-		"Meter Gain Opponent": "N/A"
-  }
+	}
 }

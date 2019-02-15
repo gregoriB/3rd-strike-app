@@ -132,12 +132,12 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "21",
 		"Stun": "29",
-		"Meter Gain Player": "3 / 21 / ---",
-		"Meter Gain Opponent": "6 / ---"
+		"Meter Gain Player": "3 / 21 / --",
+		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (Strong)": {
 		"Motion": "DPM + Strong",
@@ -155,12 +155,12 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "31",
-		"Meter Gain Player": "3 / 21 / ---",
-		"Meter Gain Opponent": "6 / ---"
+		"Meter Gain Player": "3 / 21 / --",
+		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (Fierce)": {
 		"Motion": "DPM + Fierce",
@@ -178,12 +178,12 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "31",
-		"Meter Gain Player": "3 / 21 / ---",
-		"Meter Gain Opponent": "6 / ---"
+		"Meter Gain Player": "3 / 21 / --",
+		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (EX)": {
 		"Motion": "DPM + 2-Punches",
@@ -201,12 +201,12 @@
 			"Dash": false,
 			"Superjump": true
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "21",
-		"Meter Gain Player": "-40 / -40 / ---",
-		"Meter Gain Opponent": "0 / ---"
+		"Meter Gain Player": "-40 / -40 / --",
+		"Meter Gain Opponent": "0 / --"
 	},
 	"Oroshi (Jab)": {
 		"Motion": "QCB + Jab",
@@ -412,8 +412,8 @@
 		"Throw Range": "53",
 		"Damage": "5",
 		"Stun": "8",
-		"Meter Gain Player": "0 / 8 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "0 / 8 / --",
+		"Meter Gain Opponent": "2 / --"
 	},
 	"Karakusa (Forward)": {
 		"Motion": "HCB + Forward",
@@ -435,8 +435,8 @@
 		"Throw Range": "57",
 		"Damage": "5",
 		"Stun": "8",
-		"Meter Gain Player": "0 / 8 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "0 / 8 / --",
+		"Meter Gain Opponent": "2 / --"
 	},
 	"Karakusa (Roundhouse)": {
 		"Motion": "HCB + Roundhouse",
@@ -458,7 +458,7 @@
 		"Throw Range": "61",
 		"Damage": "5",
 		"Stun": "8",
-		"Meter Gain Player": "0 / 8 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "0 / 8 / --",
+		"Meter Gain Opponent": "2 / --"
   }
 }

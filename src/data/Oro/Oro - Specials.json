@@ -21,8 +21,8 @@
 		"Throw Range": "62",
 		"Damage": "24",
 		"Stun": "19",
-		"Meter Gain Player": "1 / 11 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "1 / 11 / --",
+		"Meter Gain Opponent": "2 / --"
 	},
 	"Human Pillar Driver (Strong)": {
 		"Motion": "HCB + Strong",
@@ -44,8 +44,8 @@
 		"Throw Range": "62",
 		"Damage": "27",
 		"Stun": "19",
-		"Meter Gain Player": "1 / 11 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "1 / 11 / --",
+		"Meter Gain Opponent": "2 / --"
 	},
 	"Human Pillar Driver (Fierce)": {
 		"Motion": "HCB + Fierce",
@@ -67,8 +67,8 @@
 		"Throw Range": "62",
 		"Damage": "31",
 		"Stun": "19",
-		"Meter Gain Player": "1 / 11 / ---",
-		"Meter Gain Opponent": "2 / ---"
+		"Meter Gain Player": "1 / 11 / --",
+		"Meter Gain Opponent": "2 / --"
 	},
 	"Oniyama (Jab)": {
 		"Motion": "Hold D...U + Jab",
@@ -86,7 +86,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "24",
 		"Stun": "15",
@@ -109,7 +109,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "28",
 		"Stun": "15",
@@ -132,7 +132,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "31",
 		"Stun": "21",
@@ -155,7 +155,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H+L",
+		"Parry": "H L",
 		"Throw Range": "-",
 		"Damage": "35",
 		"Stun": "21",
