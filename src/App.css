@@ -135,6 +135,11 @@ table  * {
   margin: 0 auto;
 }
 
+.misc-data {
+  word-wrap: none;
+  white-space: nowrap;
+}
+
 th {
   padding: 10px;
   text-shadow: 0 0 .1px black;
@@ -255,21 +260,30 @@ button {
   margin-right: 4px;
 }
 
-.attack-type {
+.plus-sign {
+  margin: 0 2px;
+}
+
+.or {
   margin: 0 4px;
+}
+
+.attack-type {
+  margin: 0 2px;
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
 .attack-motion {
-  margin: 0 4px;
+  margin: 0 2px;
   font-weight: bold;
   color: black;
 }
 
 .rotation {
+  margin: 0 1px;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .light {
@@ -348,9 +362,6 @@ button:hover {
   flex-direction: column;
   font-weight: bold;
   margin: 0 3px;
-}
-
-.empty-cancel {
 }
 
 .SELF {
@@ -453,7 +464,7 @@ button:hover {
     margin: 0;
     padding: 0;
     padding-top: 10px;
-    font-size: 10px;
+    /* font-size: 10px; */
   }
 
   .head {
@@ -523,12 +534,13 @@ button:hover {
     margin-left: 0;
   }
 
-  .cancel {
-  }
-
   .tool-tip * {
     visibility: hidden;
     border: none;
     opacity: 0;
+  }
+
+  .rotation {
+    font-size: .5rem;
   }
 }

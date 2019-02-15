@@ -105,6 +105,9 @@ export default function CharacterData(props) {
         case 'L':
           cssClass = 'low';
           break;
+        case '+':
+          cssClass = 'plus-sign';
+          break;
         case '/':
         case '-':
         case '~':
@@ -147,10 +150,6 @@ export default function CharacterData(props) {
         case '720':
           modifiedData.splice(0, 1, 'rotation', 'rotation', 'or', 'reverse-rotation', 'reverse-rotation')
           return handleControllerMotions(modifiedData);
-        case '720':
-          cssClass = 'attack-motion rotation';
-          newItem = '\u27f3 \u27f3 or \u27f2 \u27f2';
-          break;
         case 'QCF':
           cssClass = 'attack-motion';
           newItem = '\u2b07 \u2b0a \u27a1';
@@ -229,7 +228,7 @@ export default function CharacterData(props) {
           cssClass = 'attack-criteria';
           break;
         case '+':
-          cssClass = 'separator';
+          cssClass = 'plus-sign';
           break;
         case ',':
           cssClass = 'comma';

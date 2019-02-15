@@ -128,7 +128,7 @@
 		"Stun": "0"
 	},
 	"Kongou Kokuretsu Zan": {
-		"Motion": "Down x3 + 3-Punches",
+		"Motion": "Down Down Down + 3-Punches",
 		"Startup": "15",
 		"Hit": "24",
 		"Recovery": "64",
