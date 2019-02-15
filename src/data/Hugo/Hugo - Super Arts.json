@@ -22,8 +22,8 @@
 		"Damage": "102",
 		"Stun": "18"
 	},
-	"Megaton Press (LK)": {
-		"Motion": "QCF x 2 + Short",
+	"Megaton Press (Short)": {
+		"Motion": "QCF x2 + Short",
 		"Startup": "2",
 		"Hit": "12",
 		"Recovery": "30",
@@ -43,8 +43,8 @@
 		"Damage": "75",
 		"Stun": "27"
 	},
-	"Megaton Press (MK)": {
-		"Motion": "QCF x 2 + Forward",
+	"Megaton Press (Forward)": {
+		"Motion": "QCF x2 + Forward",
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "34",
@@ -64,8 +64,8 @@
 		"Damage": "75",
 		"Stun": "27"
 	},
-	"Megaton Press (HK)": {
-		"Motion": "QCF x 2 + Roundhouse",
+	"Megaton Press (RH)": {
+		"Motion": "QCF x2 + Roundhouse",
 		"Startup": "6",
 		"Hit": "20",
 		"Recovery": "36",
@@ -86,7 +86,7 @@
 		"Stun": "27"
 	},
 	"Hammer Frenzy": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "4",
 		"Hit": "18",
 		"Recovery": "47",

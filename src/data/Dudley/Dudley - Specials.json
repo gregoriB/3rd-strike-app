@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Ducking Straight": {
-		"Motion": "HCF + Kick, Punch",
+		"Motion": "HCF + Kick , Punch",
 		"Startup": "21 / 20 / 22",
 		"Hit": "4",
 		"Recovery": "19",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Ducking Upper": {
-		"Motion": "HCF + Kick, Kick",
+		"Motion": "HCF + Kick , Kick",
 		"Startup": "20 / 19 / 21",
 		"Hit": "4",
 		"Recovery": "25",

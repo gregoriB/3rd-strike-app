@@ -137,6 +137,7 @@ table  * {
 
 th {
   padding: 10px;
+  text-shadow: 0 0 .1px black;
 }
 
 td {
@@ -146,6 +147,7 @@ td {
   border-right: none;
   transition: .1s;
   padding: 5px 10px;
+  text-shadow: 0 0 .1px black;
 }
 
 td div {
@@ -168,8 +170,7 @@ tr:hover td {
   transition: .1s;
 }
 
-  /* cancel data cell */
-tr td:nth-child(8) {
+.cancel-data {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -188,7 +189,6 @@ tr:nth-of-type(odd) {
   text-align: left;
   font-weight: bold;
   color: rgb(44, 44, 44);
-  text-shadow: .2px .2px black;
 }
 
 button {
@@ -230,6 +230,7 @@ button {
 }
 
 .down {
+  font-weight: bold;
   color: white;
 }
 
@@ -237,34 +238,38 @@ button {
   font-weight: bold;
   margin: 0 2px;
   color: rgb(80, 135, 255);
-  text-shadow: 1px 1px black;
 }
 
 .low {
   font-weight: bold;
   margin: 0 2px;
   color: rgb(87, 255, 9);
-  text-shadow: 1px 1px black;
 }
 
 .cancel.separator {
   font-weight: normal;
-  /* margin: 0 4px; */
-  text-shadow: none;
-  color: black;
+}
+
+.comma {
+  margin-left: -2px;
+  margin-right: 4px;
 }
 
 .attack-type {
   margin: 0 4px;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  text-shadow: 1px 1px black;
 }
 
 .attack-motion {
   margin: 0 4px;
   font-weight: bold;
   color: black;
+}
+
+.rotation {
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 
 .light {
@@ -287,9 +292,12 @@ button {
   margin-left: 5px;
 }
 
-.rapid {
+.attack-criteria {
+  font-weight: bold;
   margin: 0 5px;
+  text-shadow: none;
 }
+
 
 .selector-buttons button:hover {
   background: rgb(160, 160, 160);
@@ -340,12 +348,9 @@ button:hover {
   flex-direction: column;
   font-weight: bold;
   margin: 0 3px;
-  text-shadow: .05rem .05rem black;
 }
 
 .empty-cancel {
-  text-shadow: none;
-  font-weight: normal;
 }
 
 .SELF {
@@ -519,7 +524,6 @@ button:hover {
   }
 
   .cancel {
-    text-shadow: .3px .3px black;
   }
 
   .tool-tip * {

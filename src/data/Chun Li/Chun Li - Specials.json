@@ -139,7 +139,7 @@
 		"Meter Gain Player": "3 / 20 / 14",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Hyakuretsu Kyaku (Roundhouse)": {
+	"Hyakuretsu Kyaku (RH)": {
 		"Motion": "Mash Roundhouse",
 		"Startup": "5",
 		"Hit": "4",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Spinning Bird Kick (Short)": {
-		"Motion": "Hold D...U + Short",
+		"Motion": "Hold Down , Up + Short",
 		"Startup": "12",
 		"Hit": "4",
 		"Recovery": "-",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (Forward)": {
-		"Motion": "Hold D...U + Forward",
+		"Motion": "Hold Down , Up + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "-",
@@ -231,8 +231,8 @@
 		"Meter Gain Player": "3 / 23 / 17",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Spinning Bird Kick (Roundhouse)": {
-		"Motion": "Hold D...U + Roundhouse",
+	"Spinning Bird Kick (RH)": {
+		"Motion": "Hold Down , Up + Roundhouse",
 		"Startup": "17",
 		"Hit": "8",
 		"Recovery": "-",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (EX)": {
-		"Motion": "Hold D...U + 2-Kicks",
+		"Motion": "Hold Down , Up + 2-Kicks",
 		"Startup": "12",
 		"Hit": "10",
 		"Recovery": "-",
@@ -323,7 +323,7 @@
 		"Meter Gain Player": "3 / 18 / 12",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Hazan Shu (Roundhouse)": {
+	"Hazan Shu (RH)": {
 		"Motion": "HCB + Roundhouse",
 		"Startup": "29",
 		"Hit": "3",

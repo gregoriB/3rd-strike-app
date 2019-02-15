@@ -2,7 +2,7 @@
 	"Name": "Elena / エレナ",
 	"Category": "Super Arts",
 	"Spinning Beat": {
-		"Motion": "QCF x 2 + Kick",
+		"Motion": "QCF x2 + Kick",
 		"Startup": "0",
 		"Hit": "17",
 		"Recovery": "43",
@@ -23,7 +23,7 @@
 		"Stun": "14"
 	},
 	"Brave Dance": {
-		"Motion": "QCF x 2 + Kick",
+		"Motion": "QCF x2 + Kick",
 		"Startup": "0",
 		"Hit": "15",
 		"Recovery": "14",
@@ -44,7 +44,7 @@
 		"Stun": "0"
 	},
 	"Healing": {
-		"Motion": "QCF x 2 + Kick",
+		"Motion": "QCF x2 + Kick",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "15",

@@ -2,7 +2,7 @@
 	"Name": "Ibuki / イブキ",
 	"Category": "Super Arts",
 	"Kasumi Suzaku": {
-		"Motion": "QCF x 2 + Punch (Air) ",
+		"Motion": "QCF x2 + Punch (Air) ",
 		"Startup": "3",
 		"Hit": "87",
 		"Recovery": "-",
@@ -22,8 +22,8 @@
 		"Damage": "45",
 		"Stun": "0"
 	},
-	"Yoroi Doushi": {
-		"Motion": "QCF x 2 + Punch",
+	"Yoroi Doushi (grab)": {
+		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "15",
 		"Recovery": "65",
@@ -43,8 +43,8 @@
 		"Damage": "77",
 		"Stun": "12"
 	},
-	"Missed grab (Chi Blast)": {
-		"Motion": "-",
+	"Yoroi Doushi (whiffed grab)": {
+		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "15",
 		"Recovery": "65",
@@ -65,7 +65,7 @@
 		"Stun": "0"
 	},
 	"Yami Shigure": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "2",
 		"Hit": "3",
 		"Recovery": "30",

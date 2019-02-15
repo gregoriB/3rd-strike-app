@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tackle (All Versions)": {
-		"Motion": "HCF + Punch, Tap Punch",
+		"Motion": "HCF + Punch , Punch",
 		"Startup": "18 / 22 / 26",
 		"Hit": "2",
 		"Recovery": "28",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Tackle (EX)": {
-		"Motion": "HCF + 2-Punches, Tap Punch",
+		"Motion": "HCF + 2-Punches , Punch",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "28",

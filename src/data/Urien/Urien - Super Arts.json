@@ -2,7 +2,7 @@
 	"Name": "Urien / ユリアン",
 	"Category": "Super Arts",
 	"Tyrant Punish": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "55",
 		"Recovery": "23",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Temporal Thunder": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "1",
 		"Hit": "75",
 		"Recovery": "91",
@@ -44,7 +44,7 @@
 		"Stun": "33"
 	},
 	"Aegis Reflector": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "13 / 25 / 32 ( 9 / 9 / 9 )",
 		"Hit": "-",
 		"Recovery": "12",
@@ -65,7 +65,7 @@
 		"Stun": "0"
 	},
 	"Aegis Reflector (EX)": {
-		"Motion": "QCF x 2 + 2-Punches",
+		"Motion": "QCF x2 + 2-Punches",
 		"Startup": "-2 (9)",
 		"Hit": "-",
 		"Recovery": "12",

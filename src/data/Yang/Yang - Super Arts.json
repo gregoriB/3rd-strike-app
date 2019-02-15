@@ -2,7 +2,7 @@
 	"Name": "Yang / ヤン",
 	"Category": "Super Arts",
 	"Raishin Mahhaken": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "36",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Tenshin Senkyuutai": {
-		"Motion": "QCF x 2 + Kick",
+		"Motion": "QCF x2 + Kick",
 		"Startup": "0",
 		"Hit": "59",
 		"Recovery": "57",
@@ -44,7 +44,7 @@
 		"Stun": "12"
 	},
 	"Sei-ei Enbu": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "-",

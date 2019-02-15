@@ -2,7 +2,7 @@
 	"Name": "Remy / レミー",
 	"Category": "Specials",
 	"Light of Virtue (Jab)": {
-		"Motion": "Hold B...F + Jab",
+		"Motion": "Hold Back , Fwd + Jab",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "22",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Strong)": {
-		"Motion": "Hold B...F + Strong",
+		"Motion": "Hold Back , Fwd + Strong",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "22",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Fierce)": {
-		"Motion": "Hold B...F + Fierce",
+		"Motion": "Hold Back , Fwd + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "22",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX High)": {
-		"Motion": "Hold B...F + 2-Kicks",
+		"Motion": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX Low)": {
-		"Motion": "Hold B...F + 2-Kicks",
+		"Motion": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Short)": {
-		"Motion": "Hold B...F + Short",
+		"Motion": "Hold Back , Fwd + Short",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "26",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Forward)": {
-		"Motion": "Hold B...F + Forward",
+		"Motion": "Hold Back , Fwd + Forward",
 		"Startup": "12",
 		"Hit": "-",
 		"Recovery": "26",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (RH)": {
-		"Motion": "Hold B...F + Roundhouse",
+		"Motion": "Hold Back , Fwd + Roundhouse",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "26",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Rising Rage Flash (Short)": {
-		"Motion": "Hold D...U + Short",
+		"Motion": "Hold Down , Up + Short",
 		"Startup": "3",
 		"Hit": "3",
 		"Recovery": "32",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (Forward)": {
-		"Motion": "Hold D...U + Forward",
+		"Motion": "Hold Down , Up + Forward",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "39",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (RH)": {
-		"Motion": "Hold D...U + Roundhouse",
+		"Motion": "Hold Down , Up + Roundhouse",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "44",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (EX)": {
-		"Motion": "Hold D...U + 2-Kicks",
+		"Motion": "Hold Down , Up + 2-Kicks",
 		"Startup": "6",
 		"Hit": "5",
 		"Recovery": "41",

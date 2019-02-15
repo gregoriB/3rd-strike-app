@@ -2,7 +2,7 @@
 	"Name": "Sean / ショーン",
 	"Category": "Super Arts",
 	"Hadou Burst": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "2",
 		"Hit": "-",
 		"Recovery": "61",
@@ -23,7 +23,7 @@
 		"Stun": "9"
 	},
 	"Shoryuu Cannon": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch (Mash)",
 		"Startup": "0",
 		"Hit": "36",
 		"Recovery": "36",
@@ -44,7 +44,7 @@
 		"Stun": "0"
 	},
 	"Hyper Tornado": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "1",
 		"Hit": "14",
 		"Recovery": "53",

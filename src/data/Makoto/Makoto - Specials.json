@@ -2,7 +2,7 @@
 	"Name": "Makoto / まこと",
 	"Category": "Specials",
 	"Hayate (full charge)": {
-		"Motion": "QCF + Punch (hold)",
+		"Motion": "QCF + Punch (Hold)",
 		"Startup": "126",
 		"Hit": "6",
 		"Recovery": "24",
@@ -346,7 +346,7 @@
 		"Meter Gain Player": "3 / 19 / 12",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Tsurugi (Roundhouse)": {
+	"Tsurugi (RH)": {
 		"Motion": "QCB + Roundhouse (Air)",
 		"Startup": "16",
 		"Hit": "4",
@@ -438,7 +438,7 @@
 		"Meter Gain Player": "0 / 8 / --",
 		"Meter Gain Opponent": "2 / --"
 	},
-	"Karakusa (Roundhouse)": {
+	"Karakusa (RH)": {
 		"Motion": "HCB + Roundhouse",
 		"Startup": "9",
 		"Hit": "4",

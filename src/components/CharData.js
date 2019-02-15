@@ -60,14 +60,14 @@ export default function CharacterData(props) {
     let cssClass = 'misc-data';
     if (data < 0) cssClass = 'number negative';
     else if (data > 0) cssClass = 'number positive';
-    else if (data > -1 && data < 1) cssClass = 'number neutral'
+    else if (data > -1 && data < 1) cssClass = 'number neutral';
     else if (typeof data === 'object') {
       cssClass = 'cancel-data';
       type = handleCancelData(data);
     }
     else if (typeof data === 'string') type = handleOrganizeString(data);
 
-    return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>
+    return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>;
   }  
 
   const handleOrganizeString = data => {
@@ -75,6 +75,7 @@ export default function CharacterData(props) {
     const newData = [];
     let cssClass;
     for (let item of splitData) {
+      let type;
       switch(item) {
         case 'QCB':
         case 'QCF':
@@ -85,18 +86,18 @@ export default function CharacterData(props) {
         case '360':
         case '720':
         case 'Hold':
-        case 'D...U':
-        case 'B...F':
         case 'Mash':
         case 'ducking':
         case 'Down':
         case 'Jab':
+        case 'Punch':
          return handleControllerMotions(splitData);
         case '0':
           cssClass = 'number neutral';
           break;
         case 'D':
           cssClass = 'down';
+          type = 'KD'
           break;
         case 'H':
           cssClass = 'high';
@@ -113,14 +114,13 @@ export default function CharacterData(props) {
           break;
         case '--':
           cssClass = 'blank-spot'
+          break;
         default:
           if (item > 0 && parseInt(item)) cssClass = 'number positive';
           if (item < 0 && parseInt(item)) cssClass = 'number negative';
           break;
       }
-  
-
-      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{item}</div>)
+      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{type || item}</div>);
     }
 
     return newData;
@@ -130,7 +130,67 @@ export default function CharacterData(props) {
     const newData = [];
     let cssClass;
     for (let item of data) {
+      let modifiedData = [...data];
+      let newItem;
       switch(item) {
+        case '360':
+          modifiedData.splice(0, 1, 'rotation', 'or', 'reverse-rotation')
+          return handleControllerMotions(modifiedData);
+        case 'rotation':
+          cssClass = 'attack-motion rotation';
+          newItem = '\u27f3';
+          break;
+        case 'reverse-rotation':
+          cssClass = 'attack-motion rotation';
+          newItem = '\u27f2';
+          break;
+        case '720':
+          modifiedData.splice(0, 1, 'rotation', 'rotation', 'or', 'reverse-rotation', 'reverse-rotation')
+          return handleControllerMotions(modifiedData);
+        case '720':
+          cssClass = 'attack-motion rotation';
+          newItem = '\u27f3 \u27f3 or \u27f2 \u27f2';
+          break;
+        case 'QCF':
+          cssClass = 'attack-motion';
+          newItem = '\u2b07 \u2b0a \u27a1';
+          break;
+        case 'QCB':
+          cssClass = 'attack-motion';
+          newItem = '\u2b07 \u2b0b \u2b05';
+          break;
+        case 'DPM':
+          cssClass = 'attack-motion';
+          newItem = '\u27a1 \u2b07 \u2b0a';
+          break;
+        case 'RDP':
+          cssClass = 'attack-motion';
+          newItem = '\u2b05 \u2b07 \u2b0b ';
+          break;
+        case 'HCB':
+          cssClass = 'attack-motion';
+          newItem = '\u27a1 \u2b0a \u2b07 \u2b0b \u2b05';
+          break;
+        case 'HCF':
+          cssClass = 'attack-motion';
+          newItem = '\u2b05 \u2b0b \u2b07 \u2b0a \u27a1';
+          break;
+        case 'Fwd':
+          cssClass = 'attack-motion';
+          newItem = '\u27a1';
+          break;
+        case 'Back':
+          cssClass = 'attack-motion';
+          newItem = '\u2b05';
+          break;
+        case 'Down':
+          cssClass = 'attack-motion';
+          newItem = '\u2b07';
+          break;
+        case 'Up':
+          cssClass = 'attack-motion';
+          newItem = '\u2b06';
+          break;
         case 'Punch':
         case '2-Punches':
         case '3-Punches':
@@ -159,32 +219,39 @@ export default function CharacterData(props) {
         case 'Roundhouse':
           cssClass = 'attack-type roundhouse heavy';
           break;
-        case 'Mash':
-          cssClass = 'attack-motion rapid'
+        case '(Mash)':
+          cssClass = 'attack-criteria'
+          break;
+        case '(Hold)':
+          cssClass = 'attack-criteria';
           break;
         case '(Air)':
-          cssClass = 'attack-state';
+          cssClass = 'attack-criteria';
           break;
         case '+':
           cssClass = 'separator';
+          break;
+        case ',':
+          cssClass = 'comma';
           break;
         default:
           cssClass = 'attack-motion';
           break;
       }
-      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{item}</div>)
-    } 
+      newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{newItem || item}</div>);
+    }
+
     return newData;
   }
 
   const handleCancelData = data => {
-    let cancels = []
+    let cancels = [];
     for (let cancel in data) {
       if (data[cancel]) cancels.push(cancel);
     }
     if (cancels.length < 1) cancels.push('-'); //placeholder for empty space
 
-    return cancels.map(cancel => handleCheckCancelType(cancel))
+    return cancels.map(cancel => handleCheckCancelType(cancel));
   }
 
   const handleCheckCancelType = cancel => {
@@ -195,36 +262,36 @@ export default function CharacterData(props) {
       case '?':
         type = '?';
         text = 'question-mark-single';
-        toolTip = 'ambiguous cancel'
+        toolTip = 'ambiguous cancel';
         break;
       case '??':
         type = '??';
         text = 'question-mark-double';
-        toolTip = 'ambiguous cancel'
+        toolTip = 'ambiguous cancel';
         break;
       case 'Super Art':
         type = 'SA';
-        toolTip = 'Super Art Cancellable'
+        toolTip = 'Super Art Cancellable';
         break;
       case 'Special':
         type = 'SP';
-        toolTip = 'Special Move Cancellable'
+        toolTip = 'Special Move Cancellable';
         break;
       case 'Normal/Chain':
         type = 'NC';
-        toolTip = 'Normal/Chain Cancellable'
+        toolTip = 'Normal/Chain Cancellable';
         break;
       case 'Dash':
         type = 'DASH';
-        toolTip = 'Dash Cancellable'
+        toolTip = 'Dash Cancellable';
         break;
       case 'Superjump':
         type = 'SJ';
-        toolTip = 'Super Jump Cancellable'
+        toolTip = 'Super Jump Cancellable';
         break;
       case 'Self':
         type = 'SELF';
-        toolTip = 'cancels with itself'
+        toolTip = 'cancels with itself';
         break;
       case '-':
         type = '-';
@@ -236,16 +303,14 @@ export default function CharacterData(props) {
     }
 
     return (
-      <div key={uniqueKey.incrementKey()}>
-        <div className={`${text || type} cancel`}>
-          {type}
-          <div className="tool-tip">
-            <div className="tool-tip-info">{toolTip}</div>
-            <div className='tool-tip-pointer'></div>
-          </div>
+      <div key={uniqueKey.incrementKey()} className={`${text || type} cancel`}>
+        {type}
+        <div className="tool-tip">
+          <div className="tool-tip-info">{toolTip}</div>
+          <div className='tool-tip-pointer'></div>
         </div>
-      </div>
-    )
+      </div>    
+    );
   }
     //sets font size according to screen pixel width to make things more responsive
   const handleSetFontSize = () => {

@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Air Stampede (Short)": {
-		"Motion": "Hold D...U + Short",
+		"Motion": "Hold Down , Up + Short",
 		"Startup": "23",
 		"Hit": "2",
 		"Recovery": "24",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Stampede (Forward)": {
-		"Motion": "Hold D...U + Forward",
+		"Motion": "Hold Down , Up + Forward",
 		"Startup": "25",
 		"Hit": "2",
 		"Recovery": "24",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Stampede (RH)": {
-		"Motion": "Hold D...U + Roundhouse",
+		"Motion": "Hold Down , Up + Roundhouse",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Stampede (EX)": {
-		"Motion": "Hold D...U + 2-Kicks",
+		"Motion": "Hold Down , Up + 2-Kicks",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Slash Elbow (Short)": {
-		"Motion": "Hold B...F + Short",
+		"Motion": "Hold Back , Fwd + Short",
 		"Startup": "15",
 		"Hit": "1",
 		"Recovery": "17",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Slash Elbow (Forward)": {
-		"Motion": "Hold B...F + Forward",
+		"Motion": "Hold Back , Fwd + Forward",
 		"Startup": "18",
 		"Hit": "1",
 		"Recovery": "23",
@@ -462,7 +462,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Slash Elbow (RH)": {
-		"Motion": "Hold B...F + Roundhouse",
+		"Motion": "Hold Back , Fwd + Roundhouse",
 		"Startup": "20",
 		"Hit": "1",
 		"Recovery": "23",
@@ -485,7 +485,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Slash Elbow (EX)": {
-		"Motion": "Hold B...F + 2-Kicks",
+		"Motion": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "9",
 		"Hit": "6",
 		"Recovery": "23",

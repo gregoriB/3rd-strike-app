@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Oniyama (Jab)": {
-		"Motion": "Hold D...U + Jab",
+		"Motion": "Hold Down , Up + Jab",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "-29",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (Strong)": {
-		"Motion": "Hold D...U + Strong",
+		"Motion": "Hold Down , Up + Strong",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "-30",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (Fierce)": {
-		"Motion": "Hold D...U + Fierce",
+		"Motion": "Hold Down , Up + Fierce",
 		"Startup": "7",
 		"Hit": "23",
 		"Recovery": "-33",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (EX)": {
-		"Motion": "Hold D...U + 2-Punches",
+		"Motion": "Hold Down , Up + 2-Punches",
 		"Startup": "5",
 		"Hit": "25",
 		"Recovery": "-43",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Jab)": {
-		"Motion": "Hold B...F + Jab",
+		"Motion": "Hold Back , Fwd + Jab",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Strong)": {
-		"Motion": "Hold B...F + Strong",
+		"Motion": "Hold Back , Fwd + Strong",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "25",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Fierce)": {
-		"Motion": "Hold B...F + Fierce",
+		"Motion": "Hold Back , Fwd + Fierce",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "23",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX Low)": {
-		"Motion": "Hold B...F + 2-Punches",
+		"Motion": "Hold Back , Fwd + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX High)": {
-		"Motion": "Hold B...F + 2-Punches",
+		"Motion": "Hold Back , Fwd + 2-Punches",
 		"Startup": "21",
 		"Hit": "-",
 		"Recovery": "37",

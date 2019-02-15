@@ -2,7 +2,7 @@
 	"Name": "Q / キュ",
 	"Category": "Specials",
 	"Dashing Head Attack (Jab)": {
-		"Motion": "Hold B...F+ Jab (Hold)",
+		"Motion": "Hold Back , Fwd + Jab (Hold)",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "23",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (Strong)": {
-		"Motion": "Hold B...F+ Strong (Hold)",
+		"Motion": "Hold Back , Fwd + Strong (Hold)",
 		"Startup": "28",
 		"Hit": "3",
 		"Recovery": "24",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (Fierce)": {
-		"Motion": "Hold B...F+ Fierce (Hold)",
+		"Motion": "Hold Back , Fwd + Fierce (Hold)",
 		"Startup": "32",
 		"Hit": "3",
 		"Recovery": "25",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (EX)": {
-		"Motion": "Hold B...F + 2-Punches",
+		"Motion": "Hold Back , Fwd + 2-Punches",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "36",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Leg Attack (Short)": {
-		"Motion": "Hold B...F + Short",
+		"Motion": "Hold Back , Fwd + Short",
 		"Startup": "25",
 		"Hit": "2",
 		"Recovery": "29",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (Forward)": {
-		"Motion": "Hold B...F + Forward",
+		"Motion": "Hold Back , Fwd + Forward",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "30",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (RH)": {
-		"Motion": "Hold B...F + Roundhouse",
+		"Motion": "Hold Back , Fwd + Roundhouse",
 		"Startup": "31",
 		"Hit": "2",
 		"Recovery": "31",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (EX)": {
-		"Motion": "Hold B...F + 2-Kicks",
+		"Motion": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "34",

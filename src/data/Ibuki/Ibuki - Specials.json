@@ -484,7 +484,7 @@
 		"Meter Gain Player": "3 / 19 / 13",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Tsumuji (Roundhouse)": {
+	"Tsumuji (RH)": {
 		"Motion": "QCB + Roundhouse",
 		"Startup": "14",
 		"Hit": "3",

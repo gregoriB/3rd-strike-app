@@ -44,7 +44,7 @@
 		"Stun": "26"
 	},
 	"Boomerang Raid": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "14",
 		"Recovery": "41",
@@ -65,7 +65,7 @@
 		"Stun": "20"
 	},
 	"Stun Gun Headbutt": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "17",

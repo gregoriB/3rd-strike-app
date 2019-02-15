@@ -2,7 +2,7 @@
 	"Name": "Yun / ユン",
 	"Category": "Super Arts",
 	"You Hou": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "16",
 		"Recovery": "36",
@@ -23,7 +23,7 @@
 		"Stun": "22"
 	},
 	"Sourai Rengeki": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "3",
 		"Hit": "5",
 		"Recovery": "25",
@@ -44,7 +44,7 @@
 		"Stun": "11"
 	},
 	"Genei Jin": {
-		"Motion": "QCF x 2 + Punch",
+		"Motion": "QCF x2 + Punch",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "-",
