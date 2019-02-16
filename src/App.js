@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import CharData from './components/CharData';
 import CharSelect from './components/CharSelect';
 import Error from './components/Error';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { StateContext } from './contexts/stateContext';
 import { characters } from './helpers/variables';
 import './normalize.css';
@@ -13,6 +13,7 @@ export default function App() {
 
   const handleCheckPath = () => {
     const path = window.location.pathname.split('/')[1].replace(/%20/g, ' ');
+    console.log(window.location.pathname)
     for (const char of characters) {
       if (path.toLowerCase() === char.toLowerCase()) {
         state.setCurrentChar(char);
@@ -25,14 +26,12 @@ export default function App() {
   }
 
 return (
-    <BrowserRouter>
-      <div className="App">
-        <Switch>
-          <Route path='/' component={CharSelect} exact />
-          <Route path={`/${state.currentChar}`} component={CharData} />
-          <Route render={handleCheckPath} />
-        </Switch>
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Switch>
+        <Route exact path='/' component={CharSelect} />
+        <Route path={`/${state.currentChar}`} component={CharData} />
+        <Route render={handleCheckPath} />
+      </Switch>
+    </div>
   );
 }
