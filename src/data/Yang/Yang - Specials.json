@@ -2,7 +2,7 @@
 	"Name": "Yang / ヤン",
 	"Category": "Specials",
 	"Tourou Zan (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "8",
 		"Hit": "5",
 		"Recovery": "22",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tourou Zan (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "8",
 		"Hit": "5",
 		"Recovery": "26",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tourou Zan (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "8",
 		"Hit": "5",
 		"Recovery": "30",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tourou Zan (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "26",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Senkyuutai (Short)": {
-		"Motion": "QCF + Short",
+		"Input": "QCF + Short",
 		"Startup": "8",
 		"Hit": "8",
 		"Recovery": "34",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Senkyuutai (Forward)": {
-		"Motion": "QCF + Forward",
+		"Input": "QCF + Forward",
 		"Startup": "16",
 		"Hit": "8",
 		"Recovery": "28",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Senkyuutai (RH)": {
-		"Motion": "QCF + Roundhouse",
+		"Input": "QCF + Roundhouse",
 		"Startup": "29",
 		"Hit": "8",
 		"Recovery": "25",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Senkyuutai (EX)": {
-		"Motion": "QCF + 2-Kicks",
+		"Input": "QCF + 2-Kicks",
 		"Startup": "29",
 		"Hit": "8",
 		"Recovery": "25",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Byakko Soushouda": {
-		"Motion": "QCB + Punch",
+		"Input": "QCB + Punch",
 		"Startup": "21",
 		"Hit": "13",
 		"Recovery": "10",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Kaihou (Short)": {
-		"Motion": "DPM + Short",
+		"Input": "DPM + Short",
 		"Startup": "11",
 		"Hit": "5",
 		"Recovery": "13",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Kaihou (Forward)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "13",
 		"Hit": "8",
 		"Recovery": "14",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Kaihou (RH)": {
-		"Motion": "DPM + Roundhouse",
+		"Input": "DPM + Roundhouse",
 		"Startup": "15",
 		"Hit": "12",
 		"Recovery": "16",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Zenpou Tenshin": {
-		"Motion": "HCB + Kick",
+		"Input": "HCB + Kick",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "26",

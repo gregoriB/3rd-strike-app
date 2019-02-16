@@ -2,7 +2,7 @@
 	"Name": "Sean / ショーン",
 	"Category": "Specials",
 	"Sean Roll (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "7",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Sean Roll (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "2",
 		"Hit": "29",
 		"Recovery": "7",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Sean Roll (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "2",
 		"Hit": "43",
 		"Recovery": "7",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Ryuubi Kyaku (Short)": {
-		"Motion": "QCF + Short",
+		"Input": "QCF + Short",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (Forward)": {
-		"Motion": "QCF + Forward",
+		"Input": "QCF + Forward",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (RH)": {
-		"Motion": "QCF + Roundhouse",
+		"Input": "QCF + Roundhouse",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Ryuubi Kyaku (EX)": {
-		"Motion": "QCF + 2-Kicks",
+		"Input": "QCF + 2-Kicks",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tornado Kick (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "11",
 		"Hit": "4",
 		"Recovery": "21",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "14",
 		"Hit": "8",
 		"Recovery": "21",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "21",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tornado Kick (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "9",
 		"Hit": "11",
 		"Recovery": "17",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tackle (All Versions)": {
-		"Motion": "HCF + Punch , Punch",
+		"Input": "HCF + Punch , Punch",
 		"Startup": "18 / 22 / 26",
 		"Hit": "2",
 		"Recovery": "28",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Tackle (EX)": {
-		"Motion": "HCF + 2-Punches , Punch",
+		"Input": "HCF + 2-Punches , Punch",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "28",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dragon Smash (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (Strong)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "9",
 		"Hit": "9",
 		"Recovery": "42",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Dragon Smash (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "42",

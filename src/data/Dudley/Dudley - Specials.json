@@ -2,7 +2,7 @@
 	"Name": "Dudley / ダッドリー",
 	"Category": "Specials",
 	"Jet Uppercut (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "4",
 		"Hit": "8",
 		"Recovery": "29",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "28",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jet Uppercut (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "34",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Machine Gun Blow (Jab)": {
-		"Motion": "HCF + Jab",
+		"Input": "HCF + Jab",
 		"Startup": "8",
 		"Hit": "8",
 		"Recovery": "18",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (Strong)": {
-		"Motion": "HCF + Strong",
+		"Input": "HCF + Strong",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "24",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (Fierce)": {
-		"Motion": "HCF + Fierce",
+		"Input": "HCF + Fierce",
 		"Startup": "17",
 		"Hit": "13",
 		"Recovery": "30",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Machine Gun Blow (EX)": {
-		"Motion": "HCF + 2-Punches",
+		"Input": "HCF + 2-Punches",
 		"Startup": "16",
 		"Hit": "17",
 		"Recovery": "28",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Ducking Rush": {
-		"Motion": "HCF + Kick",
+		"Input": "HCF + Kick",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Ducking Straight": {
-		"Motion": "HCF + Kick , Punch",
+		"Input": "HCF + Kick , Punch",
 		"Startup": "21 / 20 / 22",
 		"Hit": "4",
 		"Recovery": "19",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Ducking Upper": {
-		"Motion": "HCF + Kick , Kick",
+		"Input": "HCF + Kick , Kick",
 		"Startup": "20 / 19 / 21",
 		"Hit": "4",
 		"Recovery": "25",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cross Counter (Jab)": {
-		"Motion": "HCB + Jab",
+		"Input": "HCB + Jab",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (Strong)": {
-		"Motion": "HCB + Strong",
+		"Input": "HCB + Strong",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (Fierce)": {
-		"Motion": "HCB + Fierce",
+		"Input": "HCB + Fierce",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Cross Counter (EX)": {
-		"Motion": "HCB + 2-Punches",
+		"Input": "HCB + 2-Punches",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "-"
 	},
 	"Short Swing Blow (Short)": {
-		"Motion": "HCB + Short",
+		"Input": "HCB + Short",
 		"Startup": "17",
 		"Hit": "3",
 		"Recovery": "13",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (Forward)": {
-		"Motion": "HCB + Forward",
+		"Input": "HCB + Forward",
 		"Startup": "20",
 		"Hit": "3",
 		"Recovery": "13",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (RH)": {
-		"Motion": "HCB + Roundhouse",
+		"Input": "HCB + Roundhouse",
 		"Startup": "23",
 		"Hit": "3",
 		"Recovery": "13",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Short Swing Blow (EX)": {
-		"Motion": "HCB + 2-Kicks",
+		"Input": "HCB + 2-Kicks",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "-",

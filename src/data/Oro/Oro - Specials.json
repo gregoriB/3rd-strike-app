@@ -2,7 +2,7 @@
 	"Name": "Oro / オロ",
 	"Category": "Specials",
 	"Human Pillar Driver (Jab)": {
-		"Motion": "HCB + Jab",
+		"Input": "HCB + Jab",
 		"Startup": "9",
 		"Hit": "2",
 		"Recovery": "29",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Human Pillar Driver (Strong)": {
-		"Motion": "HCB + Strong",
+		"Input": "HCB + Strong",
 		"Startup": "10",
 		"Hit": "2",
 		"Recovery": "29",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Human Pillar Driver (Fierce)": {
-		"Motion": "HCB + Fierce",
+		"Input": "HCB + Fierce",
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "29",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Oniyama (Jab)": {
-		"Motion": "Hold Down , Up + Jab",
+		"Input": "Hold Down , Up + Jab",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "-29",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (Strong)": {
-		"Motion": "Hold Down , Up + Strong",
+		"Input": "Hold Down , Up + Strong",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "-30",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (Fierce)": {
-		"Motion": "Hold Down , Up + Fierce",
+		"Input": "Hold Down , Up + Fierce",
 		"Startup": "7",
 		"Hit": "23",
 		"Recovery": "-33",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Oniyama (EX)": {
-		"Motion": "Hold Down , Up + 2-Punches",
+		"Input": "Hold Down , Up + 2-Punches",
 		"Startup": "5",
 		"Hit": "25",
 		"Recovery": "-43",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Jab)": {
-		"Motion": "Hold Back , Fwd + Jab",
+		"Input": "Hold Back , Fwd + Jab",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Strong)": {
-		"Motion": "Hold Back , Fwd + Strong",
+		"Input": "Hold Back , Fwd + Strong",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "25",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (Fierce)": {
-		"Motion": "Hold Back , Fwd + Fierce",
+		"Input": "Hold Back , Fwd + Fierce",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "23",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX Low)": {
-		"Motion": "Hold Back , Fwd + 2-Punches",
+		"Input": "Hold Back , Fwd + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Sun Disk Palm (EX High)": {
-		"Motion": "Hold Back , Fwd + 2-Punches",
+		"Input": "Hold Back , Fwd + 2-Punches",
 		"Startup": "21",
 		"Hit": "-",
 		"Recovery": "37",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Jinchu Nobori (Short)": {
-		"Motion": "QCF + Short",
+		"Input": "QCF + Short",
 		"Startup": "27",
 		"Hit": "6",
 		"Recovery": "19",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jinchu Nobori (Forward)": {
-		"Motion": "QCF + Forward",
+		"Input": "QCF + Forward",
 		"Startup": "31",
 		"Hit": "6",
 		"Recovery": "17",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jinchu Nobori (RH)": {
-		"Motion": "QCF + Roundhouse",
+		"Input": "QCF + Roundhouse",
 		"Startup": "34",
 		"Hit": "6",
 		"Recovery": "16",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Jinchu Nobori (EX)": {
-		"Motion": "QCF + 2-Kicks",
+		"Input": "QCF + 2-Kicks",
 		"Startup": "31",
 		"Hit": "12",
 		"Recovery": "16",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air Jinchu Nobori": {
-		"Motion": "QCF + Kick (Air)",
+		"Input": "QCF + Kick (Air)",
 		"Startup": "8",
 		"Hit": "6",
 		"Recovery": "29",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Jinchu Nobori (EX)": {
-		"Motion": "QCF + 2-Kicks (Air)",
+		"Input": "QCF + 2-Kicks (Air)",
 		"Startup": "8",
 		"Hit": "7",
 		"Recovery": "30",

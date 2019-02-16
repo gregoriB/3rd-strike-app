@@ -2,7 +2,7 @@
 	"Name": "Yun / ユン",
 	"Category": "Specials",
 	"Tetsu Zankou (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "13",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tetsu Zankou (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "18",
 		"Hit": "6",
 		"Recovery": "15",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tetsu Zankou (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "22",
 		"Hit": "6",
 		"Recovery": "17",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tetsu Zankou (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "10",
 		"Hit": "13",
 		"Recovery": "19",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Zesshou Hohou (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "7",
 		"Hit": "5",
 		"Recovery": "22",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Zesshou Hohou (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "10",
 		"Hit": "11",
 		"Recovery": "16",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Zesshou Hohou (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "13",
 		"Hit": "15",
 		"Recovery": "12",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Zesshou Hohou (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "13",
 		"Hit": "15",
 		"Recovery": "12",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Nishou Kyaku (Short)": {
-		"Motion": "DPM + Short",
+		"Input": "DPM + Short",
 		"Startup": "4",
 		"Hit": "6",
 		"Recovery": "25",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Nishou Kyaku (Forward)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "26",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Nishou Kyaku (RH)": {
-		"Motion": "DPM + Roundhouse",
+		"Input": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "6",
 		"Recovery": "28",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Nishou Kyaku (EX)": {
-		"Motion": "DPM + 2-Kicks",
+		"Input": "DPM + 2-Kicks",
 		"Startup": "4",
 		"Hit": "6",
 		"Recovery": "29",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kobokushi": {
-		"Motion": "QCB + Punch",
+		"Input": "QCB + Punch",
 		"Startup": "24",
 		"Hit": "10",
 		"Recovery": "4",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Zenpou Tenshin": {
-		"Motion": "HCB + Kick",
+		"Input": "HCB + Kick",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "26",

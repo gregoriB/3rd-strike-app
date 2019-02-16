@@ -2,7 +2,7 @@
 	"Name": "Ryu / リュウ",
 	"Category": "Specials",
 	"Hadouken (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "36",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "36",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "36",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "36",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Shoryuken (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "3",
 		"Hit": "11",
 		"Recovery": "29",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "34",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "18",
 		"Recovery": "38",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "38",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "22",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "11",
 		"Hit": "10",
 		"Recovery": "19",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "11",
 		"Hit": "10",
 		"Recovery": "22",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "10",
 		"Hit": "12",
 		"Recovery": "11",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Joudan Sokutou Geri (Short)": {
-		"Motion": "HCF + Short",
+		"Input": "HCF + Short",
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "28",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Joudan Sokutou Geri (Forward)": {
-		"Motion": "HCF + Forward",
+		"Input": "HCF + Forward",
 		"Startup": "13",
 		"Hit": "3",
 		"Recovery": "27",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Joudan Sokutou Geri (RH)": {
-		"Motion": "HCF + Roundhouse",
+		"Input": "HCF + Roundhouse",
 		"Startup": "16",
 		"Hit": "3",
 		"Recovery": "26",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Joudan Sokutou Geri (EX)": {
-		"Motion": "HCF + 2-Kicks",
+		"Input": "HCF + 2-Kicks",
 		"Startup": "13",
 		"Hit": "4",
 		"Recovery": "27",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Short)": {
-		"Motion": "QCB + Short (Air)",
+		"Input": "QCB + Short (Air)",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "-",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Forward)": {
-		"Motion": "QCB + Forward (Air)",
+		"Input": "QCB + Forward (Air)",
 		"Startup": "7",
 		"Hit": "10",
 		"Recovery": "-",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (RH)": {
-		"Motion": "QCB + Roundhouse (Air)",
+		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "7",
 		"Hit": "10",
 		"Recovery": "-",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (EX)": {
-		"Motion": "QCB + 2-Kicks (Air)",
+		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "-",

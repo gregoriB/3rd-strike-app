@@ -2,7 +2,7 @@
 	"Name": "Dudley / ダッドリー",
 	"Category": "Super Arts",
 	"Rocket Uppercut": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "40",
 		"Recovery": "31",
@@ -23,7 +23,7 @@
 		"Stun": "10"
 	},
 	"Rolling Thunder": {
-		"Motion": "QCF x2 + Punch (Mash)",
+		"Input": "QCF x2 + Punch (Mash)",
 		"Startup": "1",
 		"Hit": "17",
 		"Recovery": "20",
@@ -44,7 +44,7 @@
 		"Stun": "13"
 	},
 	"Corkscrew Blow": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "10",
 		"Recovery": "24",

@@ -2,7 +2,7 @@
 	"Name": "Twelve / トゥエルヴ",
 	"Category": "Super Arts",
 	"X.N.D.L.": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "4",
 		"Hit": "76",
 		"Recovery": "35",
@@ -23,7 +23,7 @@
 		"Stun": "14"
 	},
 	"X.F.L.A.T.": {
-		"Motion": "QCF x2 + Kick (Air)",
+		"Input": "QCF x2 + Kick (Air)",
 		"Startup": "1",
 		"Hit": "12",
 		"Recovery": "49",
@@ -44,7 +44,7 @@
 		"Stun": "25"
 	},
 	"X.F.L.A.T. (air hit)": {
-		"Motion": "QCF x2 + Kick (Air)",
+		"Input": "QCF x2 + Kick (Air)",
 		"Startup": "1",
 		"Hit": "12",
 		"Recovery": "49",
@@ -65,7 +65,7 @@
 		"Stun": "17"
 	},
 	"X.C.O.P.Y.": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "73",
 		"Hit": "-",
 		"Recovery": "-",

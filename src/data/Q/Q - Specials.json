@@ -2,7 +2,7 @@
 	"Name": "Q / キュ",
 	"Category": "Specials",
 	"Dashing Head Attack (Jab)": {
-		"Motion": "Hold Back , Fwd + Jab (Hold)",
+		"Input": "Hold Back , Fwd + Jab (Hold)",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "23",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (Strong)": {
-		"Motion": "Hold Back , Fwd + Strong (Hold)",
+		"Input": "Hold Back , Fwd + Strong (Hold)",
 		"Startup": "28",
 		"Hit": "3",
 		"Recovery": "24",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (Fierce)": {
-		"Motion": "Hold Back , Fwd + Fierce (Hold)",
+		"Input": "Hold Back , Fwd + Fierce (Hold)",
 		"Startup": "32",
 		"Hit": "3",
 		"Recovery": "25",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Head Attack (EX)": {
-		"Motion": "Hold Back , Fwd + 2-Punches",
+		"Input": "Hold Back , Fwd + 2-Punches",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "36",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Dashing Leg Attack (Short)": {
-		"Motion": "Hold Back , Fwd + Short",
+		"Input": "Hold Back , Fwd + Short",
 		"Startup": "25",
 		"Hit": "2",
 		"Recovery": "29",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (Forward)": {
-		"Motion": "Hold Back , Fwd + Forward",
+		"Input": "Hold Back , Fwd + Forward",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "30",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (RH)": {
-		"Motion": "Hold Back , Fwd + Roundhouse",
+		"Input": "Hold Back , Fwd + Roundhouse",
 		"Startup": "31",
 		"Hit": "2",
 		"Recovery": "31",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Dashing Leg Attack (EX)": {
-		"Motion": "Hold Back , Fwd + 2-Kicks",
+		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "34",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"High Speed Barrage (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "9",
 		"Hit": "3",
 		"Recovery": "26",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"High Speed Barrage (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "8",
 		"Hit": "4",
 		"Recovery": "28",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"High Speed Barrage (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "9",
 		"Hit": "3",
 		"Recovery": "28",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"High Speed Barrage (EX)": {
-		"Motion": "QCB + 2-Punches",
+		"Input": "QCB + 2-Punches",
 		"Startup": "6",
 		"Hit": "11",
 		"Recovery": "36",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Capture and Deadly Blow (Short)": {
-		"Motion": "HCB + Short",
+		"Input": "HCB + Short",
 		"Startup": "12",
 		"Hit": "2",
 		"Recovery": "42",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / --"
 	},
 	"Capture and Deadly Blow (Forward)": {
-		"Motion": "HCB + Forward",
+		"Input": "HCB + Forward",
 		"Startup": "13",
 		"Hit": "2",
 		"Recovery": "44",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / --"
 	},
 	"Capture and Deadly Blow (RH)": {
-		"Motion": "HCB + Roundhouse",
+		"Input": "HCB + Roundhouse",
 		"Startup": "14",
 		"Hit": "2",
 		"Recovery": "46",

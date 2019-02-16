@@ -2,7 +2,7 @@
 	"Name": "Chun Li / チュンリー",
 	"Category": "Specials",
 	"Kikkoken (Jab)": {
-		"Motion": "HCF + Jab",
+		"Input": "HCF + Jab",
 		"Startup": "14",
 		"Hit": "36",
 		"Recovery": "45",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (Strong)": {
-		"Motion": "HCF + Strong",
+		"Input": "HCF + Strong",
 		"Startup": "13",
 		"Hit": "17",
 		"Recovery": "38",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (Fierce)": {
-		"Motion": "HCF + Fierce",
+		"Input": "HCF + Fierce",
 		"Startup": "11",
 		"Hit": "7",
 		"Recovery": "32",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"Kikkoken (EX)": {
-		"Motion": "HCF + 2-Punches",
+		"Input": "HCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "41",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hyakuretsu Kyaku (Short)": {
-		"Motion": "Mash Short",
+		"Input": "Mash Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "-",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Forward)": {
-		"Motion": "Mash Forward",
+		"Input": "Mash Forward",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "-",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (RH)": {
-		"Motion": "Mash Roundhouse",
+		"Input": "Mash Roundhouse",
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "-",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (EX)": {
-		"Motion": "Mash 2-Kicks",
+		"Input": "Mash 2-Kicks",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "-",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Spinning Bird Kick (Short)": {
-		"Motion": "Hold Down , Up + Short",
+		"Input": "Hold Down , Up + Short",
 		"Startup": "12",
 		"Hit": "4",
 		"Recovery": "-",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (Forward)": {
-		"Motion": "Hold Down , Up + Forward",
+		"Input": "Hold Down , Up + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "-",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (RH)": {
-		"Motion": "Hold Down , Up + Roundhouse",
+		"Input": "Hold Down , Up + Roundhouse",
 		"Startup": "17",
 		"Hit": "8",
 		"Recovery": "-",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Bird Kick (EX)": {
-		"Motion": "Hold Down , Up + 2-Kicks",
+		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "12",
 		"Hit": "10",
 		"Recovery": "-",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hazan Shu (Short)": {
-		"Motion": "HCB + Short",
+		"Input": "HCB + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "18",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (Forward)": {
-		"Motion": "HCB + Forward",
+		"Input": "HCB + Forward",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "18",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (RH)": {
-		"Motion": "HCB + Roundhouse",
+		"Input": "HCB + Roundhouse",
 		"Startup": "29",
 		"Hit": "3",
 		"Recovery": "17",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hazan Shu (EX)": {
-		"Motion": "HCB + 2-Kicks",
+		"Input": "HCB + 2-Kicks",
 		"Startup": "31",
 		"Hit": "1",
 		"Recovery": "18",

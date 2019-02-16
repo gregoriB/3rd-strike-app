@@ -2,7 +2,7 @@
 	"Name": "Hugo / ヒューゴー",
 	"Category": "Specials",
 	"Shootdown Backbreaker (Short)": {
-		"Motion": "DPM + Short",
+		"Input": "DPM + Short",
 		"Startup": "5",
 		"Hit": "9",
 		"Recovery": "30",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Shootdown Backbreaker (Forward)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "25",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Shootdown Backbreaker (RH)": {
-		"Motion": "DPM + Roundhouse",
+		"Input": "DPM + Roundhouse",
 		"Startup": "12",
 		"Hit": "12",
 		"Recovery": "29",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Jab)": {
-		"Motion": "360 + Jab",
+		"Input": "360 + Jab",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Strong)": {
-		"Motion": "360 + Strong",
+		"Input": "360 + Strong",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Moonsault Press (Fierce)": {
-		"Motion": "360 + Fierce",
+		"Input": "360 + Fierce",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (Short)": {
-		"Motion": "360 + Short",
+		"Input": "360 + Short",
 		"Startup": "21 ~ 24",
 		"Hit": "2",
 		"Recovery": "30",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (Forward)": {
-		"Motion": "360 + Forward",
+		"Input": "360 + Forward",
 		"Startup": "31 ~ 52",
 		"Hit": "2",
 		"Recovery": "33",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Meat Squasher (RH)": {
-		"Motion": "360 + Roundhouse",
+		"Input": "360 + Roundhouse",
 		"Startup": "44 ~ 67",
 		"Hit": "2",
 		"Recovery": "36",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "8 / --"
 	},
 	"Giant Palm Bomber (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "17",
 		"Hit": "2",
 		"Recovery": "9",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "19",
 		"Hit": "2",
 		"Recovery": "7",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "22",
 		"Hit": "2",
 		"Recovery": "6",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Giant Palm Bomber (EX)": {
-		"Motion": "QCB + 2-Punches",
+		"Input": "QCB + 2-Punches",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "10",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Monster Lariat (Short)": {
-		"Motion": "QCF + Short",
+		"Input": "QCF + Short",
 		"Startup": "11",
 		"Hit": "5",
 		"Recovery": "21 ~ 25",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (Forward)": {
-		"Motion": "QCF + Forward",
+		"Input": "QCF + Forward",
 		"Startup": "15",
 		"Hit": "5",
 		"Recovery": "23 ~ 27",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (RH)": {
-		"Motion": "QCF + Roundhouse",
+		"Input": "QCF + Roundhouse",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "24 ~ 28",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Monster Lariat (EX)": {
-		"Motion": "QCF + 2-Kicks",
+		"Input": "QCF + 2-Kicks",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "31 ~ 35",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Ultra Throw (Short)": {
-		"Motion": "HCB + Short",
+		"Input": "HCB + Short",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / --"
 	},
 	"Ultra Throw (Forward)": {
-		"Motion": "HCB + Forward",
+		"Input": "HCB + Forward",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "4 / --"
 	},
 	"Ultra Throw (RH)": {
-		"Motion": "HCB + Roundhouse",
+		"Input": "HCB + Roundhouse",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",

@@ -62,7 +62,7 @@ export default function CharacterData(props) {
     else if (data > 0) cssClass = 'number positive';
     else if (data > -1 && data < 1) cssClass = 'number neutral';
     else if (typeof data === 'object') {
-      cssClass = 'cancel-data';
+      cssClass = '';
       type = handleCancelData(data);
     }
     else if (typeof data === 'string') type = handleOrganizeString(data);
@@ -71,27 +71,13 @@ export default function CharacterData(props) {
   }  
 
   const handleOrganizeString = data => {
+    const controllerMotions = ['QCB', 'QCF', 'HCB', 'HCF', 'DPM', 'RDP', '360', '720', 'Hold', 'Mash', 'Down', 'Jab', 'Punch']
     const splitData = data.split(' ');
     const newData = [];
     let cssClass;
     for (let item of splitData) {
       let type;
       switch(item) {
-        case 'QCB':
-        case 'QCF':
-        case 'HCB':
-        case 'HCF':
-        case 'DPM':
-        case 'RDP':
-        case '360':
-        case '720':
-        case 'Hold':
-        case 'Mash':
-        case 'ducking':
-        case 'Down':
-        case 'Jab':
-        case 'Punch':
-         return handleControllerMotions(splitData);
         case '0':
           cssClass = 'number neutral';
           break;
@@ -119,6 +105,9 @@ export default function CharacterData(props) {
           cssClass = 'blank-spot'
           break;
         default:
+          for (let motion of controllerMotions) {
+            if (item === motion) return handleControllerMotions(splitData);
+          }
           if (item > 0 && parseInt(item)) cssClass = 'number positive';
           if (item < 0 && parseInt(item)) cssClass = 'number negative';
           break;
@@ -248,15 +237,15 @@ export default function CharacterData(props) {
     for (let cancel in data) {
       if (data[cancel]) cancels.push(cancel);
     }
-    if (cancels.length < 1) cancels.push('-'); //placeholder for empty space
+    if (!cancels.length) cancels.push('-'); //placeholder for empty space
 
-    return cancels.map(cancel => handleCheckCancelType(cancel));
+    return <div className='cancel-data'>{cancels.map(cancel => handleCheckCancelType(cancel))}</div>;
   }
 
   const handleCheckCancelType = cancel => {
     let type;
     let text;
-    let toolTip;
+    let toolTip = false;
     switch(cancel) {
       case '?':
         type = '?';
@@ -292,23 +281,23 @@ export default function CharacterData(props) {
         type = 'SELF';
         toolTip = 'cancels with itself';
         break;
-      case '-':
+      default:
         type = '-';
         text = 'separator';
-        toolTip = false;
-        break;
-      default:
         break;
     }
 
     return (
       <div key={uniqueKey.incrementKey()} className={`${text || type} cancel`}>
         {type}
-        <div className="tool-tip">
-          <div className="tool-tip-info">{toolTip}</div>
-          <div className='tool-tip-pointer'></div>
-        </div>
-      </div>    
+        { 
+          toolTip && 
+          <div className="tool-tip">
+            <div className="tool-tip-info">{toolTip}</div>
+            <div className='tool-tip-pointer' />
+          </div>
+        }
+      </div>
     );
   }
     //sets font size according to screen pixel width to make things more responsive

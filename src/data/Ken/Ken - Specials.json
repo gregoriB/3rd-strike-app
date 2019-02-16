@@ -2,7 +2,7 @@
 	"Name": "Ken / ケン",
 	"Category": "Specials",
 	"Hadouken (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hadouken (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Shoryuken (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "2",
 		"Hit": "8",
 		"Recovery": "26",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "28",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Shoryuken (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "1",
 		"Hit": "20",
 		"Recovery": "38",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "14",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "6",
 		"Hit": "14",
 		"Recovery": "15",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "15",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "4",
 		"Hit": "21",
 		"Recovery": "13",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Short)": {
-		"Motion": "QCB + Short (Air)",
+		"Input": "QCB + Short (Air)",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "-",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Forward)": {
-		"Motion": "QCB + Forward (Air)",
+		"Input": "QCB + Forward (Air)",
 		"Startup": "7",
 		"Hit": "6",
 		"Recovery": "-",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (RH)": {
-		"Motion": "QCB + Roundhouse (Air)",
+		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "-",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (EX)": {
-		"Motion": "QCB + 2-Kicks (Air)",
+		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "6",
 		"Hit": "13",
 		"Recovery": "-",

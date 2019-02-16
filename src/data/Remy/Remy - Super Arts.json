@@ -2,7 +2,7 @@
 	"Name": "Remy / レミー",
 	"Category": "Super Arts",
 	"Light of Justice": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "1",
 		"Hit": "-",
 		"Recovery": "-",
@@ -23,7 +23,7 @@
 		"Stun": "14"
 	},
 	"Supreme Rising Rage Flash": {
-		"Motion": "QCF x2 + Kick",
+		"Input": "QCF x2 + Kick",
 		"Startup": "0",
 		"Hit": "16",
 		"Recovery": "53",
@@ -44,7 +44,7 @@
 		"Stun": "14"
 	},
 	"Blue Nocturne": {
-		"Motion": "QCF x2 + Kick",
+		"Input": "QCF x2 + Kick",
 		"Startup": "0",
 		"Hit": "21",
 		"Recovery": "27",

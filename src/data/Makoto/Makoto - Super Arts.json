@@ -2,7 +2,7 @@
 	"Name": "Makoto / まこと",
 	"Category": "Super Arts",
 	"Seichuusen Godanzuki": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "3",
 		"Recovery": "65",
@@ -23,7 +23,7 @@
 		"Stun": "20"
 	},
 	"Abare Tosanami": {
-		"Motion": "QCF x2 + Kick",
+		"Input": "QCF x2 + Kick",
 		"Startup": "14 + 0",
 		"Hit": "5",
 		"Recovery": "25",
@@ -44,7 +44,7 @@
 		"Stun": "22"
 	},
 	"Tanden Renki": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",

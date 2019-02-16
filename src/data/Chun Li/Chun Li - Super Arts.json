@@ -2,7 +2,7 @@
 	"Name": "Chun Li / チュンリー",
 	"Category": "Super Arts",
 	"Kikoshou": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "20",
 		"Recovery": "48",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Houyoku Sen": {
-		"Motion": "QCF x2 + Kick",
+		"Input": "QCF x2 + Kick",
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "35",
@@ -44,7 +44,7 @@
 		"Stun": "24"
 	},
 	"Tensei Ranka": {
-		"Motion": "QCF x2 + Kick",
+		"Input": "QCF x2 + Kick",
 		"Startup": "2",
 		"Hit": "16",
 		"Recovery": "46",

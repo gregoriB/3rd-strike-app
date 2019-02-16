@@ -2,7 +2,7 @@
 	"Name": "Elena / エレナ",
 	"Category": "Specials",
 	"Scratch Wheel (Short)": {
-		"Motion": "DPM + Short",
+		"Input": "DPM + Short",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "31",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Scratch Wheel (Forward)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "4",
 		"Hit": "5",
 		"Recovery": "36",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Scratch Wheel (RH)": {
-		"Motion": "DPM + Roundhouse",
+		"Input": "DPM + Roundhouse",
 		"Startup": "3",
 		"Hit": "7",
 		"Recovery": "40",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Scratch Wheel (EX)": {
-		"Motion": "DPM + 2-Kicks",
+		"Input": "DPM + 2-Kicks",
 		"Startup": "3",
 		"Hit": "8",
 		"Recovery": "42",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Rhino Horn (Short)": {
-		"Motion": "HCF + Short",
+		"Input": "HCF + Short",
 		"Startup": "14",
 		"Hit": "9",
 		"Recovery": "14",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (Forward)": {
-		"Motion": "HCF + Forward",
+		"Input": "HCF + Forward",
 		"Startup": "18",
 		"Hit": "10",
 		"Recovery": "15",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (RH)": {
-		"Motion": "HCF + Roundhouse",
+		"Input": "HCF + Roundhouse",
 		"Startup": "23",
 		"Hit": "10",
 		"Recovery": "17",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rhino Horn (EX)": {
-		"Motion": "HCF + 2-Kicks",
+		"Input": "HCF + 2-Kicks",
 		"Startup": "11",
 		"Hit": "13",
 		"Recovery": "15",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Mallet Smash (Jab)": {
-		"Motion": "HCB + Jab",
+		"Input": "HCB + Jab",
 		"Startup": "21",
 		"Hit": "8",
 		"Recovery": "13",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (Strong)": {
-		"Motion": "HCB + Strong",
+		"Input": "HCB + Strong",
 		"Startup": "24",
 		"Hit": "7",
 		"Recovery": "12",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (Fierce)": {
-		"Motion": "HCB + Fierce",
+		"Input": "HCB + Fierce",
 		"Startup": "27",
 		"Hit": "6",
 		"Recovery": "11",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Mallet Smash (EX)": {
-		"Motion": "HCB + 2-Punches",
+		"Input": "HCB + 2-Punches",
 		"Startup": "21",
 		"Hit": "4",
 		"Recovery": "10",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Spinning Scythe (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "18",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "16",
 		"Hit": "4",
 		"Recovery": "22",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "17",
 		"Hit": "4",
 		"Recovery": "24",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Spinning Scythe (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "10",
 		"Hit": "8",
 		"Recovery": "31",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Lynx Tail (Short)": {
-		"Motion": "RDP + Short",
+		"Input": "RDP + Short",
 		"Startup": "11",
 		"Hit": "6",
 		"Recovery": "35",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (Forward)": {
-		"Motion": "RDP + Forward",
+		"Input": "RDP + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "33",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (RH)": {
-		"Motion": "RDP + Roundhouse",
+		"Input": "RDP + Roundhouse",
 		"Startup": "16",
 		"Hit": "12",
 		"Recovery": "33",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Lynx Tail (EX)": {
-		"Motion": "RDP + 2-Kicks",
+		"Input": "RDP + 2-Kicks",
 		"Startup": "10",
 		"Hit": "22",
 		"Recovery": "25",

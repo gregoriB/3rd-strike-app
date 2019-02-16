@@ -2,7 +2,7 @@
 	"Name": "Q / キュ",
 	"Category": "Super Arts",
 	"Critical Combo Attack": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "5",
 		"Hit": "16",
 		"Recovery": "31",
@@ -23,7 +23,7 @@
 		"Stun": "14"
 	},
 	"Deadly Double Combination": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "1",
 		"Hit": "1",
 		"Recovery": "65",
@@ -44,7 +44,7 @@
 		"Stun": "20"
 	},
 	"Total Destruction": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "18",
 		"Hit": "-",
 		"Recovery": "-",
@@ -65,7 +65,7 @@
 		"Stun": "-"
 	},
 	"Far Grab": {
-		"Motion": "QCF + Punch",
+		"Input": "QCF + Punch",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "39",
@@ -86,7 +86,7 @@
 		"Stun": "24"
 	},
 	"Close Grab": {
-		"Motion": "QCF + Kick",
+		"Input": "QCF + Kick",
 		"Startup": "6",
 		"Hit": "3",
 		"Recovery": "59",

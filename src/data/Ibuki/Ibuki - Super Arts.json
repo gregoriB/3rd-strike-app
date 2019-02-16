@@ -2,7 +2,7 @@
 	"Name": "Ibuki / イブキ",
 	"Category": "Super Arts",
 	"Kasumi Suzaku": {
-		"Motion": "QCF x2 + Punch (Air) ",
+		"Input": "QCF x2 + Punch (Air) ",
 		"Startup": "3",
 		"Hit": "87",
 		"Recovery": "-",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Yoroi Doushi (grab)": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "15",
 		"Recovery": "65",
@@ -44,7 +44,7 @@
 		"Stun": "12"
 	},
 	"Yoroi Doushi (whiffed grab)": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "15",
 		"Recovery": "65",
@@ -65,7 +65,7 @@
 		"Stun": "0"
 	},
 	"Yami Shigure": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "2",
 		"Hit": "3",
 		"Recovery": "30",

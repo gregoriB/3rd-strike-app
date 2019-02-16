@@ -2,7 +2,7 @@
 	"Name": "Urien / ユリアン",
 	"Category": "Specials",
 	"Metallic Sphere (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "39",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Metallic Sphere (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "35",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Metallic Sphere (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "28",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Metallic Sphere (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "55",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Violence Knee Drop": {
-		"Motion": "Hold Down , Up + Kick",
+		"Input": "Hold Down , Up + Kick",
 		"Startup": "24",
 		"Hit": "12",
 		"Recovery": "7",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Violence Knee Drop (EX)": {
-		"Motion": "Hold Down , Up + 2-Kicks",
+		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "26",
 		"Hit": "5",
 		"Recovery": "7",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Chariot rush (Short)": {
-		"Motion": "Hold Back , Fwd + Short",
+		"Input": "Hold Back , Fwd + Short",
 		"Startup": "7",
 		"Hit": "10",
 		"Recovery": "25",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Chariot rush (Forward)": {
-		"Motion": "Hold Back , Fwd + Forward",
+		"Input": "Hold Back , Fwd + Forward",
 		"Startup": "10",
 		"Hit": "12",
 		"Recovery": "26",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Chariot rush (RH)": {
-		"Motion": "Hold Back , Fwd + Roundhouse",
+		"Input": "Hold Back , Fwd + Roundhouse",
 		"Startup": "13",
 		"Hit": "15",
 		"Recovery": "27",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Chariot rush (EX)": {
-		"Motion": "Hold Back , Fwd + 2-Kicks",
+		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "6",
 		"Hit": "34",
 		"Recovery": "39",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Headbutt (Jab)": {
-		"Motion": "Hold Down , Up + Jab",
+		"Input": "Hold Down , Up + Jab",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "19",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Headbutt (Strong)": {
-		"Motion": "Hold Down , Up + Strong",
+		"Input": "Hold Down , Up + Strong",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "18",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Headbutt (Fierce)": {
-		"Motion": "Hold Down , Up + Fierce",
+		"Input": "Hold Down , Up + Fierce",
 		"Startup": "12",
 		"Hit": "6",
 		"Recovery": "19",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Headbutt (EX)": {
-		"Motion": "Hold Down , Up + 2-Punches",
+		"Input": "Hold Down , Up + 2-Punches",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "15",

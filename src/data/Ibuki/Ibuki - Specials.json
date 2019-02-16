@@ -2,7 +2,7 @@
 	"Name": "Ibuki / イブキ",
 	"Category": "Specials",
 	"Kunai (Jab)": {
-		"Motion": "QCF + Jab (Air) ",
+		"Input": "QCF + Jab (Air) ",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "-",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Strong)": {
-		"Motion": "QCF + Strong (Air) ",
+		"Input": "QCF + Strong (Air) ",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "-",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (Fierce)": {
-		"Motion": "QCF + Fierce (Air) ",
+		"Input": "QCF + Fierce (Air) ",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "-",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kunai (EX)": {
-		"Motion": "QCF + 2-Punches (Air) ",
+		"Input": "QCF + 2-Punches (Air) ",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "-",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Raida (Jab)": {
-		"Motion": "HCB + Jab",
+		"Input": "HCB + Jab",
 		"Startup": "4",
 		"Hit": "3",
 		"Recovery": "28",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raida (Strong)": {
-		"Motion": "HCB + Strong",
+		"Input": "HCB + Strong",
 		"Startup": "5",
 		"Hit": "5",
 		"Recovery": "30",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raida (Fierce)": {
-		"Motion": "HCB + Fierce",
+		"Input": "HCB + Fierce",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "32",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hien (Short)": {
-		"Motion": "RDP + Short",
+		"Input": "RDP + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "23",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (Forward)": {
-		"Motion": "RDP + Forward",
+		"Input": "RDP + Forward",
 		"Startup": "25",
 		"Hit": "3",
 		"Recovery": "17",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (RH)": {
-		"Motion": "RDP + Roundhouse",
+		"Input": "RDP + Roundhouse",
 		"Startup": "28",
 		"Hit": "4",
 		"Recovery": "16",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Hien (EX)": {
-		"Motion": "RDP + 2-Kicks",
+		"Input": "RDP + 2-Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "13",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kubiori (Jab)": {
-		"Motion": "QCF + Punch",
+		"Input": "QCF + Punch",
 		"Startup": "14",
 		"Hit": "11",
 		"Recovery": "15",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Kubiori (Strong)": {
-		"Motion": "QCF + Punch",
+		"Input": "QCF + Punch",
 		"Startup": "15",
 		"Hit": "12",
 		"Recovery": "18",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Kubiori (Fierce)": {
-		"Motion": "QCF + Punch",
+		"Input": "QCF + Punch",
 		"Startup": "17",
 		"Hit": "14",
 		"Recovery": "19",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Kubiori (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "19",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kazekiri (Short)": {
-		"Motion": "DPM + Short",
+		"Input": "DPM + Short",
 		"Startup": "4",
 		"Hit": "12",
 		"Recovery": "26",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (Forward)": {
-		"Motion": "DPM + Forward",
+		"Input": "DPM + Forward",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "29",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (RH)": {
-		"Motion": "DPM + Roundhouse",
+		"Input": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "29",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "6 / 0"
 	},
 	"Kazekiri (EX)": {
-		"Motion": "DPM + 2-Kicks",
+		"Input": "DPM + 2-Kicks",
 		"Startup": "4",
 		"Hit": "11",
 		"Recovery": "33",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tsumuji (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "19",
@@ -462,7 +462,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "13",
 		"Hit": "2",
 		"Recovery": "21",
@@ -485,7 +485,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "24",
@@ -508,7 +508,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsumuji (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "28",
@@ -531,7 +531,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Kasumi Gake": {
-		"Motion": "QCF + Kick",
+		"Input": "QCF + Kick",
 		"Startup": "20 / 22 / 25",
 		"Hit": "-",
 		"Recovery": "-",

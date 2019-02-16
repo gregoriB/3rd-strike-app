@@ -2,7 +2,7 @@
 	"Name": "Necro / ネクロ",
 	"Category": "Specials",
 	"Electric Shock (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "16",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Electric Shock (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "8",
 		"Hit": "6",
 		"Recovery": "33",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Electric Shock (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "10",
 		"Hit": "10",
 		"Recovery": "35",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Snake Fang (Short)": {
-		"Motion": "HCF + Short",
+		"Input": "HCF + Short",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "28",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Snake Fang (Forward)": {
-		"Motion": "HCF + Forward",
+		"Input": "HCF + Forward",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "30",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Snake Fang (RH)": {
-		"Motion": "HCF + Roundhouse",
+		"Input": "HCF + Roundhouse",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "32",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Spinning Punch (Jab)": {
-		"Motion": "HCF + Jab",
+		"Input": "HCF + Jab",
 		"Startup": "6",
 		"Hit": "8",
 		"Recovery": "13",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Spinning Punch (Strong)": {
-		"Motion": "HCF + Strong",
+		"Input": "HCF + Strong",
 		"Startup": "10",
 		"Hit": "7",
 		"Recovery": "18",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Spinning Punch (Fierce)": {
-		"Motion": "HCF + Fierce",
+		"Input": "HCF + Fierce",
 		"Startup": "17",
 		"Hit": "11",
 		"Recovery": "19",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Spinning Punch (EX)": {
-		"Motion": "HCF + 2-Punches",
+		"Input": "HCF + 2-Punches",
 		"Startup": "8",
 		"Hit": "17",
 		"Recovery": "23",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Flying Viper (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "26",
 		"Hit": "5",
 		"Recovery": "17",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Flying Viper (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "26",
 		"Hit": "6",
 		"Recovery": "15",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Flying Viper (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "28",
 		"Hit": "7",
 		"Recovery": "14",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Flying Viper (EX)": {
-		"Motion": "QCB + 2-Punches",
+		"Input": "QCB + 2-Punches",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "14",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Raging Cobra (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "23",
 		"Hit": "4",
 		"Recovery": "17",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raging Cobra (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "25",
 		"Hit": "4",
 		"Recovery": "17",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raging Cobra (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "27",
 		"Hit": "4",
 		"Recovery": "17",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Raging Cobra (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "25",
 		"Hit": "4",
 		"Recovery": "17",

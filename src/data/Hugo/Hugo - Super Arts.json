@@ -2,7 +2,7 @@
 	"Name": "Hugo / ヒューゴー",
 	"Category": "Super Arts",
 	"Gigas Breaker": {
-		"Motion": "720 + Punch",
+		"Input": "720 + Punch",
 		"Startup": "0",
 		"Hit": "2",
 		"Recovery": "36",
@@ -23,7 +23,7 @@
 		"Stun": "18"
 	},
 	"Megaton Press (Short)": {
-		"Motion": "QCF x2 + Short",
+		"Input": "QCF x2 + Short",
 		"Startup": "2",
 		"Hit": "12",
 		"Recovery": "30",
@@ -44,7 +44,7 @@
 		"Stun": "27"
 	},
 	"Megaton Press (Forward)": {
-		"Motion": "QCF x2 + Forward",
+		"Input": "QCF x2 + Forward",
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "34",
@@ -65,7 +65,7 @@
 		"Stun": "27"
 	},
 	"Megaton Press (RH)": {
-		"Motion": "QCF x2 + Roundhouse",
+		"Input": "QCF x2 + Roundhouse",
 		"Startup": "6",
 		"Hit": "20",
 		"Recovery": "36",
@@ -86,7 +86,7 @@
 		"Stun": "27"
 	},
 	"Hammer Frenzy": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "4",
 		"Hit": "18",
 		"Recovery": "47",

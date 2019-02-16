@@ -2,7 +2,7 @@
 	"Name": "Makoto / まこと",
 	"Category": "Specials",
 	"Hayate (full charge)": {
-		"Motion": "QCF + Punch (Hold)",
+		"Input": "QCF + Punch (Hold)",
 		"Startup": "126",
 		"Hit": "6",
 		"Recovery": "24",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "24",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "9",
 		"Hit": "6",
 		"Recovery": "24",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "11",
 		"Hit": "6",
 		"Recovery": "24",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "3 / 0"
 	},
 	"Hayate (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "17",
 		"Hit": "6",
 		"Recovery": "24",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Fukiage (Jab)": {
-		"Motion": "DPM + Jab",
+		"Input": "DPM + Jab",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "26",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (Strong)": {
-		"Motion": "DPM + Strong",
+		"Input": "DPM + Strong",
 		"Startup": "10",
 		"Hit": "8",
 		"Recovery": "26",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (Fierce)": {
-		"Motion": "DPM + Fierce",
+		"Input": "DPM + Fierce",
 		"Startup": "14",
 		"Hit": "8",
 		"Recovery": "26",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "6 / --"
 	},
 	"Fukiage (EX)": {
-		"Motion": "DPM + 2-Punches",
+		"Input": "DPM + 2-Punches",
 		"Startup": "11",
 		"Hit": "8",
 		"Recovery": "26",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "0 / --"
 	},
 	"Oroshi (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "19",
 		"Hit": "7",
 		"Recovery": "17",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "23",
 		"Hit": "7",
 		"Recovery": "17",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "28",
 		"Hit": "7",
 		"Recovery": "17",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Oroshi (EX)": {
-		"Motion": "QCB + 2-Punches",
+		"Input": "QCB + 2-Punches",
 		"Startup": "13",
 		"Hit": "7",
 		"Recovery": "17",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Tsurugi (Short)": {
-		"Motion": "QCB + Short (Air)",
+		"Input": "QCB + Short (Air)",
 		"Startup": "14",
 		"Hit": "4",
 		"Recovery": "-",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (Forward)": {
-		"Motion": "QCB + Forward (Air)",
+		"Input": "QCB + Forward (Air)",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "-",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (RH)": {
-		"Motion": "QCB + Roundhouse (Air)",
+		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "16",
 		"Hit": "4",
 		"Recovery": "-",
@@ -370,7 +370,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Tsurugi (EX)": {
-		"Motion": "QCB + 2-Kicks (Air)",
+		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "15",
 		"Hit": "4",
 		"Recovery": "-",
@@ -393,7 +393,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Karakusa (Short)": {
-		"Motion": "HCB + Short",
+		"Input": "HCB + Short",
 		"Startup": "7",
 		"Hit": "3",
 		"Recovery": "28",
@@ -416,7 +416,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Karakusa (Forward)": {
-		"Motion": "HCB + Forward",
+		"Input": "HCB + Forward",
 		"Startup": "8",
 		"Hit": "4",
 		"Recovery": "29",
@@ -439,7 +439,7 @@
 		"Meter Gain Opponent": "2 / --"
 	},
 	"Karakusa (RH)": {
-		"Motion": "HCB + Roundhouse",
+		"Input": "HCB + Roundhouse",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "30",

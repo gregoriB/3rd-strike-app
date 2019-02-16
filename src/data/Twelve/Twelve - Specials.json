@@ -2,7 +2,7 @@
 	"Name": "Twelve / トゥエルヴ",
 	"Category": "Specials",
 	"N.D.L. (Jab)": {
-		"Motion": "QCF + Jab",
+		"Input": "QCF + Jab",
 		"Startup": "15",
 		"Hit": "11",
 		"Recovery": "14",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"N.D.L. (Strong)": {
-		"Motion": "QCF + Strong",
+		"Input": "QCF + Strong",
 		"Startup": "15",
 		"Hit": "13",
 		"Recovery": "16",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"N.D.L. (Fierce)": {
-		"Motion": "QCF + Fierce",
+		"Input": "QCF + Fierce",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "20",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "1 / 0"
 	},
 	"N.D.L. (EX)": {
-		"Motion": "QCF + 2-Punches",
+		"Input": "QCF + 2-Punches",
 		"Startup": "14",
 		"Hit": "13",
 		"Recovery": "15",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"A.X.E. (Jab)": {
-		"Motion": "QCB + Jab",
+		"Input": "QCB + Jab",
 		"Startup": "6",
 		"Hit": "11",
 		"Recovery": "15",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"A.X.E. (Strong)": {
-		"Motion": "QCB + Strong",
+		"Input": "QCB + Strong",
 		"Startup": "10",
 		"Hit": "11",
 		"Recovery": "16",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"A.X.E. (Fierce)": {
-		"Motion": "QCB + Fierce",
+		"Input": "QCB + Fierce",
 		"Startup": "14",
 		"Hit": "11",
 		"Recovery": "17",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"A.X.E. (EX)": {
-		"Motion": "QCB + 2-Punches",
+		"Input": "QCB + 2-Punches",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "14",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Air A.X.E. (Jab)": {
-		"Motion": "QCB + Jab (Air)",
+		"Input": "QCB + Jab (Air)",
 		"Startup": "9",
 		"Hit": "10",
 		"Recovery": "-",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air A.X.E. (Strong)": {
-		"Motion": "QCB + Strong (Air)",
+		"Input": "QCB + Strong (Air)",
 		"Startup": "11",
 		"Hit": "10",
 		"Recovery": "-",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "2 / 0"
 	},
 	"Air A.X.E. (Fierce)": {
-		"Motion": "QCB + Fierce (Air)",
+		"Input": "QCB + Fierce (Air)",
 		"Startup": "13",
 		"Hit": "10",
 		"Recovery": "-",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Air A.X.E. (EX)": {
-		"Motion": "QCB + 2-Punches (Air)",
+		"Input": "QCB + 2-Punches (Air)",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "-",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"D.R.A. (Short)": {
-		"Motion": "QCB + Short (Air)",
+		"Input": "QCB + Short (Air)",
 		"Startup": "14",
 		"Hit": "14",
 		"Recovery": "20",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"D.R.A. (Forward)": {
-		"Motion": "QCB + Forward (Air)",
+		"Input": "QCB + Forward (Air)",
 		"Startup": "14",
 		"Hit": "19",
 		"Recovery": "20",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"D.R.A. (RH)": {
-		"Motion": "QCB + Roundhouse (Air)",
+		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "14",
 		"Hit": "19",
 		"Recovery": "20",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"D.R.A. (EX)": {
-		"Motion": "QCB + 2-Kicks (Air)",
+		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "6",
 		"Hit": "15",
 		"Recovery": "21",

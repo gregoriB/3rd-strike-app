@@ -2,7 +2,7 @@
 	"Name": "Ryu / リュウ",
 	"Category": "Super Arts",
 	"Shinkuu Hadouken": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "3",
 		"Hit": "-",
 		"Recovery": "49",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Shin Shoryuken": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "13",
 		"Recovery": "35",
@@ -44,7 +44,7 @@
 		"Stun": "17"
 	},
 	"Shin Shoryuken (Far)": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "0",
 		"Hit": "13",
 		"Recovery": "35",
@@ -65,7 +65,7 @@
 		"Stun": "13"
 	},
 	"Denjin Hadouken": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "3",
 		"Hit": "-",
 		"Recovery": "51",

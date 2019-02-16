@@ -2,7 +2,7 @@
 	"Name": "Necro / ネクロ",
 	"Category": "Super Arts",
 	"Magnetic Storm": {
-		"Motion": "QCF x2 + Punch (Mash)",
+		"Input": "QCF x2 + Punch (Mash)",
 		"Startup": "1",
 		"Hit": "18",
 		"Recovery": "22",
@@ -23,7 +23,7 @@
 		"Stun": "0"
 	},
 	"Slam Dance": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "2",
 		"Hit": "6",
 		"Recovery": "8",
@@ -44,7 +44,7 @@
 		"Stun": "18"
 	},
 	"Electric Snake": {
-		"Motion": "QCF x2 + Punch",
+		"Input": "QCF x2 + Punch",
 		"Startup": "3",
 		"Hit": "-",
 		"Recovery": "39",

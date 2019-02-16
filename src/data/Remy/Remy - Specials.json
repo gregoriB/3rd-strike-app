@@ -2,7 +2,7 @@
 	"Name": "Remy / レミー",
 	"Category": "Specials",
 	"Light of Virtue (Jab)": {
-		"Motion": "Hold Back , Fwd + Jab",
+		"Input": "Hold Back , Fwd + Jab",
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "22",
@@ -25,7 +25,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Strong)": {
-		"Motion": "Hold Back , Fwd + Strong",
+		"Input": "Hold Back , Fwd + Strong",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "22",
@@ -48,7 +48,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Fierce)": {
-		"Motion": "Hold Back , Fwd + Fierce",
+		"Input": "Hold Back , Fwd + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "22",
@@ -71,7 +71,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX High)": {
-		"Motion": "Hold Back , Fwd + 2-Kicks",
+		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -94,7 +94,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (EX Low)": {
-		"Motion": "Hold Back , Fwd + 2-Kicks",
+		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "28",
@@ -117,7 +117,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Short)": {
-		"Motion": "Hold Back , Fwd + Short",
+		"Input": "Hold Back , Fwd + Short",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "26",
@@ -140,7 +140,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (Forward)": {
-		"Motion": "Hold Back , Fwd + Forward",
+		"Input": "Hold Back , Fwd + Forward",
 		"Startup": "12",
 		"Hit": "-",
 		"Recovery": "26",
@@ -163,7 +163,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Light of Virtue (RH)": {
-		"Motion": "Hold Back , Fwd + Roundhouse",
+		"Input": "Hold Back , Fwd + Roundhouse",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "26",
@@ -186,7 +186,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Rising Rage Flash (Short)": {
-		"Motion": "Hold Down , Up + Short",
+		"Input": "Hold Down , Up + Short",
 		"Startup": "3",
 		"Hit": "3",
 		"Recovery": "32",
@@ -209,7 +209,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (Forward)": {
-		"Motion": "Hold Down , Up + Forward",
+		"Input": "Hold Down , Up + Forward",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "39",
@@ -232,7 +232,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (RH)": {
-		"Motion": "Hold Down , Up + Roundhouse",
+		"Input": "Hold Down , Up + Roundhouse",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "44",
@@ -255,7 +255,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Rising Rage Flash (EX)": {
-		"Motion": "Hold Down , Up + 2-Kicks",
+		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "6",
 		"Hit": "5",
 		"Recovery": "41",
@@ -278,7 +278,7 @@
 		"Meter Gain Opponent": "0 / 0"
 	},
 	"Cold Blue Kick (Short)": {
-		"Motion": "QCB + Short",
+		"Input": "QCB + Short",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "10",
@@ -301,7 +301,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (Forward)": {
-		"Motion": "QCB + Forward",
+		"Input": "QCB + Forward",
 		"Startup": "18",
 		"Hit": "10",
 		"Recovery": "10",
@@ -324,7 +324,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (RH)": {
-		"Motion": "QCB + Roundhouse",
+		"Input": "QCB + Roundhouse",
 		"Startup": "19",
 		"Hit": "12",
 		"Recovery": "10",
@@ -347,7 +347,7 @@
 		"Meter Gain Opponent": "4 / 0"
 	},
 	"Cold Blue Kick (EX)": {
-		"Motion": "QCB + 2-Kicks",
+		"Input": "QCB + 2-Kicks",
 		"Startup": "18",
 		"Hit": "9",
 		"Recovery": "10",
