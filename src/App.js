@@ -13,8 +13,6 @@ export default function App() {
 
   const handleCheckPath = () => {
     const path = window.location.pathname.split('/')[1].replace(/%20/g, ' ');
-    console.log('test')
-    console.log(window.location.pathname)
     for (const char of characters) {
       if (path.toLowerCase() === char.toLowerCase()) {
         state.setCurrentChar(char);
@@ -25,11 +23,7 @@ export default function App() {
 
     return <Error />;
   }
-
-  useEffect(() => {
-    console.log('App page loaded');
-  })
-
+  
 return (
     <div className="App">
       <Switch>
