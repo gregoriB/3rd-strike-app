@@ -208,75 +208,6 @@
 		"Meter Gain Player": "3 / 20 / 16",
 		"Meter Gain Opponent": "4 / 0"
 	},
-	"Shakunetsu Hadouken (Jab)": {
-		"Input": "HCB + Jab",
-		"Startup": "14",
-		"Hit": "44",
-		"Recovery": "42",
-		"Block Advantage": "-23",
-		"Cancel": {
-      "?": false,
-      "??": false,
-			"Super Art": true,
-			"Special": false,
-			"Self": false,
-			"Normal/Chain": false,
-			"Dash": false,
-			"Superjump": false
-		},
-		"Parry": "H",
-		"Throw Range": "-",
-		"Damage": "8",
-		"Stun": "3",
-		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
-	},
-	"Shakunetsu Hadouken (Strong)": {
-		"Input": "HCB + Strong",
-		"Startup": "18",
-		"Hit": "45",
-		"Recovery": "43",
-		"Block Advantage": "-18",
-		"Cancel": {
-      "?": false,
-      "??": false,
-			"Super Art": true,
-			"Special": false,
-			"Self": false,
-			"Normal/Chain": false,
-			"Dash": false,
-			"Superjump": false
-		},
-		"Parry": "H",
-		"Throw Range": "-",
-		"Damage": "16",
-		"Stun": "5",
-		"Meter Gain Player": "0 / 2 / 2",
-		"Meter Gain Opponent": "0 / 0"
-	},
-	"Shakunetsu Hadouken (Fierce)": {
-		"Input": "HCB + Fierce",
-		"Startup": "22",
-		"Hit": "46",
-		"Recovery": "44",
-		"Block Advantage": "-15",
-		"Cancel": {
-      "?": false,
-      "??": false,
-			"Super Art": true,
-			"Special": false,
-			"Self": false,
-			"Normal/Chain": false,
-			"Dash": false,
-			"Superjump": false
-		},
-		"Parry": "H",
-		"Throw Range": "-",
-		"Damage": "24",
-		"Stun": "7",
-		"Meter Gain Player": "0 / 3 / 3",
-		"Meter Gain Opponent": "0 / 0"
-	},
 	"Air Tatsumaki Zankuu Kyaku (Short)": {
 		"Input": "QCB + Short (Air)",
 		"Startup": "5",
@@ -345,6 +276,75 @@
 		"Stun": "7",
 		"Meter Gain Player": "4 / 26 / 3",
 		"Meter Gain Opponent": "6 / 0"
+	},
+	"Shakunetsu Hadouken (Jab)": {
+		"Input": "HCB + Jab",
+		"Startup": "14",
+		"Hit": "44",
+		"Recovery": "42",
+		"Block Advantage": "-23",
+		"Cancel": {
+      "?": false,
+      "??": false,
+			"Super Art": true,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "8",
+		"Stun": "3",
+		"Meter Gain Player": "0 / 2 / 1",
+		"Meter Gain Opponent": "0 / 0"
+	},
+	"Shakunetsu Hadouken (Strong)": {
+		"Input": "HCB + Strong",
+		"Startup": "18",
+		"Hit": "45",
+		"Recovery": "43",
+		"Block Advantage": "-18",
+		"Cancel": {
+      "?": false,
+      "??": false,
+			"Super Art": true,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "16",
+		"Stun": "5",
+		"Meter Gain Player": "0 / 2 / 2",
+		"Meter Gain Opponent": "0 / 0"
+	},
+	"Shakunetsu Hadouken (Fierce)": {
+		"Input": "HCB + Fierce",
+		"Startup": "22",
+		"Hit": "46",
+		"Recovery": "44",
+		"Block Advantage": "-15",
+		"Cancel": {
+      "?": false,
+      "??": false,
+			"Super Art": true,
+			"Special": false,
+			"Self": false,
+			"Normal/Chain": false,
+			"Dash": false,
+			"Superjump": false
+		},
+		"Parry": "H",
+		"Throw Range": "-",
+		"Damage": "24",
+		"Stun": "7",
+		"Meter Gain Player": "0 / 3 / 3",
+		"Meter Gain Opponent": "0 / 0"
 	},
 	"Hyakki Shuu": {
 		"Input": "DPM + Kick",

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import CharData from './components/CharData';
 import CharSelect from './components/CharSelect';
 import Error from './components/Error';
@@ -23,7 +23,7 @@ export default function App() {
 
     return <Error />;
   }
-  
+
 return (
     <div className="App">
       <Switch>

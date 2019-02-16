@@ -30,7 +30,7 @@ export default function CharacterData(props) {
       state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
         // build data table
       const newData = Object.entries(moveSet).splice(2);
-      const table   = handleBuildTable(newData);
+      const table   = handleBuildTable(newData, info);
 
       return (
         <table cellSpacing='0' className='move-list'>
@@ -41,10 +41,11 @@ export default function CharacterData(props) {
     });
   }
 
-  const handleBuildTable = data => {
+  const handleBuildTable = (data, info) => {
     const attackType = data.map(item => item[0]),
+          dataType   = info[1][1] === 'Misc' ? 'Move Type' : 'Attack',
           frameData  = data.map(item => Object.values(item[1])),
-          tableHead  = ["Attack", ...Object.keys(data[0][1])],
+          tableHead  = [dataType, ...Object.keys(data[0][1])],
           tableData  = [];
     tableData.push(tableHead.map(head => <th className='table-head-item' key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
