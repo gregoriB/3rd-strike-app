@@ -238,7 +238,7 @@ export default function CharacterData(props) {
     for (let cancel in data) {
       if (data[cancel]) cancels.push(cancel);
     }
-    if (!cancels.length) cancels.push('-'); //placeholder for empty space
+    if (!cancels.length) cancels.push('-'); //filler for empty space
 
     return <div className='cancel-data'>{cancels.map(cancel => handleCheckCancelType(cancel))}</div>;
   }
@@ -322,10 +322,10 @@ export default function CharacterData(props) {
 
   return (
     <>
-        <Link to='/'><button className='home-button'>HOME</button></Link>
-        <div className="char-head">
-          <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
-        </div>
+      <Link to='/'><button className='home-button'>HOME</button></Link>
+      <div className="char-head">
+        <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
+      </div>
       <div className="selector-buttons">
         <button className='button-type default' value='Normals' onClick={handleChooseCategory}>NORMALS</button>
         <button className='button-type' value='Specials' onClick={handleChooseCategory}>SPECIALS</button>

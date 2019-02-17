@@ -68,7 +68,7 @@
 			"Dash": false,
 			"Superjump": false
 		},
-		"Parry": "H(H / L)",
+		"Parry": "H",
 		"Kara Range": "0",
 		"Throw Range": "-",
 		"Damage": "21",

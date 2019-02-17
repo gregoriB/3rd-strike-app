@@ -10,7 +10,6 @@ import './App.css';
 
 export default function App() {
   const state = useContext(StateContext);
-
   const handleCheckPath = () => {
     const path = window.location.pathname.split('/')[1].replace(/%20/g, ' ');
     for (const char of characters) {
