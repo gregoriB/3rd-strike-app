@@ -8,7 +8,7 @@ export default function CharacterData(props) {
         char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop typing the in name in address bar from causing errors
         
   const handleChooseCategory = (e) => {
-    if (state.charInfo && state.charInfo.category === e.target.value) return;
+    // if (state.charInfo && state.charInfo.category === e.target.value) return;
 
     document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'));
     e.target.classList.add('active');
@@ -47,7 +47,7 @@ export default function CharacterData(props) {
           frameData  = data.map(item => Object.values(item[1])),
           tableHead  = [dataType, ...Object.keys(data[0][1])],
           tableData  = [];
-    tableData.push(tableHead.map(head => <th className='table-head-item' key={uniqueKey.incrementKey()}>{head}</th>));
+    tableData.push(tableHead.map((head, index) => <th className='table-head-item' onClick={() => handleClickHead(index)} key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
       tableData.push(row.map(data => handleDetermineDataType(data)));
       tableData[index + 1].unshift(<td className='attack' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
@@ -67,6 +67,7 @@ export default function CharacterData(props) {
       type = handleCancelData(data);
     }
     else if (typeof data === 'string') type = handleOrganizeString(data);
+    type = cssClass.split(' ')[0] === 'number' ? Number(type) : type;
 
     return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>;
   }  
@@ -306,6 +307,72 @@ export default function CharacterData(props) {
     const fontSize = window.innerWidth;
     document.querySelector('body').style.fontSize = `${fontSize * .01}px`;
     document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
+  }
+
+  function handleClickHead(index) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.querySelector('table');
+    switching = true;
+    // Set the sorting direction to ascending:
+    dir = "asc"; 
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[index];
+      y = rows[i + 1].getElementsByTagName("TD")[index];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (Number(x.innerHTML) && Number(y.innerHTML)) {
+          if (Number(x.innerHTML) > Number(y.innerHTML)) {
+            shouldSwitch = true;
+            break;
+          }
+        }
+        else if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          shouldSwitch = true;
+          break;
+        }
+      } 
+      else if (dir == "desc") {
+        if (Number(x.innerHTML) && Number(y.innerHTML)) {
+          if (Number(x.innerHTML) < Number(y.innerHTML)) {
+            shouldSwitch = true;
+            break;
+          }
+        }
+        else if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          shouldSwitch = true;
+          break;
+        }
+      } 
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++; 
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
   }
 
   useEffect(() => {
