@@ -309,7 +309,7 @@ export default function CharacterData(props) {
     document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
   }
 
-  function handleClickHead(index) {
+  function handleClickHeadOld(index) {
     var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
     table = document.querySelector('table');
     switching = true;
@@ -318,61 +318,82 @@ export default function CharacterData(props) {
     /* Make a loop that will continue until
     no switching has been done: */
     while (switching) {
-    // Start by saying: no switching is done:
-    switching = false;
-    rows = table.rows;
-    /* Loop through all table rows (except the
-    first, which contains table headers): */
-    for (i = 1; i < (rows.length - 1); i++) {
-      // Start by saying there should be no switching:
-      shouldSwitch = false;
-      /* Get the two elements you want to compare,
-      one from current row and one from the next: */
-      x = rows[i].getElementsByTagName("TD")[index];
-      y = rows[i + 1].getElementsByTagName("TD")[index];
-      /* Check if the two rows should switch place,
-      based on the direction, asc or desc: */
-      if (dir == "asc") {
-        if (Number(x.innerHTML) && Number(y.innerHTML)) {
-          if (Number(x.innerHTML) > Number(y.innerHTML)) {
+      // Start by saying: no switching is done:
+      switching = false;
+      rows = table.rows;
+      /* Loop through all table rows (except the
+      first, which contains table headers): */
+      for (i = 1; i < (rows.length - 1); i++) {
+        // Start by saying there should be no switching:
+        shouldSwitch = false;
+        /* Get the two elements you want to compare,
+        one from current row and one from the next: */
+        x = rows[i].getElementsByTagName("TD")[index];
+        y = rows[i + 1].getElementsByTagName("TD")[index];
+        /* Check if the two rows should switch place,
+        based on the direction, asc or desc: */
+        if (dir == "asc") {
+          if (Number(x.innerHTML) && Number(y.innerHTML)) {
+            if (Number(x.innerHTML) > Number(y.innerHTML)) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+          else if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
             shouldSwitch = true;
             break;
           }
-        }
-        else if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          shouldSwitch = true;
-          break;
-        }
-      } 
-      else if (dir == "desc") {
-        if (Number(x.innerHTML) && Number(y.innerHTML)) {
-          if (Number(x.innerHTML) < Number(y.innerHTML)) {
+        } 
+        else if (dir == "desc") {
+          if (Number(x.innerHTML) && Number(y.innerHTML)) {
+            if (Number(x.innerHTML) < Number(y.innerHTML)) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+          else if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
             shouldSwitch = true;
             break;
           }
-        }
-        else if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-          shouldSwitch = true;
-          break;
-        }
-      } 
-    }
-    if (shouldSwitch) {
-      /* If a switch has been marked, make the switch
-      and mark that a switch has been done: */
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-      // Each time a switch is done, increase this count by 1:
-      switchcount ++; 
-    } else {
-      /* If no switching has been done AND the direction is "asc",
-      set the direction to "desc" and run the while loop again. */
-      if (switchcount == 0 && dir == "asc") {
-        dir = "desc";
+        } 
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark that a switch has been done: */
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
         switching = true;
+        // Each time a switch is done, increase this count by 1:
+        switchcount ++; 
+      } 
+      else {
+        /* If no switching has been done AND the direction is "asc",
+        set the direction to "desc" and run the while loop again. */
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
       }
     }
   }
+
+  const handleClickHead = headIndex => {
+    const rows = document.querySelectorAll('tr');
+    let counter = 1;
+    let switching = true;
+    while(switching) {
+      for (let i = counter; i < rows.length - 1; i++) {
+        const firstTD = rows[i].querySelectorAll('td')[headIndex];
+        const secondTD = rows[i + 1].querySelectorAll('td')[headIndex];
+        if (Number(firstTD.innerHTML) > Number(secondTD.innerHTML)) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          firstTD.style.backgroundColor = 'green'
+          secondTD.style.backgroundColor = 'green'
+          break;
+        }
+      }
+      counter++
+      if (counter === 10000) switching = false;
+    }
   }
 
   useEffect(() => {
