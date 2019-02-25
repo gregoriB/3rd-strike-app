@@ -142,8 +142,13 @@ table  * {
 }
 
 th {
-  padding: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
   text-shadow: 0 0 .1px black;
+}
+
+th.active {
+  background: rgb(138, 138, 138);
 }
 
 td {
