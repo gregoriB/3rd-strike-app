@@ -5,7 +5,7 @@ import { uniqueKey } from '../helpers/variables';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
-        char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop typing the in name in address bar from causing errors
+        char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop manually inputing the name in the address bar from causing errors
         
   const handleChooseCategory = (e) => {
     // if (state.charInfo && state.charInfo.category === e.target.value) return;
@@ -47,7 +47,7 @@ export default function CharacterData(props) {
           frameData  = data.map(item => Object.values(item[1])),
           tableHead  = [dataType, ...Object.keys(data[0][1])],
           tableData  = [];
-    tableData.push(tableHead.map((head, index) => <th className='table-head-item' onClick={() => handleClickHead(index)} key={uniqueKey.incrementKey()}>{head}</th>));
+    tableData.push(tableHead.map((head, index) => <th className='table-head-item' onClick={(e) => handleClickHead(e, index)} key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
       tableData.push(row.map(data => handleDetermineDataType(data)));
       tableData[index + 1].unshift(<td className='attack' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
@@ -245,9 +245,7 @@ export default function CharacterData(props) {
   }
 
   const handleCheckCancelType = cancel => {
-    let type;
-    let text;
-    let toolTip = false;
+    let type, text, toolTip = false;
     switch(cancel) {
       case '?':
         type = '?';
@@ -309,92 +307,82 @@ export default function CharacterData(props) {
     document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
   }
 
-  function handleClickHeadOld(index) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.querySelector('table');
-    switching = true;
-    // Set the sorting direction to ascending:
-    dir = "asc"; 
-    /* Make a loop that will continue until
-    no switching has been done: */
-    while (switching) {
-      // Start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      /* Loop through all table rows (except the
-      first, which contains table headers): */
-      for (i = 1; i < (rows.length - 1); i++) {
-        // Start by saying there should be no switching:
-        shouldSwitch = false;
-        /* Get the two elements you want to compare,
-        one from current row and one from the next: */
-        x = rows[i].getElementsByTagName("TD")[index];
-        y = rows[i + 1].getElementsByTagName("TD")[index];
-        /* Check if the two rows should switch place,
-        based on the direction, asc or desc: */
-        if (dir == "asc") {
-          if (Number(x.innerHTML) && Number(y.innerHTML)) {
-            if (Number(x.innerHTML) > Number(y.innerHTML)) {
-              shouldSwitch = true;
-              break;
-            }
-          }
-          else if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-            shouldSwitch = true;
+  function handleClickHead(e, index) {
+    handleToggleHeadActive(e);
+    handleSortTable(index);
+  }
+
+  function handleToggleHeadActive(e) {
+    document.querySelectorAll('th').forEach(head => head.classList.remove('active'));
+    e.target.classList.add('active');
+  }
+
+  function handleSortTable(headIndex) {
+    let rows, i, counter = 0;
+    let sortBy = 'greatest';
+    while(!rows) {
+      let data1, data2;
+      rows = document.querySelectorAll('tr')
+      rowLoop: for (i = 1; i < rows.length - 1; i++) {
+        data1 = rows[i].querySelectorAll('td')[headIndex].textContent;
+        data2 = rows[i + 1].querySelectorAll('td')[headIndex].textContent;
+        switch(sortBy) {
+          case 'greatest':
+            if ((!Number(data1) || !Number(data2)) &&
+                 data1.toLowerCase() < data2.toLowerCase()) break rowLoop;
+            else if (Number(data1) < Number(data2)) break rowLoop;
             break;
-          }
-        } 
-        else if (dir == "desc") {
-          if (Number(x.innerHTML) && Number(y.innerHTML)) {
-            if (Number(x.innerHTML) < Number(y.innerHTML)) {
-              shouldSwitch = true;
-              break;
-            }
-          }
-          else if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-            shouldSwitch = true;
+          case 'least':
+            if ((!Number(data1) || !Number(data2)) &&
+                 data1.toLowerCase() > data2.toLowerCase()) break rowLoop;
+            else if (Number(data1) > Number(data2)) break rowLoop;
             break;
-          }
-        } 
-      }
-      if (shouldSwitch) {
-        /* If a switch has been marked, make the switch
-        and mark that a switch has been done: */
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-        // Each time a switch is done, increase this count by 1:
-        switchcount ++; 
-      } 
-      else {
-        /* If no switching has been done AND the direction is "asc",
-        set the direction to "desc" and run the while loop again. */
-        if (switchcount == 0 && dir == "asc") {
-          dir = "desc";
-          switching = true;
+          default:
         }
+      }
+      if (i < rows.length - 1) {
+        counter++;
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        rows = 0;
+      }
+      else if (sortBy === 'greatest' && counter === 0) {
+        sortBy = 'least';
+        rows = 0;
       }
     }
   }
 
-  const handleClickHead = headIndex => {
-    const rows = document.querySelectorAll('tr');
-    let counter = 1;
-    let switching = true;
-    while(switching) {
-      for (let i = counter; i < rows.length - 1; i++) {
-        const firstTD = rows[i].querySelectorAll('td')[headIndex];
-        const secondTD = rows[i + 1].querySelectorAll('td')[headIndex];
-        if (Number(firstTD.innerHTML) > Number(secondTD.innerHTML)) {
-          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-          firstTD.style.backgroundColor = 'green'
-          secondTD.style.backgroundColor = 'green'
-          break;
-        }
-      }
-      counter++
-      if (counter === 10000) switching = false;
-    }
-  }
+  // function handleClickHead(headIndex) {
+  //   let rows, i, counter = 0;
+  //   let sortBy = 'greatest';
+  //   while(!rows) {
+  //     let data1, data2;
+  //     rows = document.querySelectorAll('tr')
+  //     rowLoop: for (i = 1; i < rows.length - 1; i++) {
+  //       data1 = rows[i].querySelectorAll('td')[headIndex].textContent;
+  //       data2 = rows[i + 1].querySelectorAll('td')[headIndex].textContent;
+  //       if (sortBy === 'greatest') {
+  //         if ((!Number(data1) || !Number(data2)) &&
+  //              data1.toLowerCase() < data2.toLowerCase()) break rowLoop;
+  //         else if (Number(data1) < Number(data2)) break rowLoop;
+  //       }
+  //       else if (sortBy === 'least') {
+  //         if ((!Number(data1) || !Number(data2)) &&
+  //              data1.toLowerCase() > data2.toLowerCase()) break rowLoop;
+  //         else if (Number(data1) > Number(data2)) break rowLoop;
+  //       }
+  //     }
+  //     if (i < rows.length - 1) {
+  //       counter++;
+  //       rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+  //       rows = 0;
+  //     }
+  //     else if (sortBy === 'greatest' && counter === 0) {
+  //       sortBy = 'least';
+  //       rows = 0;
+  //     }
+  //   }
+  // }
 
   useEffect(() => {
     handleSetFontSize();
