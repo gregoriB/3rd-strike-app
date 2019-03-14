@@ -166,6 +166,7 @@ td div {
 }
 
 thead tr th {
+  min-width: 0px;
   background: rgb(160, 160, 160);
 }
 
@@ -517,7 +518,6 @@ button:hover {
     white-space: normal;
     word-wrap: break-word;
     padding: 0 2px;
-    white-space: normal;
   }
 
   th {

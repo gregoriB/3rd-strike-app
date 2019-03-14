@@ -73,7 +73,7 @@ export default function CharacterData(props) {
   }  
 
   const handleOrganizeString = data => {
-    const controllerMotions = ['QCB', 'QCF', 'HCB', 'HCF', 'DPM', 'RDP', '360', '720', 'Hold', 'Mash', 'Down', 'Jab', 'Punch']
+    const controllerMotions = ['QCB', 'QCF', 'HCB', 'HCF', 'DPM', 'RDP', '360', '720', 'Hold', 'Mash', 'Down', 'Jab', 'Punch'];
     const splitData = data.split(' ');
     const newData = [];
     let cssClass;
@@ -319,10 +319,12 @@ export default function CharacterData(props) {
 
   function handleSortTable(headIndex) {
     let rows, i, counter = 0;
+    let switching= true;
     let sortBy = 'greatest';
-    while(!rows) {
+    while(switching) {
       let data1, data2;
-      rows = document.querySelectorAll('tr')
+      switching = false;
+      rows = document.querySelectorAll('tr');
       rowLoop: for (i = 1; i < rows.length - 1; i++) {
         data1 = rows[i].querySelectorAll('td')[headIndex].textContent;
         data2 = rows[i + 1].querySelectorAll('td')[headIndex].textContent;
@@ -343,46 +345,14 @@ export default function CharacterData(props) {
       if (i < rows.length - 1) {
         counter++;
         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        rows = 0;
+        switching = true;
       }
       else if (sortBy === 'greatest' && counter === 0) {
         sortBy = 'least';
-        rows = 0;
+        switching = true;
       }
     }
   }
-
-  // function handleClickHead(headIndex) {
-  //   let rows, i, counter = 0;
-  //   let sortBy = 'greatest';
-  //   while(!rows) {
-  //     let data1, data2;
-  //     rows = document.querySelectorAll('tr')
-  //     rowLoop: for (i = 1; i < rows.length - 1; i++) {
-  //       data1 = rows[i].querySelectorAll('td')[headIndex].textContent;
-  //       data2 = rows[i + 1].querySelectorAll('td')[headIndex].textContent;
-  //       if (sortBy === 'greatest') {
-  //         if ((!Number(data1) || !Number(data2)) &&
-  //              data1.toLowerCase() < data2.toLowerCase()) break rowLoop;
-  //         else if (Number(data1) < Number(data2)) break rowLoop;
-  //       }
-  //       else if (sortBy === 'least') {
-  //         if ((!Number(data1) || !Number(data2)) &&
-  //              data1.toLowerCase() > data2.toLowerCase()) break rowLoop;
-  //         else if (Number(data1) > Number(data2)) break rowLoop;
-  //       }
-  //     }
-  //     if (i < rows.length - 1) {
-  //       counter++;
-  //       rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-  //       rows = 0;
-  //     }
-  //     else if (sortBy === 'greatest' && counter === 0) {
-  //       sortBy = 'least';
-  //       rows = 0;
-  //     }
-  //   }
-  // }
 
   useEffect(() => {
     handleSetFontSize();
