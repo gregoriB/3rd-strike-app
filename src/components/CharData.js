@@ -350,6 +350,7 @@ export default function CharacterData(props) {
       else if (sortBy === 'greatest' && counter === 0) {
         sortBy = 'least';
         switching = true;
+
       }
     }
   }
