@@ -11,7 +11,7 @@ export default function CharacterList() {
     state.setCharList(characters.map((name) => {
         return (
           <Link className='character' to={`/${name}`} key={uniqueKey.incrementKey()}>
-            <Character setCurrentChar={state.setCurrentChar} charName={name} />
+            <Character charName={name} />
           </Link>
         );
       })

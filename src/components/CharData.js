@@ -5,11 +5,9 @@ import { uniqueKey } from '../helpers/variables';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
-        char  = props.currentChar ? props.currentChar : state.currentChar; //workaround to stop manually inputing the name in the address bar from causing errors
-        
-  const handleChooseCategory = (e) => {
-    // if (state.charInfo && state.charInfo.category === e.target.value) return;
+        char  = props.currentChar || state.currentChar; //workaround to stop manually inputing the name in the address bar from causing errors
 
+  const handleChooseCategory = e => {
     document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'));
     e.target.classList.add('active');
     state.setDataTable(null);
@@ -24,21 +22,17 @@ export default function CharacterData(props) {
   }
 
   const handleSetTableData = moveSet => {
-    state.setDataTable(() => {
-        //set character info for page header
-      const info = Object.entries(moveSet).splice(0, 2);
-      state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
-        // build data table
-      const newData = Object.entries(moveSet).splice(2);
-      const table   = handleBuildTable(newData, info);
-
-      return (
-        <table cellSpacing='0' className='move-list'>
-          <thead><tr key={uniqueKey.incrementKey()}>{table[0].map(headItem => headItem)}</tr></thead>
-          <tbody>{table.splice(1).map(dataItem => <tr key={uniqueKey.incrementKey()}>{dataItem}</tr>)}</tbody>
-        </table>
-      )
-    });
+      //set character info for page header
+    const info = Object.entries(moveSet).splice(0, 2);
+    state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
+    const newData = Object.entries(moveSet).splice(2);
+    const table   = handleBuildTable(newData, info);
+    state.setDataTable(() => 
+      <table cellSpacing='0' className='move-list'>
+        <thead><tr key={uniqueKey.incrementKey()}>{table[0].map(headItem => headItem)}</tr></thead>
+        <tbody>{table.splice(1).map(dataItem => <tr key={uniqueKey.incrementKey()}>{dataItem}</tr>)}</tbody>
+      </table>
+    );
   }
 
   const handleBuildTable = (data, info) => {
@@ -57,26 +51,35 @@ export default function CharacterData(props) {
   }
 
   const handleDetermineDataType = data => {
-    let type = data;
     let cssClass = 'misc-data';
-    if (data < 0) cssClass = 'number negative';
-    else if (data > 0) cssClass = 'number positive';
-    else if (data > -1 && data < 1) cssClass = 'number neutral';
+    let type = cssClass.split(' ')[0] === 'number' ? Number(type) : data;
+    if (data < 0) {
+      cssClass = 'number negative';
+    }
+    else if (data > 0) {
+      cssClass = 'number positive';
+    }
+    else if (data > -1 && data < 1) {
+      cssClass = 'number neutral';
+    }
     else if (typeof data === 'object') {
       cssClass = '';
-      type = handleCancelData(data);
+      type = handleCancelsData(data);
     }
-    else if (typeof data === 'string') type = handleOrganizeString(data);
-    type = cssClass.split(' ')[0] === 'number' ? Number(type) : type;
+    else if (typeof data === 'string') {
+      type = handleOrganizeString(data);
+    }
 
     return <td className={`frame-data ${cssClass}`} key={uniqueKey.incrementKey()}>{type}</td>;
   }  
 
   const handleOrganizeString = data => {
-    const controllerMotions = ['QCB', 'QCF', 'HCB', 'HCF', 'DPM', 'RDP', '360', '720', 'Hold', 'Mash', 'Down', 'Jab', 'Punch'];
+    let cssClass;
+    const controllerMotions = [
+      'QCB', 'QCF', 'HCB', 'HCF', 'DPM', 'RDP', '360', '720', 'Hold', 'Mash', 'Down', 'Jab', 'Punch'
+    ];
     const splitData = data.split(' ');
     const newData = [];
-    let cssClass;
     for (let item of splitData) {
       let type;
       switch(item) {
@@ -107,11 +110,16 @@ export default function CharacterData(props) {
           cssClass = 'blank-spot'
           break;
         default:
-          for (let motion of controllerMotions) {
-            if (item === motion) return handleControllerMotions(splitData);
+          if (controllerMotions.includes(item)) {
+
+            return handleControllerMotions(splitData);
           }
-          if (item > 0 && parseInt(item)) cssClass = 'number positive';
-          if (item < 0 && parseInt(item)) cssClass = 'number negative';
+          if (item > 0 && parseInt(item)) {
+            cssClass = 'number positive';
+          }
+          if (item < 0 && parseInt(item)) {
+            cssClass = 'number negative';
+          }
           break;
       }
       newData.push(<div className={cssClass} key={uniqueKey.incrementKey()}>{type || item}</div>);
@@ -130,6 +138,7 @@ export default function CharacterData(props) {
         case '360':
           modifiedData.splice(0, 1, 'rotation', 'or', 'reverse-rotation')
           return handleControllerMotions(modifiedData);
+
         case 'rotation':
           cssClass = 'attack-motion rotation';
           newItem = '\u27f3';
@@ -141,6 +150,7 @@ export default function CharacterData(props) {
         case '720':
           modifiedData.splice(0, 1, 'rotation', 'rotation', 'or', 'reverse-rotation', 'reverse-rotation')
           return handleControllerMotions(modifiedData);
+
         case 'QCF':
           cssClass = 'attack-motion';
           newItem = '\u2b07 \u2b0a \u27a1';
@@ -234,12 +244,16 @@ export default function CharacterData(props) {
     return newData;
   }
 
-  const handleCancelData = data => {
+  const handleCancelsData = data => {
     let cancels = [];
     for (let cancel in data) {
-      if (data[cancel]) cancels.push(cancel);
+      if (data[cancel]) {
+        cancels.push(cancel);
+      }
     }
-    if (!cancels.length) cancels.push('-'); //filler for empty space
+    if (!cancels.length) {
+      cancels.push('-'); //filler for empty space
+    }
 
     return <div className='cancel-data'>{cancels.map(cancel => handleCheckCancelType(cancel))}</div>;
   }
@@ -300,12 +314,6 @@ export default function CharacterData(props) {
       </div>
     );
   }
-    //sets font size according to screen pixel width to make things more responsive
-  const handleSetFontSize = () => {
-    const fontSize = window.innerWidth;
-    document.querySelector('body').style.fontSize = `${fontSize * .01}px`;
-    document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
-  }
 
   function handleClickHead(e, index) {
     handleToggleHeadActive(e);
@@ -315,6 +323,35 @@ export default function CharacterData(props) {
   function handleToggleHeadActive(e) {
     document.querySelectorAll('th').forEach(head => head.classList.remove('active'));
     e.target.classList.add('active');
+  }
+
+  const handleDebouncedResize = handleDebounce(() => handleSetFontSize(), 100);
+
+  function handleDebounce(func, wait, immediate) {
+    let timeout;
+
+    return () => {
+      const context = this,
+            args    = arguments;
+      const later = () => {
+        timeout = null;
+        if (!immediate) {
+          func.apply(context, args);
+        }
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (immediate && !timeout) {
+        func.apply(context, args);
+      }
+    };
+  };
+
+    //sets font size according to screen pixel width to make things more responsive
+  const handleSetFontSize = () => {
+    const fontSize = window.innerWidth;
+    document.querySelector('body').style.fontSize = `${fontSize * .01}px`;
+    document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
   }
 
   function handleSortTable(headIndex) {
@@ -330,14 +367,20 @@ export default function CharacterData(props) {
         data2 = rows[i + 1].querySelectorAll('td')[headIndex].textContent;
         switch(sortBy) {
           case 'greatest':
-            if ((!Number(data1) || !Number(data2)) &&
-                 data1.toLowerCase() < data2.toLowerCase()) break rowLoop;
-            else if (Number(data1) < Number(data2)) break rowLoop;
+            if ((!Number(data1) || !Number(data2)) && data1.toLowerCase() < data2.toLowerCase()) {
+              break rowLoop;
+            }
+            else if (Number(data1) < Number(data2)) {
+              break rowLoop;
+            }
             break;
           case 'least':
-            if ((!Number(data1) || !Number(data2)) &&
-                 data1.toLowerCase() > data2.toLowerCase()) break rowLoop;
-            else if (Number(data1) > Number(data2)) break rowLoop;
+            if ((!Number(data1) || !Number(data2)) && data1.toLowerCase() > data2.toLowerCase()) {
+              break rowLoop;
+            }
+            else if (Number(data1) > Number(data2)) {
+              break rowLoop;
+            }
             break;
           default:
         }
@@ -350,29 +393,30 @@ export default function CharacterData(props) {
       else if (sortBy === 'greatest' && counter === 0) {
         sortBy = 'least';
         switching = true;
-
       }
     }
   }
 
   useEffect(() => {
     handleSetFontSize();
-    window.addEventListener('resize', handleSetFontSize)
+    window.addEventListener('resize', handleDebouncedResize)
     document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
 
     return () => {
       state.setDataTable(null)
       state.setCharInfo(null)
-      window.removeEventListener('resize', handleSetFontSize)
+      window.removeEventListener('resize', handleDebouncedResize)
     }
   }, []);
 
   return (
     <>
       <Link to='/'><button className='home-button'>HOME</button></Link>
+
       <div className="char-head">
         <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
       </div>
+
       <div className="selector-buttons">
         <button className='button-type default' value='Normals' onClick={handleChooseCategory}>NORMALS</button>
         <button className='button-type' value='Specials' onClick={handleChooseCategory}>SPECIALS</button>
@@ -390,6 +434,7 @@ export default function CharacterData(props) {
         }
         <button className='button-type' value='Misc' onClick={handleChooseCategory}>MISC</button>
       </div>
+
       {state.dataTable}
     </>
   )

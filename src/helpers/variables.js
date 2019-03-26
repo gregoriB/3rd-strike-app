@@ -7,5 +7,7 @@ export const characters = [
 
 export const uniqueKey = {
   key: 0,
-  incrementKey: function() { return this.key++ }
+  incrementKey: function() { 
+    return this.key++ 
+  }
 };

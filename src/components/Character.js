@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext} from 'react';
+import { StateContext } from '../contexts/stateContext';
 
 export default function Character(props) {
-  const setCurrentChar = () => props.setCurrentChar(props.charName);
+  const state = useContext(StateContext);
 
-  return <div onClick={setCurrentChar}>{props.charName}</div>
+  return <div onClick={state.setCurrentChar}>{props.charName}</div>
 }
