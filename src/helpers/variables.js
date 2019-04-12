@@ -11,3 +11,7 @@ export const uniqueKey = {
     return this.key++ 
   }
 };
+
+export const categories = [
+  'Normals', 'Specials', 'Super Arts', 'GeneiJin Normals', 'GeneiJin Specials', 'Misc'
+]

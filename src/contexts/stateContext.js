@@ -4,10 +4,11 @@ export const StateContext = React.createContext();
 
 export function StateProvider(props) {
   
-  const [currentChar, setCurrentChar] = useState(null),
+  const [currentChar, setCurrentChar] = useState('Ryu'),
         [charList, setCharList]       = useState(null),
         [dataTable, setDataTable]     = useState(null),
-        [charInfo, setCharInfo]       = useState({name: null, category: null });
+        [charInfo, setCharInfo]       = useState({name: 'Ryu', category: 'Normals' }),
+        [currentCategory, setCurrentCategory] = useState('Normals');
 
   return (
     <StateContext.Provider 
@@ -20,6 +21,8 @@ export function StateProvider(props) {
         setDataTable,
         charInfo,
         setCharInfo,
+        currentCategory,
+        setCurrentCategory
       }}
     >
       {props.children}

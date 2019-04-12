@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { StateContext } from '../contexts/stateContext';
-import { Link } from 'react-router-dom';
 import { uniqueKey } from '../helpers/variables';
+import NavBar from './NavBar';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
@@ -10,18 +10,19 @@ export default function CharacterData(props) {
   const handleChooseCategory = e => {
     document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'));
     e.target.classList.add('active');
-    state.setDataTable(null);
-    handleImportData(e.target.value);
+    handleImportData();
   }
-
-  const handleImportData = type => {
+  
+  const handleImportData = () => {
+    state.setDataTable(null);
       //using import() because 'require' doesn't work with dynamic paths
-    import(`../data/${char}/${char} - ${type}.json`)
+    import(`../data/${char}/${char} - ${state.currentCategory}.json`)
     .then(moveSet => moveSet['default'])
     .then((moveSet) => handleSetTableData(moveSet));
   }
 
   const handleSetTableData = moveSet => {
+    console.log(moveSet)
       //set character info for page header
     const info = Object.entries(moveSet).splice(0, 2);
     state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
@@ -398,44 +399,25 @@ export default function CharacterData(props) {
   }
 
   useEffect(() => {
-    handleSetFontSize();
+    handleImportData();
+    // handleSetFontSize();
     window.addEventListener('resize', handleDebouncedResize)
-    document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
+    // document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
 
     return () => {
       state.setDataTable(null)
       state.setCharInfo(null)
       window.removeEventListener('resize', handleDebouncedResize)
     }
-  }, []);
+  }, [char, state.currentCategory]);
 
   return (
-    <>
-      <Link to='/'><button className='home-button'>HOME</button></Link>
-
+    <div className='page'>
+      <NavBar />
       <div className="char-head">
         <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
       </div>
-
-      <div className="selector-buttons">
-        <button className='button-type default' value='Normals' onClick={handleChooseCategory}>NORMALS</button>
-        <button className='button-type' value='Specials' onClick={handleChooseCategory}>SPECIALS</button>
-        <button className='button-type' value='Super Arts' onClick={handleChooseCategory}>SUPER ARTS</button>
-        {
-          state.currentChar === 'Yun' && 
-          <button className='button-type' value='GeneiJin Normals' onClick={handleChooseCategory}>
-            GENEIJIN NORMALS
-          </button>
-        }
-        {
-          state.currentChar === 'Yun' && <button className='button-type' value='GeneiJin Specials' onClick={handleChooseCategory}>
-            GENEIJIN SPECIALS
-          </button>
-        }
-        <button className='button-type' value='Misc' onClick={handleChooseCategory}>MISC</button>
-      </div>
-
       {state.dataTable}
-    </>
+    </div>
   )
 }

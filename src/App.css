@@ -5,17 +5,26 @@ html {
 
 html, body {
   position: relative;
+  height: 100%;
 }
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: rgb(131, 0, 0);
   padding: 1rem calc((100% - 95vw) / 2);
+  width: 100%
 }
 
 * {
   box-sizing: border-box;
   user-select: none;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  width: 90vw;
 }
 
 .home-button {
@@ -124,6 +133,8 @@ table {
   border: 2px solid black;
   background: rgb(160, 160, 160);
   margin: 0 auto;
+  margin-top: 10vh;
+  width: 100%;
 }
 
 table  * {

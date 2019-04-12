@@ -8,6 +8,7 @@ export default function CharacterList() {
   const state = useContext(StateContext);
  
   useEffect(() => {
+    state.setCurrentCategory('Normals');
     state.setCharList(characters.map((name) => {
         return (
           <Link className='character' to={`/${name}`} key={uniqueKey.incrementKey()}>
