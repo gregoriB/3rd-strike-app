@@ -4,5 +4,5 @@ import { StateContext } from '../contexts/stateContext';
 export default function Character(props) {
   const state = useContext(StateContext);
 
-  return <div onClick={state.setCurrentChar}>{props.charName}</div>
+  return <div onClick={() => state.setCurrentChar(props.charName)}>{props.charName}</div>
 }

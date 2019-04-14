@@ -6,7 +6,7 @@
 		"Startup": "15",
 		"Hit": "11",
 		"Recovery": "14",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "1 / 5 / 3",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"N.D.L. (Strong)": {
 		"Input": "QCF + Strong",
 		"Startup": "15",
 		"Hit": "13",
 		"Recovery": "16",
-		"Block Advantage": "-9",
+		"Blk. Adv.": "-9",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "1 / 5 / 3",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"N.D.L. (Fierce)": {
 		"Input": "QCF + Fierce",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "20",
-		"Block Advantage": "-13",
+		"Blk. Adv.": "-13",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "1 / 5 / 3",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"N.D.L. (EX)": {
 		"Input": "QCF + 2-Punches",
 		"Startup": "14",
 		"Hit": "13",
 		"Recovery": "15",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "13",
 		"Stun": "5",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"A.X.E. (Jab)": {
 		"Input": "QCB + Jab",
 		"Startup": "6",
 		"Hit": "11",
 		"Recovery": "15",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "10",
 		"Stun": "7",
 		"Meter Gain Player": "2 / 11 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"A.X.E. (Strong)": {
 		"Input": "QCB + Strong",
 		"Startup": "10",
 		"Hit": "11",
 		"Recovery": "16",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "17",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 12 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"A.X.E. (Fierce)": {
 		"Input": "QCB + Fierce",
 		"Startup": "14",
 		"Hit": "11",
 		"Recovery": "17",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "20",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"A.X.E. (EX)": {
 		"Input": "QCB + 2-Punches",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "14",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "22",
 		"Stun": "9",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Air A.X.E. (Jab)": {
 		"Input": "QCB + Jab (Air)",
 		"Startup": "9",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "13",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 12 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air A.X.E. (Strong)": {
 		"Input": "QCB + Strong (Air)",
 		"Startup": "11",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "16",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 12 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air A.X.E. (Fierce)": {
 		"Input": "QCB + Fierce (Air)",
 		"Startup": "13",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "18",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Air A.X.E. (EX)": {
 		"Input": "QCB + 2-Punches (Air)",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "20",
 		"Stun": "9",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"D.R.A. (Short)": {
 		"Input": "QCB + Short (Air)",
 		"Startup": "14",
 		"Hit": "14",
 		"Recovery": "20",
-		"Block Advantage": "-14",
+		"Blk. Adv.": "-14",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "19",
 		"Stun": "5",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"D.R.A. (Forward)": {
 		"Input": "QCB + Forward (Air)",
 		"Startup": "14",
 		"Hit": "19",
 		"Recovery": "20",
-		"Block Advantage": "-13",
+		"Blk. Adv.": "-13",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "19",
 		"Stun": "5",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"D.R.A. (RH)": {
 		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "14",
 		"Hit": "19",
 		"Recovery": "20",
-		"Block Advantage": "-13",
+		"Blk. Adv.": "-13",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "19",
 		"Stun": "5",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"D.R.A. (EX)": {
 		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "6",
 		"Hit": "15",
 		"Recovery": "21",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,6 +367,6 @@
 		"Damage": "20",
 		"Stun": "9",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

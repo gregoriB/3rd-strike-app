@@ -6,7 +6,7 @@
 		"Startup": "2",
 		"Hit": "19",
 		"Recovery": "7",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Sean Roll (Strong)": {
 		"Input": "QCB + Strong",
 		"Startup": "2",
 		"Hit": "29",
 		"Recovery": "7",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Sean Roll (Fierce)": {
 		"Input": "QCB + Fierce",
 		"Startup": "2",
 		"Hit": "43",
 		"Recovery": "7",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Ryuubi Kyaku (Short)": {
 		"Input": "QCF + Short",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "21",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Ryuubi Kyaku (Forward)": {
 		"Input": "QCF + Forward",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "21",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Ryuubi Kyaku (RH)": {
 		"Input": "QCF + Roundhouse",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "21",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Ryuubi Kyaku (EX)": {
 		"Input": "QCF + 2-Kicks",
 		"Startup": "25",
 		"Hit": "8",
 		"Recovery": "15",
-		"Block Advantage": "-1",
+		"Blk. Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "32",
 		"Stun": "19",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Tornado Kick (Short)": {
 		"Input": "QCB + Short",
 		"Startup": "11",
 		"Hit": "4",
 		"Recovery": "21",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "16",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tornado Kick (Forward)": {
 		"Input": "QCB + Forward",
 		"Startup": "14",
 		"Hit": "8",
 		"Recovery": "21",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "24",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tornado Kick (RH)": {
 		"Input": "QCB + Roundhouse",
 		"Startup": "16",
 		"Hit": "13",
 		"Recovery": "21",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "26",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tornado Kick (EX)": {
 		"Input": "QCB + 2-Kicks",
 		"Startup": "9",
 		"Hit": "11",
 		"Recovery": "17",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "28",
 		"Stun": "21",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Tackle (All Versions)": {
 		"Input": "HCF + Punch , Punch",
 		"Startup": "18 / 22 / 26",
 		"Hit": "2",
 		"Recovery": "28",
-		"Block Advantage": "-14",
+		"Blk. Adv.": "-14",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "30",
 		"Stun": "16",
 		"Meter Gain Player": "0 / 11 / 0",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Tackle (EX)": {
 		"Input": "HCF + 2-Punches , Punch",
 		"Startup": "28",
 		"Hit": "2",
 		"Recovery": "28",
-		"Block Advantage": "-14",
+		"Blk. Adv.": "-14",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "40",
 		"Stun": "28",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Dragon Smash (Jab)": {
 		"Input": "DPM + Jab",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
-		"Block Advantage": "-24",
+		"Blk. Adv.": "-24",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "23",
 		"Stun": "11",
 		"Meter Gain Player": "2 / 11 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Dragon Smash (Strong)": {
 		"Input": "DPM + Forward",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "36",
-		"Block Advantage": "-24",
+		"Blk. Adv.": "-24",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "23",
 		"Stun": "11",
 		"Meter Gain Player": "2 / 11 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Dragon Smash (Fierce)": {
 		"Input": "DPM + Fierce",
 		"Startup": "9",
 		"Hit": "9",
 		"Recovery": "42",
-		"Block Advantage": "-34",
+		"Blk. Adv.": "-34",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "23",
 		"Stun": "11",
 		"Meter Gain Player": "2 / 11 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Dragon Smash (EX)": {
 		"Input": "DPM + 2-Punches",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "42",
-		"Block Advantage": "-37",
+		"Blk. Adv.": "-37",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,6 +390,6 @@
 		"Damage": "31",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

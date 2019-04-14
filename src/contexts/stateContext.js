@@ -4,10 +4,10 @@ export const StateContext = React.createContext();
 
 export function StateProvider(props) {
   
-  const [currentChar, setCurrentChar] = useState('Ryu'),
+  const [currentChar, setCurrentChar] = useState(null),
         [charList, setCharList]       = useState(null),
         [dataTable, setDataTable]     = useState(null),
-        [charInfo, setCharInfo]       = useState({name: 'Ryu', category: 'Normals' }),
+        [charInfo, setCharInfo]       = useState(null),
         [currentCategory, setCurrentCategory] = useState('Normals');
 
   return (

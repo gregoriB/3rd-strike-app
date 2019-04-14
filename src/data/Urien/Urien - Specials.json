@@ -6,7 +6,7 @@
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "39",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "12",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Metallic Sphere (Strong)": {
 		"Input": "QCF + Strong",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "35",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "12",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Metallic Sphere (Fierce)": {
 		"Input": "QCF + Fierce",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "28",
-		"Block Advantage": "3",
+		"Blk. Adv.": "3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "12",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Metallic Sphere (EX)": {
 		"Input": "QCF + 2-Punches",
 		"Startup": "14",
 		"Hit": "-",
 		"Recovery": "55",
-		"Block Advantage": "-16",
+		"Blk. Adv.": "-16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "27",
 		"Stun": "5",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Violence Knee Drop": {
 		"Input": "Hold Down , Up + Kick",
 		"Startup": "24",
 		"Hit": "12",
 		"Recovery": "7",
-		"Block Advantage": "-16",
+		"Blk. Adv.": "-16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "19",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Violence Knee Drop (EX)": {
 		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "26",
 		"Hit": "5",
 		"Recovery": "7",
-		"Block Advantage": "-14",
+		"Blk. Adv.": "-14",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "23",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Chariot rush (Short)": {
 		"Input": "Hold Back , Fwd + Short",
 		"Startup": "7",
 		"Hit": "10",
 		"Recovery": "25",
-		"Block Advantage": "-10",
+		"Blk. Adv.": "-10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "21",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Chariot rush (Forward)": {
 		"Input": "Hold Back , Fwd + Forward",
 		"Startup": "10",
 		"Hit": "12",
 		"Recovery": "26",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "24",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Chariot rush (RH)": {
 		"Input": "Hold Back , Fwd + Roundhouse",
 		"Startup": "13",
 		"Hit": "15",
 		"Recovery": "27",
-		"Block Advantage": "-12",
+		"Blk. Adv.": "-12",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "26",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Chariot rush (EX)": {
 		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "6",
 		"Hit": "34",
 		"Recovery": "39",
-		"Block Advantage": "-9",
+		"Blk. Adv.": "-9",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "29",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Headbutt (Jab)": {
 		"Input": "Hold Down , Up + Jab",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "19",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "21",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Headbutt (Strong)": {
 		"Input": "Hold Down , Up + Strong",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "18",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "23",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Headbutt (Fierce)": {
 		"Input": "Hold Down , Up + Fierce",
 		"Startup": "12",
 		"Hit": "6",
 		"Recovery": "19",
-		"Block Advantage": "-9",
+		"Blk. Adv.": "-9",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "24",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Headbutt (EX)": {
 		"Input": "Hold Down , Up + 2-Punches",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "15",
-		"Block Advantage": "-1",
+		"Blk. Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,6 +321,6 @@
 		"Damage": "27",
 		"Stun": "21",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

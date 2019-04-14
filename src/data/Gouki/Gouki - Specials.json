@@ -6,7 +6,7 @@
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "38",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "17",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 1 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Gou Shoryuken (Jab)": {
 		"Input": "DPM + Jab",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "26",
-		"Block Advantage": "-24",
+		"Blk. Adv.": "-24",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "23",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Gou Shoryuken (Strong)": {
 		"Input": "DPM + Strong",
 		"Startup": "2",
 		"Hit": "7",
 		"Recovery": "41",
-		"Block Advantage": "-30",
+		"Blk. Adv.": "-30",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "25",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Gou Shoryuken (Fierce)": {
 		"Input": "DPM + Fierce",
 		"Startup": "1",
 		"Hit": "23",
 		"Recovery": "35",
-		"Block Advantage": "-34",
+		"Blk. Adv.": "-34",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "29",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Ashura Senkuu": {
 		"Input": "DPM + 3-Punches or 3-Kicks",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "9",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Zankuu Hadouken": {
 		"Input": "QCF + Punch (Air)",
 		"Startup": "12",
 		"Hit": "24",
 		"Recovery": "-",
-		"Block Advantage": "2",
+		"Blk. Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 1 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (Short)": {
 		"Input": "QCB + Short",
 		"Startup": "11",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-12",
+		"Blk. Adv.": "-12",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "17",
 		"Stun": "7",
 		"Meter Gain Player": "6 / 21 / 15",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (Forward)": {
 		"Input": "QCB + Forward",
 		"Startup": "2",
 		"Hit": "10",
 		"Recovery": "16",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "21",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tatsumaki Zankuu Kyaku (RH)": {
 		"Input": "QCB + Roundhouse",
 		"Startup": "2",
 		"Hit": "18",
 		"Recovery": "10",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "25",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 16",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (Short)": {
 		"Input": "QCB + Short (Air)",
 		"Startup": "5",
 		"Hit": "3",
 		"Recovery": "40",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "14",
 		"Stun": "3",
 		"Meter Gain Player": "1 / 9 / 2",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (Forward)": {
 		"Input": "QCB + Forward (Air)",
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "31",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "27",
 		"Stun": "5",
 		"Meter Gain Player": "2 / 17 / 2",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Air Tatsumaki Zankuu Kyaku (RH)": {
 		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "5",
 		"Hit": "12",
 		"Recovery": "16",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "40",
 		"Stun": "7",
 		"Meter Gain Player": "4 / 26 / 3",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Shakunetsu Hadouken (Jab)": {
 		"Input": "HCB + Jab",
 		"Startup": "14",
 		"Hit": "44",
 		"Recovery": "42",
-		"Block Advantage": "-23",
+		"Blk. Adv.": "-23",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Shakunetsu Hadouken (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "18",
 		"Hit": "45",
 		"Recovery": "43",
-		"Block Advantage": "-18",
+		"Blk. Adv.": "-18",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "16",
 		"Stun": "5",
 		"Meter Gain Player": "0 / 2 / 2",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Shakunetsu Hadouken (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "22",
 		"Hit": "46",
 		"Recovery": "44",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "24",
 		"Stun": "7",
 		"Meter Gain Player": "0 / 3 / 3",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hyakki Shuu": {
 		"Input": "DPM + Kick",
 		"Startup": "40",
 		"Hit": "15",
 		"Recovery": "13",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": true,
       "??": true,
@@ -367,14 +367,14 @@
 		"Damage": "17",
 		"Stun": "3",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakki Goushou": {
 		"Input": "DPM + Kick , Punch",
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "20",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": true,
       "??": true,
@@ -390,14 +390,14 @@
 		"Damage": "23",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakki Goujin": {
 		"Input": "DPM + Kick , Kick",
 		"Startup": "9",
 		"Hit": "10",
 		"Recovery": "7",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": true,
       "??": true,
@@ -413,14 +413,14 @@
 		"Damage": "17",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakki Gousai": {
 		"Input": "DPM + Kick , Jab + Short",
 		"Startup": "3",
 		"Hit": "2",
 		"Recovery": "34",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": true,
       "??": true,
@@ -436,6 +436,6 @@
 		"Damage": "19",
 		"Stun": "14",
 		"Meter Gain Player": "0 / 8 / --",
-		"Meter Gain Opponent": "2 / --"
+		"Meter Gain Opp.": "2 / --"
   }
 }

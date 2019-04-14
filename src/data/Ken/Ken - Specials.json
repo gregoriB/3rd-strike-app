@@ -6,7 +6,7 @@
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hadouken (Strong)": {
 		"Input": "QCF + Strong",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "1",
 		"Stun": "0",
 		"Meter Gain Player": "0 / 1 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hadouken (Fierce)": {
 		"Input": "QCF + Fierce",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "10",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hadouken (EX)": {
 		"Input": "QCF + 2-Punches",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "38",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "20",
 		"Stun": "5",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Shoryuken (Jab)": {
 		"Input": "DPM + Jab",
 		"Startup": "2",
 		"Hit": "8",
 		"Recovery": "26",
-		"Block Advantage": "-17",
+		"Blk. Adv.": "-17",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "26",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Shoryuken (Strong)": {
 		"Input": "DPM + Strong",
 		"Startup": "3",
 		"Hit": "14",
 		"Recovery": "28",
-		"Block Advantage": "-24",
+		"Blk. Adv.": "-24",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "28",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Shoryuken (Fierce)": {
 		"Input": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
-		"Block Advantage": "-31",
+		"Blk. Adv.": "-31",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "32",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Shoryuken (EX)": {
 		"Input": "DPM + 2-Punches",
 		"Startup": "1",
 		"Hit": "20",
 		"Recovery": "38",
-		"Block Advantage": "-36",
+		"Blk. Adv.": "-36",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "34",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Short)": {
 		"Input": "QCB + Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "14",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "19",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (Forward)": {
 		"Input": "QCB + Forward",
 		"Startup": "6",
 		"Hit": "14",
 		"Recovery": "15",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "23",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (RH)": {
 		"Input": "QCB + Roundhouse",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "15",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "27",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tatsumaki Senpuu Kyaku (EX)": {
 		"Input": "QCB + 2-Kicks",
 		"Startup": "4",
 		"Hit": "21",
 		"Recovery": "13",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "34",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Short)": {
 		"Input": "QCB + Short (Air)",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "27",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 17 / 3",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (Forward)": {
 		"Input": "QCB + Forward (Air)",
 		"Startup": "7",
 		"Hit": "6",
 		"Recovery": "-",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "40",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 25 / 3",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (RH)": {
 		"Input": "QCB + Roundhouse (Air)",
 		"Startup": "7",
 		"Hit": "8",
 		"Recovery": "-",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "40",
 		"Stun": "13",
 		"Meter Gain Player": "4 / 26 / 3",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Air Tatsumaki Senpuu Kyaku (EX)": {
 		"Input": "QCB + 2-Kicks (Air)",
 		"Startup": "6",
 		"Hit": "13",
 		"Recovery": "-",
-		"Block Advantage": "2",
+		"Blk. Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,6 +367,6 @@
 		"Damage": "52",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

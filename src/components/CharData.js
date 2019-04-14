@@ -1,39 +1,46 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useRef } from 'react';
 import { StateContext } from '../contexts/stateContext';
 import { uniqueKey } from '../helpers/variables';
 import NavBar from './NavBar';
+import '../styles/table.css';
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
         char  = props.currentChar || state.currentChar; //workaround to stop manually inputing the name in the address bar from causing errors
-
-  const handleChooseCategory = e => {
-    document.querySelectorAll('.button-type').forEach(button => button.classList.remove('active'));
-    e.target.classList.add('active');
-    handleImportData();
-  }
   
   const handleImportData = () => {
-    state.setDataTable(null);
       //using import() because 'require' doesn't work with dynamic paths
     import(`../data/${char}/${char} - ${state.currentCategory}.json`)
     .then(moveSet => moveSet['default'])
     .then((moveSet) => handleSetTableData(moveSet));
   }
 
+  const tableHTML = useRef(null);
+
+  const handleSetTableActive = () => {
+    const table = tableHTML.current;
+    table.classList.add('active');
+    table.style.marginTop = `${(window.innerHeight - table.offsetHeight) / 2}px`;
+    table.style.marginLeft = `${(window.innerWidth * .9 - table.offsetWidth) / 6}px`;
+  }
+
   const handleSetTableData = moveSet => {
-    console.log(moveSet)
       //set character info for page header
     const info = Object.entries(moveSet).splice(0, 2);
-    state.setCharInfo({name: info[0][1].split(' / ').join(' '), category: info[1][1]});
+    state.setCharInfo({
+      ...state.charInfo,
+      name: info[0][1].split(' / ').join(' '),
+      category: info[1][1]
+    });
     const newData = Object.entries(moveSet).splice(2);
-    const table   = handleBuildTable(newData, info);
-    state.setDataTable(() => 
-      <table cellSpacing='0' className='move-list'>
+    const table = handleBuildTable(newData, info);
+    const tableData = (
+      <table cellSpacing='0' className='move-list' ref={tableHTML}>
         <thead><tr key={uniqueKey.incrementKey()}>{table[0].map(headItem => headItem)}</tr></thead>
         <tbody>{table.splice(1).map(dataItem => <tr key={uniqueKey.incrementKey()}>{dataItem}</tr>)}</tbody>
       </table>
-    );
+    )
+    state.setDataTable(tableData);
   }
 
   const handleBuildTable = (data, info) => {
@@ -326,35 +333,6 @@ export default function CharacterData(props) {
     e.target.classList.add('active');
   }
 
-  const handleDebouncedResize = handleDebounce(() => handleSetFontSize(), 100);
-
-  function handleDebounce(func, wait, immediate) {
-    let timeout;
-
-    return () => {
-      const context = this,
-            args    = arguments;
-      const later = () => {
-        timeout = null;
-        if (!immediate) {
-          func.apply(context, args);
-        }
-      };
-      clearTimeout(timeout);
-      timeout = setTimeout(later, wait);
-      if (immediate && !timeout) {
-        func.apply(context, args);
-      }
-    };
-  };
-
-    //sets font size according to screen pixel width to make things more responsive
-  const handleSetFontSize = () => {
-    const fontSize = window.innerWidth;
-    document.querySelector('body').style.fontSize = `${fontSize * .01}px`;
-    document.querySelector('.char-head').style.fontSize = `${fontSize * .025}px`;
-  }
-
   function handleSortTable(headIndex) {
     let rows, i, counter = 0;
     let switching= true;
@@ -399,25 +377,27 @@ export default function CharacterData(props) {
   }
 
   useEffect(() => {
+    state.dataTable && handleSetTableActive();
+
+  }, [state.dataTable])
+
+  useEffect(() => {
     handleImportData();
-    // handleSetFontSize();
-    window.addEventListener('resize', handleDebouncedResize)
-    // document.querySelector('.default').click(); //loads a table on component load.  Presently that's the Normals table.
+    // window.addEventListener('resize', handleDebouncedResize)
 
     return () => {
-      state.setDataTable(null)
-      state.setCharInfo(null)
-      window.removeEventListener('resize', handleDebouncedResize)
+      state.setDataTable(null);
+      // state.setCharInfo(null);
+      // window.removeEventListener('resize', handleDebouncedResize)
     }
   }, [char, state.currentCategory]);
 
   return (
     <div className='page'>
       <NavBar />
-      <div className="char-head">
-        <div className='char-name'>{state.charInfo && state.charInfo.name}</div>
+      <div className='data'>
+        {state.dataTable}
       </div>
-      {state.dataTable}
     </div>
   )
 }

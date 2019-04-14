@@ -6,7 +6,7 @@
 		"Startup": "14",
 		"Hit": "36",
 		"Recovery": "45",
-		"Block Advantage": "-17",
+		"Blk. Adv.": "-17",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 3 / 2",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"Kikkoken (Strong)": {
 		"Input": "HCF + Strong",
 		"Startup": "13",
 		"Hit": "17",
 		"Recovery": "38",
-		"Block Advantage": "-10",
+		"Blk. Adv.": "-10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 3 / 2",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"Kikkoken (Fierce)": {
 		"Input": "HCF + Fierce",
 		"Startup": "11",
 		"Hit": "7",
 		"Recovery": "32",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 3 / 2",
-		"Meter Gain Opponent": "1 / 0"
+		"Meter Gain Opp.": "1 / 0"
 	},
 	"Kikkoken (EX)": {
 		"Input": "HCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "41",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "14",
 		"Stun": "3",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hyakuretsu Kyaku (Short)": {
 		"Input": "Mash Short",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "17",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (Forward)": {
 		"Input": "Mash Forward",
 		"Startup": "6",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "18",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (RH)": {
 		"Input": "Mash Roundhouse",
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "21",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hyakuretsu Kyaku (EX)": {
 		"Input": "Mash 2-Kicks",
 		"Startup": "3",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "28",
 		"Stun": "11",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Spinning Bird Kick (Short)": {
 		"Input": "Hold Down , Up + Short",
 		"Startup": "12",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "21",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Spinning Bird Kick (Forward)": {
 		"Input": "Hold Down , Up + Forward",
 		"Startup": "14",
 		"Hit": "6",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "27",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Spinning Bird Kick (RH)": {
 		"Input": "Hold Down , Up + Roundhouse",
 		"Startup": "17",
 		"Hit": "8",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "32",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 26 / 20",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Spinning Bird Kick (EX)": {
 		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "12",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "35",
 		"Stun": "19",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Hazan Shu (Short)": {
 		"Input": "HCB + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "18",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "17",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 17 / 11",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hazan Shu (Forward)": {
 		"Input": "HCB + Forward",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "18",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "19",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hazan Shu (RH)": {
 		"Input": "HCB + Roundhouse",
 		"Startup": "29",
 		"Hit": "3",
 		"Recovery": "17",
-		"Block Advantage": "-1",
+		"Blk. Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "21",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hazan Shu (EX)": {
 		"Input": "HCB + 2-Kicks",
 		"Startup": "31",
 		"Hit": "1",
 		"Recovery": "18",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,6 +367,6 @@
 		"Damage": "28",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

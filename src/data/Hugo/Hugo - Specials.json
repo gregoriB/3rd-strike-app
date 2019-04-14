@@ -6,7 +6,7 @@
 		"Startup": "5",
 		"Hit": "9",
 		"Recovery": "30",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "32",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Shootdown Backbreaker (Forward)": {
 		"Input": "DPM + Forward",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "25",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "32",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Shootdown Backbreaker (RH)": {
 		"Input": "DPM + Roundhouse",
 		"Startup": "12",
 		"Hit": "12",
 		"Recovery": "29",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "32",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Moonsault Press (Jab)": {
 		"Input": "360 + Jab",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "42",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Moonsault Press (Strong)": {
 		"Input": "360 + Strong",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "45",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Moonsault Press (Fierce)": {
 		"Input": "360 + Fierce",
 		"Startup": "2",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "49",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Meat Squasher (Short)": {
 		"Input": "360 + Short",
 		"Startup": "21 ~ 24",
 		"Hit": "2",
 		"Recovery": "30",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "28",
 		"Stun": "13",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Meat Squasher (Forward)": {
 		"Input": "360 + Forward",
 		"Startup": "31 ~ 52",
 		"Hit": "2",
 		"Recovery": "33",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "28",
 		"Stun": "13",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Meat Squasher (RH)": {
 		"Input": "360 + Roundhouse",
 		"Startup": "44 ~ 67",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "28",
 		"Stun": "13",
 		"Meter Gain Player": "2 / 31 / --",
-		"Meter Gain Opponent": "8 / --"
+		"Meter Gain Opp.": "8 / --"
 	},
 	"Giant Palm Bomber (Jab)": {
 		"Input": "QCB + Jab",
 		"Startup": "17",
 		"Hit": "2",
 		"Recovery": "9",
-		"Block Advantage": "11",
+		"Blk. Adv.": "11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "19",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 22 / 12",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Giant Palm Bomber (Strong)": {
 		"Input": "QCB + Strong",
 		"Startup": "19",
 		"Hit": "2",
 		"Recovery": "7",
-		"Block Advantage": "16",
+		"Blk. Adv.": "16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "22",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 22 / 12",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Giant Palm Bomber (Fierce)": {
 		"Input": "QCB + Fierce",
 		"Startup": "22",
 		"Hit": "2",
 		"Recovery": "6",
-		"Block Advantage": "19",
+		"Blk. Adv.": "19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "24",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 22 / 12",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Giant Palm Bomber (EX)": {
 		"Input": "QCB + 2-Punches",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "10",
-		"Block Advantage": "10",
+		"Blk. Adv.": "10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "36",
 		"Stun": "12",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Monster Lariat (Short)": {
 		"Input": "QCF + Short",
 		"Startup": "11",
 		"Hit": "5",
 		"Recovery": "21 ~ 25",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "26",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Monster Lariat (Forward)": {
 		"Input": "QCF + Forward",
 		"Startup": "15",
 		"Hit": "5",
 		"Recovery": "23 ~ 27",
-		"Block Advantage": "-10",
+		"Blk. Adv.": "-10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "28",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Monster Lariat (RH)": {
 		"Input": "QCF + Roundhouse",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "24 ~ 28",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "30",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 18 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Monster Lariat (EX)": {
 		"Input": "QCF + 2-Kicks",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "31 ~ 35",
-		"Block Advantage": "-22",
+		"Blk. Adv.": "-22",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,14 +390,14 @@
 		"Damage": "24",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Ultra Throw (Short)": {
 		"Input": "HCB + Short",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -413,14 +413,14 @@
 		"Damage": "12",
 		"Stun": "7",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Ultra Throw (Forward)": {
 		"Input": "HCB + Forward",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -436,14 +436,14 @@
 		"Damage": "12",
 		"Stun": "7",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Ultra Throw (RH)": {
 		"Input": "HCB + Roundhouse",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "36",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -459,6 +459,6 @@
 		"Damage": "12",
 		"Stun": "7",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
   }
 }

@@ -6,7 +6,7 @@
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "16",
-		"Block Advantage": "-10",
+		"Blk. Adv.": "-10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "10",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Electric Shock (Strong)": {
 		"Input": "DPM + Strong",
 		"Startup": "8",
 		"Hit": "6",
 		"Recovery": "33",
-		"Block Advantage": "-26",
+		"Blk. Adv.": "-26",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "29",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 21 / 11",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Electric Shock (Fierce)": {
 		"Input": "DPM + Fierce",
 		"Startup": "10",
 		"Hit": "10",
 		"Recovery": "35",
-		"Block Advantage": "-28",
+		"Blk. Adv.": "-28",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "38",
 		"Stun": "21",
 		"Meter Gain Player": "3 / 22 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Snake Fang (Short)": {
 		"Input": "HCF + Short",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "28",
-		"Block Advantage": "-13",
+		"Blk. Adv.": "-13",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "24",
 		"Stun": "10",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Snake Fang (Forward)": {
 		"Input": "HCF + Forward",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "30",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "26",
 		"Stun": "12",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Snake Fang (RH)": {
 		"Input": "HCF + Roundhouse",
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "32",
-		"Block Advantage": "-17",
+		"Blk. Adv.": "-17",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "28",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Spinning Punch (Jab)": {
 		"Input": "HCF + Jab",
 		"Startup": "6",
 		"Hit": "8",
 		"Recovery": "13",
-		"Block Advantage": "1",
+		"Blk. Adv.": "1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "19",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 14 / 6",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Spinning Punch (Strong)": {
 		"Input": "HCF + Strong",
 		"Startup": "10",
 		"Hit": "7",
 		"Recovery": "18",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "21",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 14 / 6",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Spinning Punch (Fierce)": {
 		"Input": "HCF + Fierce",
 		"Startup": "17",
 		"Hit": "11",
 		"Recovery": "19",
-		"Block Advantage": "-18",
+		"Blk. Adv.": "-18",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "24",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 15 / 7",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Spinning Punch (EX)": {
 		"Input": "HCF + 2-Punches",
 		"Startup": "8",
 		"Hit": "17",
 		"Recovery": "23",
-		"Block Advantage": "-9",
+		"Blk. Adv.": "-9",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "39",
 		"Stun": "11",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Flying Viper (Jab)": {
 		"Input": "QCB + Jab",
 		"Startup": "26",
 		"Hit": "5",
 		"Recovery": "17",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "21",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Flying Viper (Strong)": {
 		"Input": "QCB + Strong",
 		"Startup": "26",
 		"Hit": "6",
 		"Recovery": "15",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "24",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Flying Viper (Fierce)": {
 		"Input": "QCB + Fierce",
 		"Startup": "28",
 		"Hit": "7",
 		"Recovery": "14",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "28",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Flying Viper (EX)": {
 		"Input": "QCB + 2-Punches",
 		"Startup": "24",
 		"Hit": "5",
 		"Recovery": "14",
-		"Block Advantage": "2",
+		"Blk. Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "34",
 		"Stun": "15",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Raging Cobra (Short)": {
 		"Input": "QCB + Short",
 		"Startup": "23",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "23",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Raging Cobra (Forward)": {
 		"Input": "QCB + Forward",
 		"Startup": "25",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "26",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Raging Cobra (RH)": {
 		"Input": "QCB + Roundhouse",
 		"Startup": "27",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,14 +390,14 @@
 		"Damage": "30",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 13 / 5",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Raging Cobra (EX)": {
 		"Input": "QCB + 2-Kicks",
 		"Startup": "25",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -413,6 +413,6 @@
 		"Damage": "35",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

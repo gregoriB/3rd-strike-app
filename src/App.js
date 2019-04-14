@@ -11,25 +11,27 @@ import './App.css';
 export default function App() {
   const state = useContext(StateContext);
   const handleCheckPath = () => {
-    const path = window.location.pathname.split('/')[1].replace(/%20/g, ' ');
-    for (const char of characters) {
-      if (path.toLowerCase() === char.toLowerCase()) {
-        state.setCurrentChar(char);
-        
-        return <CharData currentChar={char}/>;
-      }
+  const path = window.location.pathname.split('/')[1].replace(/%20/g, ' ');
+  for (const char of characters) {
+    if (path.toLowerCase() === char.toLowerCase()) {
+      state.setCurrentChar(char);
+      
+      return <CharData currentChar={char}/>;
     }
-
-    return <Error />;
   }
+
+  return <Error />;
+}
 
 return (
     <div className="App">
-      <Switch>
-        <Route exact path='/' component={CharSelect} />
-        <Route path={`/${state.currentChar}`} component={CharData} />
-        <Route render={handleCheckPath} />
-      </Switch>
+      <div className='char-select'>
+        <Switch>
+          <Route exact path='/' component={CharSelect} />
+          <Route path={`/${state.currentChar}`} component={CharData} />
+          <Route render={handleCheckPath} />
+        </Switch>
+      </div>
     </div>
   );
 }

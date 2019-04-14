@@ -5,9 +5,9 @@
 		"Startup": "3",
 		"Hit": "2",
 		"Recovery": "6",
-		"Block Advantage": "4",
-		"Hit Advantage": "4",
-		"Crouch Hit Advantage": "4",
+		"Blk. Adv.": "4",
+		"Hit Adv.": "4",
+		"Cr. Hit Adv.": "4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -24,15 +24,15 @@
 		"Damage": "3",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Strong": {
 		"Startup": "4",
 		"Hit": "3",
 		"Recovery": "7",
-		"Block Advantage": "6",
-		"Hit Advantage": "7",
-		"Crouch Hit Advantage": "8",
+		"Blk. Adv.": "6",
+		"Hit Adv.": "7",
+		"Cr. Hit Adv.": "8",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -49,15 +49,15 @@
 		"Damage": "9",
 		"Stun": "5",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Fierce": {
 		"Startup": "5",
 		"Hit": "6",
 		"Recovery": "13",
-		"Block Advantage": "-2",
-		"Hit Advantage": "-1",
-		"Crouch Hit Advantage": "0",
+		"Blk. Adv.": "-2",
+		"Hit Adv.": "-1",
+		"Cr. Hit Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -74,15 +74,15 @@
 		"Damage": "16",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 17 / 8",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Far Strong": {
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "12",
-		"Block Advantage": "-2",
-		"Hit Advantage": "-1",
-		"Crouch Hit Advantage": "0",
+		"Blk. Adv.": "-2",
+		"Hit Adv.": "-1",
+		"Cr. Hit Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -99,15 +99,15 @@
 		"Damage": "8",
 		"Stun": "5",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Far Fierce": {
 		"Startup": "9",
 		"Hit": "6",
 		"Recovery": "21",
-		"Block Advantage": "-5",
-		"Hit Advantage": "-3",
-		"Crouch Hit Advantage": "-1",
+		"Blk. Adv.": "-5",
+		"Hit Adv.": "-3",
+		"Cr. Hit Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -124,15 +124,15 @@
 		"Damage": "21",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Crouching Jab": {
 		"Startup": "3",
 		"Hit": "2",
 		"Recovery": "6",
-		"Block Advantage": "4",
-		"Hit Advantage": "4",
-		"Crouch Hit Advantage": "4",
+		"Blk. Adv.": "4",
+		"Hit Adv.": "4",
+		"Cr. Hit Adv.": "4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -149,15 +149,15 @@
 		"Damage": "3",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Crouching Strong": {
 		"Startup": "5",
 		"Hit": "2",
 		"Recovery": "11",
-		"Block Advantage": "2",
-		"Hit Advantage": "3",
-		"Crouch Hit Advantage": "4",
+		"Blk. Adv.": "2",
+		"Hit Adv.": "3",
+		"Cr. Hit Adv.": "4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -174,15 +174,15 @@
 		"Damage": "12",
 		"Stun": "5",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Crouching Fierce": {
 		"Startup": "8",
 		"Hit": "10",
 		"Recovery": "12",
-		"Block Advantage": "0",
-		"Hit Advantage": "1",
-		"Crouch Hit Advantage": "2",
+		"Blk. Adv.": "0",
+		"Hit Adv.": "1",
+		"Cr. Hit Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -199,15 +199,15 @@
 		"Damage": "17",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 17 / 8",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Neutral Jumping Strong": {
 		"Startup": "3",
 		"Hit": "7",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -224,15 +224,15 @@
 		"Damage": "14",
 		"Stun": "11",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Neutral Jumping Fierce": {
 		"Startup": "8",
 		"Hit": "5",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -249,15 +249,15 @@
 		"Damage": "21",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Jumping Jab": {
 		"Startup": "2",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -274,15 +274,15 @@
 		"Damage": "7",
 		"Stun": "7",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Jumping Strong": {
 		"Startup": "3",
 		"Hit": "6",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -299,15 +299,15 @@
 		"Damage": "14",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Jumping Fierce": {
 		"Startup": "5",
 		"Hit": "4",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -324,15 +324,15 @@
 		"Damage": "17",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Short": {
 		"Startup": "3",
 		"Hit": "3",
 		"Recovery": "6",
-		"Block Advantage": "2",
-		"Hit Advantage": "2",
-		"Crouch Hit Advantage": "2",
+		"Blk. Adv.": "2",
+		"Hit Adv.": "2",
+		"Cr. Hit Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -349,15 +349,15 @@
 		"Damage": "5",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Forward": {
 		"Startup": "7",
 		"Hit": "5",
 		"Recovery": "15",
-		"Block Advantage": "-2",
-		"Hit Advantage": "D",
-		"Crouch Hit Advantage": "D",
+		"Blk. Adv.": "-2",
+		"Hit Adv.": "D",
+		"Cr. Hit Adv.": "D",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -374,15 +374,15 @@
 		"Damage": "14",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Far Forward": {
 		"Startup": "9",
 		"Hit": "3",
 		"Recovery": "15",
-		"Block Advantage": "-4",
-		"Hit Advantage": "-3",
-		"Crouch Hit Advantage": "-2",
+		"Blk. Adv.": "-4",
+		"Hit Adv.": "-3",
+		"Cr. Hit Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -399,15 +399,15 @@
 		"Damage": "14",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Roundhouse": {
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "22",
-		"Block Advantage": "-8",
-		"Hit Advantage": "-6",
-		"Crouch Hit Advantage": "-4",
+		"Blk. Adv.": "-8",
+		"Hit Adv.": "-6",
+		"Cr. Hit Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -424,15 +424,15 @@
 		"Damage": "17",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Crouching Short": {
 		"Startup": "4",
 		"Hit": "1",
 		"Recovery": "8",
-		"Block Advantage": "2",
-		"Hit Advantage": "2",
-		"Crouch Hit Advantage": "2",
+		"Blk. Adv.": "2",
+		"Hit Adv.": "2",
+		"Cr. Hit Adv.": "2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -449,15 +449,15 @@
 		"Damage": "5",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Crouching Forward": {
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "13",
-		"Block Advantage": "-1",
-		"Hit Advantage": "0",
-		"Crouch Hit Advantage": "1",
+		"Blk. Adv.": "-1",
+		"Hit Adv.": "0",
+		"Cr. Hit Adv.": "1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -474,15 +474,15 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Crouching Roundhouse": {
 		"Startup": "10",
 		"Hit": "3",
 		"Recovery": "20",
-		"Block Advantage": "-7",
-		"Hit Advantage": "D",
-		"Crouch Hit Advantage": "D",
+		"Blk. Adv.": "-7",
+		"Hit Adv.": "D",
+		"Cr. Hit Adv.": "D",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -499,15 +499,15 @@
 		"Damage": "16",
 		"Stun": "3",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Neutral Forward": {
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "27",
-		"Block Advantage": "-2",
-		"Hit Advantage": "-2",
-		"Crouch Hit Advantage": "0",
+		"Blk. Adv.": "-2",
+		"Hit Adv.": "-2",
+		"Cr. Hit Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -524,15 +524,15 @@
 		"Damage": "12",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Jumping Short": {
 		"Startup": "4",
 		"Hit": "12",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -549,15 +549,15 @@
 		"Damage": "7",
 		"Stun": "5",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Jumping Forward": {
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -574,15 +574,15 @@
 		"Damage": "12",
 		"Stun": "9",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Jumping Roundhouse": {
 		"Startup": "5",
 		"Hit": "5",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -599,15 +599,15 @@
 		"Damage": "19",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 18 / 9",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Towards + Forward": {
 		"Startup": "19",
 		"Hit": "6",
 		"Recovery": "8",
-		"Block Advantage": "-1",
-		"Hit Advantage": "0",
-		"Crouch Hit Advantage": "1",
+		"Blk. Adv.": "-1",
+		"Hit Adv.": "0",
+		"Cr. Hit Adv.": "1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -624,15 +624,15 @@
 		"Damage": "14",
 		"Stun": "11",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Dive Kicks": {
 		"Startup": "6 / 6 / 8",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -649,15 +649,15 @@
 		"Damage": "12",
 		"Stun": "7",
 		"Meter Gain Player": "2 / 10 / 5",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Neutral Throw": {
 		"Startup": "2",
 		"Hit": "1",
 		"Recovery": "21",
-		"Block Advantage": "0",
-		"Hit Advantage": "D",
-		"Crouch Hit Advantage": "D",
+		"Blk. Adv.": "0",
+		"Hit Adv.": "D",
+		"Cr. Hit Adv.": "D",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -674,15 +674,15 @@
 		"Damage": "27",
 		"Stun": "17",
 		"Meter Gain Player": "0 / 7 / 0",
-		"Meter Gain Opponent": "0 / 7"
+		"Meter Gain Opp.": "0 / 7"
 	},
 	"Back Throw": {
 		"Startup": "2",
 		"Hit": "1",
 		"Recovery": "21",
-		"Block Advantage": "0",
-		"Hit Advantage": "D",
-		"Crouch Hit Advantage": "D",
+		"Blk. Adv.": "0",
+		"Hit Adv.": "D",
+		"Cr. Hit Adv.": "D",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -699,15 +699,15 @@
 		"Damage": "21",
 		"Stun": "8",
 		"Meter Gain Player": "0 / 8 / 0",
-		"Meter Gain Opponent": "2 / 7"
+		"Meter Gain Opp.": "2 / 7"
 	},
 	"Towards Throw": {
 		"Startup": "2",
 		"Hit": "1",
 		"Recovery": "21",
-		"Block Advantage": "0",
-		"Hit Advantage": "D",
-		"Crouch Hit Advantage": "D",
+		"Blk. Adv.": "0",
+		"Hit Adv.": "D",
+		"Cr. Hit Adv.": "D",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -724,15 +724,15 @@
 		"Damage": "21",
 		"Stun": "10",
 		"Meter Gain Player": "0 / 8 / 0",
-		"Meter Gain Opponent": "2 / 7"
+		"Meter Gain Opp.": "2 / 7"
 	},
 	"Universal Overhead": {
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "5",
-		"Block Advantage": "-",
-		"Hit Advantage": "-",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-",
+		"Hit Adv.": "-",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -749,15 +749,15 @@
 		"Damage": "7",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Taunt": {
 		"Startup": "21",
 		"Hit": "10",
 		"Recovery": "27",
-		"Block Advantage": "-16",
-		"Hit Advantage": "-15",
-		"Crouch Hit Advantage": "-",
+		"Blk. Adv.": "-16",
+		"Hit Adv.": "-15",
+		"Cr. Hit Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -774,6 +774,6 @@
 		"Damage": "1",
 		"Stun": "0",
 		"Meter Gain Player": "4 / 11 / 7",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
   }
 }

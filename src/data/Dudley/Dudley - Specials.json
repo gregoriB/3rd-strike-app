@@ -6,7 +6,7 @@
 		"Startup": "4",
 		"Hit": "8",
 		"Recovery": "29",
-		"Block Advantage": "-23",
+		"Blk. Adv.": "-23",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "24",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jet Uppercut (Strong)": {
 		"Input": "DPM + Strong",
 		"Startup": "4",
 		"Hit": "16",
 		"Recovery": "28",
-		"Block Advantage": "-30",
+		"Blk. Adv.": "-30",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "28",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jet Uppercut (Fierce)": {
 		"Input": "DPM + Fierce",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "32",
-		"Block Advantage": "-38",
+		"Blk. Adv.": "-38",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "31",
 		"Stun": "20",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jet Uppercut (EX)": {
 		"Input": "DPM + 2-Punches",
 		"Startup": "3",
 		"Hit": "21",
 		"Recovery": "34",
-		"Block Advantage": "-37",
+		"Blk. Adv.": "-37",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "37",
 		"Stun": "20",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Machine Gun Blow (Jab)": {
 		"Input": "HCF + Jab",
 		"Startup": "8",
 		"Hit": "8",
 		"Recovery": "18",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "19",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Machine Gun Blow (Strong)": {
 		"Input": "HCF + Strong",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "24",
-		"Block Advantage": "-9",
+		"Blk. Adv.": "-9",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "22",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Machine Gun Blow (Fierce)": {
 		"Input": "HCF + Fierce",
 		"Startup": "17",
 		"Hit": "13",
 		"Recovery": "30",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "27",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Machine Gun Blow (EX)": {
 		"Input": "HCF + 2-Punches",
 		"Startup": "16",
 		"Hit": "17",
 		"Recovery": "28",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "32",
 		"Stun": "10",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Ducking Rush": {
 		"Input": "HCF + Kick",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Ducking Straight": {
 		"Input": "HCF + Kick , Punch",
 		"Startup": "21 / 20 / 22",
 		"Hit": "4",
 		"Recovery": "19",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -229,14 +229,14 @@
 		"Damage": "28",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 19 / 10",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Ducking Upper": {
 		"Input": "HCF + Kick , Kick",
 		"Startup": "20 / 19 / 21",
 		"Hit": "4",
 		"Recovery": "25",
-		"Block Advantage": "-12",
+		"Blk. Adv.": "-12",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -252,14 +252,14 @@
 		"Damage": "30",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 11",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Cross Counter (Jab)": {
 		"Input": "HCB + Jab",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Cross Counter (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Cross Counter (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Cross Counter (EX)": {
 		"Input": "HCB + 2-Punches",
 		"Startup": "-",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
 	},
 	"Short Swing Blow (Short)": {
 		"Input": "HCB + Short",
 		"Startup": "17",
 		"Hit": "3",
 		"Recovery": "13",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -367,14 +367,14 @@
 		"Damage": "33",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 17 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Short Swing Blow (Forward)": {
 		"Input": "HCB + Forward",
 		"Startup": "20",
 		"Hit": "3",
 		"Recovery": "13",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -390,14 +390,14 @@
 		"Damage": "33",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 17 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Short Swing Blow (RH)": {
 		"Input": "HCB + Roundhouse",
 		"Startup": "23",
 		"Hit": "3",
 		"Recovery": "13",
-		"Block Advantage": "0",
+		"Blk. Adv.": "0",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -413,14 +413,14 @@
 		"Damage": "33",
 		"Stun": "19",
 		"Meter Gain Player": "3 / 17 / 12",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Short Swing Blow (EX)": {
 		"Input": "HCB + 2-Kicks",
 		"Startup": "17",
 		"Hit": "10",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -436,6 +436,6 @@
 		"Damage": "33",
 		"Stun": "22",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }

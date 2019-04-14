@@ -6,7 +6,7 @@
 		"Startup": "5",
 		"Hit": "16",
 		"Recovery": "31",
-		"Block Advantage": "-19",
+		"Blk. Adv.": "-19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -27,7 +27,7 @@
 		"Startup": "1",
 		"Hit": "1",
 		"Recovery": "65",
-		"Block Advantage": "-25",
+		"Blk. Adv.": "-25",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -48,7 +48,7 @@
 		"Startup": "18",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -69,7 +69,7 @@
 		"Startup": "12",
 		"Hit": "1",
 		"Recovery": "39",
-		"Block Advantage": "-17",
+		"Blk. Adv.": "-17",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -90,7 +90,7 @@
 		"Startup": "6",
 		"Hit": "3",
 		"Recovery": "59",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,

@@ -6,7 +6,7 @@
 		"Startup": "9",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kunai (Strong)": {
 		"Input": "QCF + Strong (Air) ",
 		"Startup": "10",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kunai (Fierce)": {
 		"Input": "QCF + Fierce (Air) ",
 		"Startup": "11",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "8",
 		"Stun": "3",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kunai (EX)": {
 		"Input": "QCF + 2-Punches (Air) ",
 		"Startup": "8",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "18",
 		"Stun": "5",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Raida (Jab)": {
 		"Input": "HCB + Jab",
 		"Startup": "4",
 		"Hit": "3",
 		"Recovery": "28",
-		"Block Advantage": "-5",
+		"Blk. Adv.": "-5",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "28",
 		"Stun": "8",
 		"Meter Gain Player": "0 / 13 / 0",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Raida (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "5",
 		"Hit": "5",
 		"Recovery": "30",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "30",
 		"Stun": "10",
 		"Meter Gain Player": "0 / 13 / 0",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Raida (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "6",
 		"Hit": "7",
 		"Recovery": "32",
-		"Block Advantage": "-7",
+		"Blk. Adv.": "-7",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "32",
 		"Stun": "12",
 		"Meter Gain Player": "0 / 13 / 0",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Hien (Short)": {
 		"Input": "RDP + Short",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "23",
-		"Block Advantage": "-32",
+		"Blk. Adv.": "-32",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "19",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hien (Forward)": {
 		"Input": "RDP + Forward",
 		"Startup": "25",
 		"Hit": "3",
 		"Recovery": "17",
-		"Block Advantage": "-39",
+		"Blk. Adv.": "-39",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "22",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hien (RH)": {
 		"Input": "RDP + Roundhouse",
 		"Startup": "28",
 		"Hit": "4",
 		"Recovery": "16",
-		"Block Advantage": "-36",
+		"Blk. Adv.": "-36",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "25",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Hien (EX)": {
 		"Input": "RDP + 2-Kicks",
 		"Startup": "26",
 		"Hit": "4",
 		"Recovery": "13",
-		"Block Advantage": "-32",
+		"Blk. Adv.": "-32",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "32",
 		"Stun": "15",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kubiori (Jab)": {
 		"Input": "QCF + Punch",
 		"Startup": "14",
 		"Hit": "11",
 		"Recovery": "15",
-		"Block Advantage": "-10",
+		"Blk. Adv.": "-10",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "26",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Kubiori (Strong)": {
 		"Input": "QCF + Punch",
 		"Startup": "15",
 		"Hit": "12",
 		"Recovery": "18",
-		"Block Advantage": "-16",
+		"Blk. Adv.": "-16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "26",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Kubiori (Fierce)": {
 		"Input": "QCF + Punch",
 		"Startup": "17",
 		"Hit": "14",
 		"Recovery": "19",
-		"Block Advantage": "-19",
+		"Blk. Adv.": "-19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "26",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 10 / 6",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Kubiori (EX)": {
 		"Input": "QCF + 2-Punches",
 		"Startup": "15",
 		"Hit": "10",
 		"Recovery": "19",
-		"Block Advantage": "-27",
+		"Blk. Adv.": "-27",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "32",
 		"Stun": "18",
 		"Meter Gain Player": "-38 / -38 / -34",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kazekiri (Short)": {
 		"Input": "DPM + Short",
 		"Startup": "4",
 		"Hit": "12",
 		"Recovery": "26",
-		"Block Advantage": "-20",
+		"Blk. Adv.": "-20",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "19",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Kazekiri (Forward)": {
 		"Input": "DPM + Forward",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "29",
-		"Block Advantage": "-19",
+		"Blk. Adv.": "-19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,14 +390,14 @@
 		"Damage": "23",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 23 / 17",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Kazekiri (RH)": {
 		"Input": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "11",
 		"Recovery": "29",
-		"Block Advantage": "-20",
+		"Blk. Adv.": "-20",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -413,14 +413,14 @@
 		"Damage": "30",
 		"Stun": "16",
 		"Meter Gain Player": "3 / 24 / 18",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Kazekiri (EX)": {
 		"Input": "DPM + 2-Kicks",
 		"Startup": "4",
 		"Hit": "11",
 		"Recovery": "33",
-		"Block Advantage": "-21",
+		"Blk. Adv.": "-21",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -436,14 +436,14 @@
 		"Damage": "28",
 		"Stun": "14",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Tsumuji (Short)": {
 		"Input": "QCB + Short",
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "19",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -459,14 +459,14 @@
 		"Damage": "18",
 		"Stun": "5",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tsumuji (Forward)": {
 		"Input": "QCB + Forward",
 		"Startup": "13",
 		"Hit": "2",
 		"Recovery": "21",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": true,
@@ -482,14 +482,14 @@
 		"Damage": "18",
 		"Stun": "5",
 		"Meter Gain Player": "3 / 19 / 13",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tsumuji (RH)": {
 		"Input": "QCB + Roundhouse",
 		"Startup": "14",
 		"Hit": "3",
 		"Recovery": "24",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -505,14 +505,14 @@
 		"Damage": "31",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 20 / 14",
-		"Meter Gain Opponent": "4 / 0"
+		"Meter Gain Opp.": "4 / 0"
 	},
 	"Tsumuji (EX)": {
 		"Input": "QCB + 2-Kicks",
 		"Startup": "7",
 		"Hit": "4",
 		"Recovery": "28",
-		"Block Advantage": "-11",
+		"Blk. Adv.": "-11",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -528,14 +528,14 @@
 		"Damage": "35",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Kasumi Gake": {
 		"Input": "QCF + Kick",
 		"Startup": "20 / 22 / 25",
 		"Hit": "-",
 		"Recovery": "-",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -551,6 +551,6 @@
 		"Damage": "-",
 		"Stun": "-",
 		"Meter Gain Player": "-",
-		"Meter Gain Opponent": "-"
+		"Meter Gain Opp.": "-"
   }
 }

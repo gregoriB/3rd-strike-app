@@ -6,7 +6,7 @@
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "17",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "21",
 		"Stun": "7",
 		"Meter Gain Player": "3 / 16 / 10",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Flash Chop (Strong)": {
 		"Input": "QCF + Strong",
 		"Startup": "15",
 		"Hit": "3",
 		"Recovery": "19",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "23",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 16 / 10",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Flash Chop (Fierce)": {
 		"Input": "QCF + Fierce",
 		"Startup": "19",
 		"Hit": "4",
 		"Recovery": "17",
-		"Block Advantage": "-1",
+		"Blk. Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "24",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 16 / 10",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Flash Chop (EX)": {
 		"Input": "QCF + 2-Punches",
 		"Startup": "9",
 		"Hit": "4",
 		"Recovery": "15",
-		"Block Advantage": "-1",
+		"Blk. Adv.": "-1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "34",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Power Bomb (Jab)": {
 		"Input": "HCB + Jab",
 		"Startup": "6",
 		"Hit": "2",
 		"Recovery": "35",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "28",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Power Bomb (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "41",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "32",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Power Bomb (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "8",
 		"Hit": "2",
 		"Recovery": "44",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "35",
 		"Stun": "18",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Reverse Power Bomb (Jab)": {
 		"Input": "HCB + Jab",
 		"Startup": "6",
 		"Hit": "2",
 		"Recovery": "35",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "32",
 		"Stun": "20",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Reverse Power Bomb (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "7",
 		"Hit": "2",
 		"Recovery": "41",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "35",
 		"Stun": "20",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Reverse Power Bomb (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "8",
 		"Hit": "2",
 		"Recovery": "44",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "40",
 		"Stun": "20",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Air Knee Smash (Short)": {
 		"Input": "DPM + Short",
 		"Startup": "6",
 		"Hit": "6",
 		"Recovery": "35",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "21",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 18 / --",
-		"Meter Gain Opponent": "3 / --"
+		"Meter Gain Opp.": "3 / --"
 	},
 	"Air Knee Smash (Forward)": {
 		"Input": "DPM + Forward",
 		"Startup": "7",
 		"Hit": "10",
 		"Recovery": "34",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "24",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 18 / --",
-		"Meter Gain Opponent": "3 / --"
+		"Meter Gain Opp.": "3 / --"
 	},
 	"Air Knee Smash (RH)": {
 		"Input": "DPM + Roundhouse",
 		"Startup": "8",
 		"Hit": "12",
 		"Recovery": "33",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "26",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 18 / --",
-		"Meter Gain Opponent": "3 / --"
+		"Meter Gain Opp.": "3 / --"
 	},
 	"Air Knee Smash (EX)": {
 		"Input": "DPM + 2-Kicks",
 		"Startup": "3",
 		"Hit": "17",
 		"Recovery": "34",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "26",
 		"Stun": "14",
 		"Meter Gain Player": "-40 / -24 / -40",
-		"Meter Gain Opponent": "3 / 0"
+		"Meter Gain Opp.": "3 / 0"
 	},
 	"Air Stampede (Short)": {
 		"Input": "Hold Down , Up + Short",
 		"Startup": "23",
 		"Hit": "2",
 		"Recovery": "24",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "21",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air Stampede (Forward)": {
 		"Input": "Hold Down , Up + Forward",
 		"Startup": "25",
 		"Hit": "2",
 		"Recovery": "24",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "24",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air Stampede (RH)": {
 		"Input": "Hold Down , Up + Roundhouse",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,14 +390,14 @@
 		"Damage": "28",
 		"Stun": "11",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Air Stampede (EX)": {
 		"Input": "Hold Down , Up + 2-Kicks",
 		"Startup": "26",
 		"Hit": "2",
 		"Recovery": "24",
-		"Block Advantage": "-3",
+		"Blk. Adv.": "-3",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -413,14 +413,14 @@
 		"Damage": "32",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Slash Elbow (Short)": {
 		"Input": "Hold Back , Fwd + Short",
 		"Startup": "15",
 		"Hit": "1",
 		"Recovery": "17",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -436,14 +436,14 @@
 		"Damage": "17",
 		"Stun": "13",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Slash Elbow (Forward)": {
 		"Input": "Hold Back , Fwd + Forward",
 		"Startup": "18",
 		"Hit": "1",
 		"Recovery": "23",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -459,14 +459,14 @@
 		"Damage": "21",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Slash Elbow (RH)": {
 		"Input": "Hold Back , Fwd + Roundhouse",
 		"Startup": "20",
 		"Hit": "1",
 		"Recovery": "23",
-		"Block Advantage": "-8",
+		"Blk. Adv.": "-8",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -482,14 +482,14 @@
 		"Damage": "24",
 		"Stun": "17",
 		"Meter Gain Player": "3 / 12 / 4",
-		"Meter Gain Opponent": "2 / 0"
+		"Meter Gain Opp.": "2 / 0"
 	},
 	"Slash Elbow (EX)": {
 		"Input": "Hold Back , Fwd + 2-Kicks",
 		"Startup": "9",
 		"Hit": "6",
 		"Recovery": "23",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -505,14 +505,14 @@
 		"Damage": "27",
 		"Stun": "17",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Spiral D.D.T. (Short)": {
 		"Input": "HCB + Short",
 		"Startup": "20",
 		"Hit": "3",
 		"Recovery": "15",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -528,14 +528,14 @@
 		"Damage": "28",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Spiral D.D.T. (Forward)": {
 		"Input": "HCB + Forward",
 		"Startup": "22",
 		"Hit": "3",
 		"Recovery": "14",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -551,14 +551,14 @@
 		"Damage": "28",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
 	},
 	"Spiral D.D.T. (RH)": {
 		"Input": "HCB + Roundhouse",
 		"Startup": "24",
 		"Hit": "3",
 		"Recovery": "13",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -574,6 +574,6 @@
 		"Damage": "28",
 		"Stun": "14",
 		"Meter Gain Player": "2 / 20 / --",
-		"Meter Gain Opponent": "4 / --"
+		"Meter Gain Opp.": "4 / --"
   }
 }

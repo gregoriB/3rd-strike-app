@@ -6,7 +6,7 @@ import { categories } from '../helpers/variables';
 import '../styles/navBar.css';
 
 export default function NavBar() {
-    const { currentChar, currentCategory, setCurrentCategory } = useContext(StateContext);
+    const { currentChar, currentCategory, setCurrentCategory, charInfo } = useContext(StateContext);
     const [navButtons, setNavButtons] = useState(null)
 
     const handleClick = e => {
@@ -22,7 +22,7 @@ export default function NavBar() {
                 return (
                     
                         <div
-                            className={`nav-button ${category} ${category === currentCategory && 'active'}`}
+                            className={`nav-link ${category} ${category === currentCategory && 'active'}`}
                             key={category}
                             data-name={category}
                             onClick={handleClick}
@@ -30,10 +30,10 @@ export default function NavBar() {
                             {category}
                         </div>
                     
-                    )
+                    );
                 }
             })
-        )
+        );
     }
 
     useEffect(() => {
@@ -43,6 +43,7 @@ export default function NavBar() {
     return (
         <div className='nav-bar'>
             <Link to='/'><button className='home-button'>HOME</button></Link>
+            <div className='current-char'>{ charInfo && charInfo.name.includes(currentChar) && charInfo.name}</div>
             {navButtons}
         </div>
     )

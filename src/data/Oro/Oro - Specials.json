@@ -6,7 +6,7 @@
 		"Startup": "9",
 		"Hit": "2",
 		"Recovery": "29",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -22,14 +22,14 @@
 		"Damage": "24",
 		"Stun": "19",
 		"Meter Gain Player": "1 / 11 / --",
-		"Meter Gain Opponent": "2 / --"
+		"Meter Gain Opp.": "2 / --"
 	},
 	"Human Pillar Driver (Strong)": {
 		"Input": "HCB + Strong",
 		"Startup": "10",
 		"Hit": "2",
 		"Recovery": "29",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -45,14 +45,14 @@
 		"Damage": "27",
 		"Stun": "19",
 		"Meter Gain Player": "1 / 11 / --",
-		"Meter Gain Opponent": "2 / --"
+		"Meter Gain Opp.": "2 / --"
 	},
 	"Human Pillar Driver (Fierce)": {
 		"Input": "HCB + Fierce",
 		"Startup": "11",
 		"Hit": "2",
 		"Recovery": "29",
-		"Block Advantage": "-15",
+		"Blk. Adv.": "-15",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -68,14 +68,14 @@
 		"Damage": "31",
 		"Stun": "19",
 		"Meter Gain Player": "1 / 11 / --",
-		"Meter Gain Opponent": "2 / --"
+		"Meter Gain Opp.": "2 / --"
 	},
 	"Oniyama (Jab)": {
 		"Input": "Hold Down , Up + Jab",
 		"Startup": "6",
 		"Hit": "10",
 		"Recovery": "-29",
-		"Block Advantage": "-34",
+		"Blk. Adv.": "-34",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -91,14 +91,14 @@
 		"Damage": "24",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Oniyama (Strong)": {
 		"Input": "Hold Down , Up + Strong",
 		"Startup": "6",
 		"Hit": "17",
 		"Recovery": "-30",
-		"Block Advantage": "-42",
+		"Blk. Adv.": "-42",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -114,14 +114,14 @@
 		"Damage": "28",
 		"Stun": "15",
 		"Meter Gain Player": "3 / 21 / 15",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Oniyama (Fierce)": {
 		"Input": "Hold Down , Up + Fierce",
 		"Startup": "7",
 		"Hit": "23",
 		"Recovery": "-33",
-		"Block Advantage": "-50",
+		"Blk. Adv.": "-50",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -137,14 +137,14 @@
 		"Damage": "31",
 		"Stun": "21",
 		"Meter Gain Player": "3 / 22 / 17",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Oniyama (EX)": {
 		"Input": "Hold Down , Up + 2-Punches",
 		"Startup": "5",
 		"Hit": "25",
 		"Recovery": "-43",
-		"Block Advantage": "-60",
+		"Blk. Adv.": "-60",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -160,14 +160,14 @@
 		"Damage": "35",
 		"Stun": "21",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Sun Disk Palm (Jab)": {
 		"Input": "Hold Back , Fwd + Jab",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
-		"Block Advantage": "-6",
+		"Blk. Adv.": "-6",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -183,14 +183,14 @@
 		"Damage": "8",
 		"Stun": "7",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Sun Disk Palm (Strong)": {
 		"Input": "Hold Back , Fwd + Strong",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "25",
-		"Block Advantage": "-4",
+		"Blk. Adv.": "-4",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -206,14 +206,14 @@
 		"Damage": "8",
 		"Stun": "7",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Sun Disk Palm (Fierce)": {
 		"Input": "Hold Back , Fwd + Fierce",
 		"Startup": "13",
 		"Hit": "-",
 		"Recovery": "23",
-		"Block Advantage": "-2",
+		"Blk. Adv.": "-2",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -229,14 +229,14 @@
 		"Damage": "10",
 		"Stun": "11",
 		"Meter Gain Player": "0 / 2 / 1",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Sun Disk Palm (EX Low)": {
 		"Input": "Hold Back , Fwd + 2-Punches",
 		"Startup": "15",
 		"Hit": "-",
 		"Recovery": "27",
-		"Block Advantage": "1",
+		"Blk. Adv.": "1",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -252,14 +252,14 @@
 		"Damage": "16",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Sun Disk Palm (EX High)": {
 		"Input": "Hold Back , Fwd + 2-Punches",
 		"Startup": "21",
 		"Hit": "-",
 		"Recovery": "37",
-		"Block Advantage": "-",
+		"Blk. Adv.": "-",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -275,14 +275,14 @@
 		"Damage": "16",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Jinchu Nobori (Short)": {
 		"Input": "QCF + Short",
 		"Startup": "27",
 		"Hit": "6",
 		"Recovery": "19",
-		"Block Advantage": "16",
+		"Blk. Adv.": "16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -298,14 +298,14 @@
 		"Damage": "16",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jinchu Nobori (Forward)": {
 		"Input": "QCF + Forward",
 		"Startup": "31",
 		"Hit": "6",
 		"Recovery": "17",
-		"Block Advantage": "16",
+		"Blk. Adv.": "16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -321,14 +321,14 @@
 		"Damage": "20",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jinchu Nobori (RH)": {
 		"Input": "QCF + Roundhouse",
 		"Startup": "34",
 		"Hit": "6",
 		"Recovery": "16",
-		"Block Advantage": "16",
+		"Blk. Adv.": "16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -344,14 +344,14 @@
 		"Damage": "22",
 		"Stun": "9",
 		"Meter Gain Player": "3 / 22 / 16",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Jinchu Nobori (EX)": {
 		"Input": "QCF + 2-Kicks",
 		"Startup": "31",
 		"Hit": "12",
 		"Recovery": "16",
-		"Block Advantage": "16",
+		"Blk. Adv.": "16",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -367,14 +367,14 @@
 		"Damage": "34",
 		"Stun": "13",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
 	},
 	"Air Jinchu Nobori": {
 		"Input": "QCF + Kick (Air)",
 		"Startup": "8",
 		"Hit": "6",
 		"Recovery": "29",
-		"Block Advantage": "-19",
+		"Blk. Adv.": "-19",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -390,14 +390,14 @@
 		"Damage": "19",
 		"Stun": "9",
 		"Meter Gain Player": "6 / 27 / 10",
-		"Meter Gain Opponent": "6 / 0"
+		"Meter Gain Opp.": "6 / 0"
 	},
 	"Air Jinchu Nobori (EX)": {
 		"Input": "QCF + 2-Kicks (Air)",
 		"Startup": "8",
 		"Hit": "7",
 		"Recovery": "30",
-		"Block Advantage": "-20",
+		"Blk. Adv.": "-20",
 		"Cancel": {
       "?": false,
       "??": false,
@@ -413,6 +413,6 @@
 		"Damage": "22",
 		"Stun": "9",
 		"Meter Gain Player": "-40 / -40 / -40",
-		"Meter Gain Opponent": "0 / 0"
+		"Meter Gain Opp.": "0 / 0"
   }
 }
