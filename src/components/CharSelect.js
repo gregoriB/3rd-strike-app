@@ -11,7 +11,7 @@ export default function CharacterList() {
 
   const handleSetupPage = () => {
     const select = charSelect.current;
-    select.style.marginTop = `${(window.innerHeight - select.offsetHeight) / 5}px`;
+    select.style.marginTop = `${(window.innerHeight - select.offsetHeight) / 10}px`;
   }
   
   useEffect(() => {

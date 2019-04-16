@@ -20,8 +20,8 @@ export default function CharacterData(props) {
   const handleSetTableActive = () => {
     const table = tableHTML.current;
     table.classList.add('active');
-    table.style.marginTop = `${(window.innerHeight - table.offsetHeight) / 2}px`;
-    table.style.marginLeft = `${(window.innerWidth * .9 - table.offsetWidth) / 6}px`;
+    table.style.marginTop = `${(window.innerHeight - table.offsetHeight) / 3}px`;
+    table.style.marginLeft = `${(window.innerWidth * .9 - table.offsetWidth) / 3}px`;
   }
 
   const handleSetTableData = moveSet => {
