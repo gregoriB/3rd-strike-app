@@ -7,6 +7,7 @@ import { StateContext } from './contexts/stateContext';
 import { characters } from './helpers/variables';
 import './normalize.css';
 import './App.css';
+import './styles/charSelect.css';
 
 export default function App() {
   const state = useContext(StateContext);

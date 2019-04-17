@@ -18,17 +18,18 @@ export default function CharacterData(props) {
   const tableHTML = useRef(null);
 
   const handleSetTableActive = () => {
+    const pageWidthPercent = .9;
     const table = tableHTML.current;
+    const diffY = window.innerHeight - table.offsetHeight;
+    const diffX =  window.innerWidth * pageWidthPercent - table.offsetWidth;
     table.classList.add('active');
-    table.style.marginTop = `${(window.innerHeight - table.offsetHeight) / 3}px`;
-    table.style.marginLeft = `${(window.innerWidth * .9 - table.offsetWidth) / 3}px`;
+    table.style.marginTop = `${(diffY > 0 && diffY / 3) || 0}px`;
+    table.style.marginLeft = `${(diffX > 0 && diffX / 3) || 0}px`;
   }
 
   const handleSetTableData = moveSet => {
-      //set character info for page header
     const info = Object.entries(moveSet).splice(0, 2);
     state.setCharInfo({
-      ...state.charInfo,
       name: info[0][1].split(' / ').join(' '),
       category: info[1][1]
     });
@@ -374,7 +375,29 @@ export default function CharacterData(props) {
         switching = true;
       }
     }
-  }
+  } 
+
+  const handleDebouncedResize = handleDebounce(() => handleSetTableActive(), 100);
+
+  function handleDebounce(func, wait, immediate) {
+    let timeout;
+
+    return () => {
+      const context = this,
+            args    = arguments;
+      const later = () => {
+        timeout = null;
+        if (!immediate) {
+          func.apply(context, args);
+        }
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (immediate && !timeout) {
+        func.apply(context, args);
+      }
+    };
+  };
 
   useEffect(() => {
     state.dataTable && handleSetTableActive();
@@ -383,12 +406,11 @@ export default function CharacterData(props) {
 
   useEffect(() => {
     handleImportData();
-    // window.addEventListener('resize', handleDebouncedResize)
+    window.addEventListener('resize', handleDebouncedResize)
 
     return () => {
       state.setDataTable(null);
-      // state.setCharInfo(null);
-      // window.removeEventListener('resize', handleDebouncedResize)
+      window.removeEventListener('resize', handleDebouncedResize)
     }
   }, [char, state.currentCategory]);
 

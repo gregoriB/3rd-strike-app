@@ -5,9 +5,10 @@ html, body {
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: rgb(73, 73, 73);
-  /* padding: 1rem calc((100% - 95vw) / 2); */
   width: 100%;
+  height: 100%;
   margin: 0;
+  
 }
 
 * {
@@ -21,83 +22,6 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-}
-
-.page {
-  position: absolute;
-  top: 0;
-  left: 10vw;
-  width: 90vw;
-  height: 100%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-}
-
-.char-head {
-  left: calc(50% - 15%);
-  padding: .5rem;
-  position: absolute;
-  justify-self: center;
-  clear: both;
-  display: inline-block;
-  border: 2px solid black;
-  background: rgb(185, 185, 185);
-  min-height: 5rem;
-  width: 30%;
-  margin: 0 auto;
-}
-
-.char-head * {
-  font-weight: bold;
-  text-align: center;
-}
-
-.head {
-  max-width: 90%;
-}
-
-.char-name {
-  margin: 1rem;
-}
-
-.flex-container {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 250px;
-  transform: rotate(25deg)
-}
-
-.character {
-  background-color: rgb(185, 185, 185);
-  font-weight: bold;
-  margin: 1px -7px;
-  width: 95px;
-  height: 82px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 50%;
-  line-height: 5rem;
-  transform: rotate(-25deg);
-}
-
-.character:nth-of-type(3n+1) {
-  transform: translateY(50px) rotate(-25deg);
-}
-
-.character:nth-of-type(3n+3) {
-  transform: translateY(34px) rotate(-25deg);
-}
-
-.character:nth-last-child(1) {
-  transform: translateY(0px) rotate(-25deg);
-}
-
-.character:hover {
-  border-color: rgb(112, 197, 214);
 }
 
 a {
@@ -127,8 +51,24 @@ ul {
   padding-left: 1rem;
 }
 
-@media only screen and (max-width: 900px) {
+::-webkit-scrollbar {
+  width: 9px;
+}
 
+::-webkit-scrollbar-track {
+  /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(240, 240, 240);
+  /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+@media only screen and (max-width: 900px) {
   html, body {
     overflow: hidden;
     overflow-y: visible;
@@ -139,62 +79,11 @@ ul {
     margin: 0;
     padding: 0;
     padding-top: 10px;
-    /* font-size: 10px; */
-  }
-
-  .head {
-    max-width: 98%;
-  }
-
-  .selector-buttons {
-    margin-top: 17%;
-  }
-
-  .flex-container {
-    width: 100%;
-    transform: none;
-  }
-
-  body div.flex-container a.character {
-    transform: none;
-    margin: auto;
-  }
-
-  
-  .char-head {
-    border-width: thin;
-    top: 0px;
-    left: calc(50% - 110px);
-    min-height: 2rem;
-    height: 75px;
-    width: 220px;
-  }
-
-  .tool-tip * {
-    visibility: hidden;
-    border: none;
-    opacity: 0;
   }
 
   .rotation {
     font-size: .5rem;
   }
-}
-
-.selector-buttons {
-  clear: both;
-  margin: .5rem auto;
-  margin-top: 1.7%;
-  display: block;
-  text-align: center;
-}
-
-.selector-buttons button:hover {
-  background: rgb(160, 160, 160);
-}
-
-div.selector-buttons button.active {
-  background: rgb(185, 185, 185);
 }
 
 button:hover {
