@@ -61,7 +61,7 @@ export default function CharacterData(props) {
 
   const handleDetermineDataType = data => {
     let cssClass = 'misc-data';
-    let type = cssClass.split(' ')[0] === 'number' ? Number(type) : data;
+    let type = cssClass.split(' ')[0] === 'number' ? Number(data) : data;
     if (data < 0) {
       cssClass = 'number negative';
     }
