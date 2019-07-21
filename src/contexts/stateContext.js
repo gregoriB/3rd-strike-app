@@ -8,7 +8,8 @@ export function StateProvider(props) {
         [charList, setCharList]       = useState(null),
         [dataTable, setDataTable]     = useState(null),
         [charInfo, setCharInfo]       = useState(null),
-        [currentCategory, setCurrentCategory] = useState('Normals');
+        [currentCategory, setCurrentCategory] = useState('Normals'),
+        [isDownloadComplete, setIsDownloadComplete] = useState(false);
 
   return (
     <StateContext.Provider 
@@ -22,7 +23,9 @@ export function StateProvider(props) {
         charInfo,
         setCharInfo,
         currentCategory,
-        setCurrentCategory
+        setCurrentCategory,
+        isDownloadComplete,
+        setIsDownloadComplete
       }}
     >
       {props.children}

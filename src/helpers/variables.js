@@ -5,6 +5,8 @@ export const characters = [
   'Hugo', 'Alex', 'Twelve', 'Ken', 'Yang',
 ];
 
+export const exportObj = {}
+
 export const uniqueKey = {
   key: 0,
   incrementKey: function() { 

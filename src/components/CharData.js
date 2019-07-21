@@ -1,25 +1,50 @@
-import React, { useContext, useEffect, useRef } from 'react';
+import React, { useState, useContext, useEffect, useRef } from 'react';
 import { StateContext } from '../contexts/stateContext';
-import { uniqueKey } from '../helpers/variables';
+import { uniqueKey, exportObj } from '../helpers/variables';
 import NavBar from './NavBar';
 import '../styles/table.css';
+
 
 export default function CharacterData(props) {
   const state = useContext(StateContext),
         char  = props.currentChar || state.currentChar; //workaround to stop manually inputing the name in the address bar from causing errors
   
-  const handleImportData = () => {
+  const handleImportData = category => {
       //using import() because 'require' doesn't work with dynamic paths
-    import(`../data/${char}/${char} - ${state.currentCategory}.json`)
+    import(`../data/${char}/${char} - ${category}.json`)
     .then(moveSet => moveSet['default'])
-    .then((moveSet) => handleSetTableData(moveSet));
+    .then((moveSet) => handleSetTableData(moveSet, category));
   }
 
-  const tableHTML = useRef(null);
+  const normals = useRef(null);
+  const specials = useRef(null);
+  const superArts = useRef(null);
+  const misc = useRef(null);
+  const geneiJinNormals = useRef(null);
+  const geneiJinSpecials = useRef(null);
+
+  const determineRef = (category) => {
+    switch(category) {
+      case 'Normals':
+        return normals;
+      case 'Specials':
+          return specials;
+      case 'Super Arts':
+        return superArts;
+      case 'Misc':
+          return misc;
+      case 'GeneiJin Normals':
+          return geneiJinNormals;
+      case 'GeneiJin Specials':
+          return geneiJinSpecials;
+      default:
+          return normals;
+    }
+  }
 
   const handleSetTableActive = () => {
     const pageWidthPercent = .9;
-    const table = tableHTML.current;
+    const table = determineRef(state.currentCategory).current
     const diffY = window.innerHeight - table.offsetHeight;
     const diffX =  window.innerWidth * pageWidthPercent - table.offsetWidth;
     table.classList.add('active');
@@ -27,7 +52,7 @@ export default function CharacterData(props) {
     table.style.marginLeft = `${(diffX > 0 && diffX / 3) || 0}px`;
   }
 
-  const handleSetTableData = moveSet => {
+  const handleSetTableData =( moveSet, category) => {
     const info = Object.entries(moveSet).splice(0, 2);
     state.setCharInfo({
       name: info[0][1].split(' / ').join(' '),
@@ -36,7 +61,7 @@ export default function CharacterData(props) {
     const newData = Object.entries(moveSet).splice(2);
     const table = handleBuildTable(newData, info);
     const tableData = (
-      <table cellSpacing='0' className='move-list' ref={tableHTML}>
+      <table cellSpacing='0' className='move-list' ref={determineRef(category)} >
         <thead><tr key={uniqueKey.incrementKey()}>{table[0].map(headItem => headItem)}</tr></thead>
         <tbody>{table.splice(1).map(dataItem => <tr key={uniqueKey.incrementKey()}>{dataItem}</tr>)}</tbody>
       </table>
@@ -50,7 +75,7 @@ export default function CharacterData(props) {
           frameData  = data.map(item => Object.values(item[1])),
           tableHead  = [dataType, ...Object.keys(data[0][1])],
           tableData  = [];
-    tableData.push(tableHead.map((head, index) => <th className='table-head-item' onClick={(e) => handleClickHead(e, index)} key={uniqueKey.incrementKey()}>{head}</th>));
+    tableData.push(tableHead.map((head, index) => <th className='move-head' onClick={(e) => handleClickHead(e, index)} key={uniqueKey.incrementKey()}>{head}</th>));
     frameData.forEach((row, index) => {
       tableData.push(row.map(data => handleDetermineDataType(data)));
       tableData[index + 1].unshift(<td className='attack' key={uniqueKey.incrementKey()}>{attackType[index]}</td>);
@@ -96,14 +121,14 @@ export default function CharacterData(props) {
           cssClass = 'number neutral';
           break;
         case 'D':
-          cssClass = 'down';
+          cssClass = 'down direction';
           type = 'KD'
           break;
         case 'H':
-          cssClass = 'high';
+          cssClass = 'high parry';
           break;
         case 'L':
-          cssClass = 'low';
+          cssClass = 'low parry';
           break;
         case '+':
           cssClass = 'plus-sign';
@@ -311,15 +336,8 @@ export default function CharacterData(props) {
     }
 
     return (
-      <div key={uniqueKey.incrementKey()} className={`${text || type} cancel`}>
+      <div title={toolTip} key={uniqueKey.incrementKey()} className={`${text || type} cancel`}>
         {type}
-        { 
-          toolTip && 
-          <div className="tool-tip">
-            <div className="tool-tip-info">{toolTip}</div>
-            <div className='tool-tip-pointer' />
-          </div>
-        }
       </div>
     );
   }
@@ -399,20 +417,68 @@ export default function CharacterData(props) {
     };
   };
 
-  useEffect(() => {
-    state.dataTable && handleSetTableActive();
+  const [ exportObject, setExportObject ] = useState({})
 
+  useEffect(() => {
+    // state.dataTable && handleSetTableActive();
   }, [state.dataTable])
 
   useEffect(() => {
-    handleImportData();
+    if (!buildExportObject.obj) {
+      buildExportObject.obj = {}
+    }
+    function buildExportObject() {
+      if (exportObj[state.currentCategory]) {
+
+        return;
+      }
+      const { outerHTML } = determineRef(state.currentCategory).current
+      // const HTML = { [state.currentCategory]: outerHTML }
+      // console.log(HTML)
+      // exportObj.HTML = HTML;
+      exportObj[state.currentCategory] = outerHTML
+      // setExportObject({
+      //   ...exportObject,
+      //   HTML
+      // })
+      console.log(exportObj)
+    }
+
+    function downloadObject() {
+      console.log(exportObj)
+      const file = new Blob([JSON.stringify(exportObj, null, '\t')], {type: 'application/json'}),
+            link = document.createElement('a'),
+            name = `${char} - Tables`;
+      link.style.display = 'none';
+      link.href = URL.createObjectURL(file);
+      link.download = name;
+      link.click();
+    }
+    if (state.dataTable) {
+      buildExportObject()
+      state.isDownloadComplete && downloadObject()
+    }
+
+  }, [state.isDownloadComplete, state.dataTable,  char])
+
+  useEffect(() => {
+      handleImportData(state.currentCategory);
+
     window.addEventListener('resize', handleDebouncedResize)
 
     return () => {
       state.setDataTable(null);
       window.removeEventListener('resize', handleDebouncedResize)
     }
-  }, [char, state.currentCategory]);
+  }, [char, state.currentChar, state.currentCategory]);
+
+  const downloadTable = () => {
+    console.log(state.dataTable)
+  }
+
+  function createMarkup() {
+    // return {__html: testTable.table};
+  }
 
   return (
     <div className='page'>

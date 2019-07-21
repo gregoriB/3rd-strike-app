@@ -32,6 +32,11 @@
     /* text-align: center; */
 }
 
+.nav-bar .download-button {
+    width: 100%;
+    font-size: 1vw;
+}
+
 .nav-bar .current-char {
     font-weight: bold;
     font-size: 1.7vw;
